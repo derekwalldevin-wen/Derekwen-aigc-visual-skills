@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/github-banner.jpg" alt="DerekWen AIGC Visual Skills" width="100%">
+</p>
+
 <div align="center">
 
 **中文** · [English](./README.md)
