@@ -1,17 +1,38 @@
-# 昼夜双生海报 / day-night-dual-poster
+# 昼夜双生海报 / Day / Night Twin Poster
 
-**Author:** 德里克文  
+同一主体、同一构图，在昼与夜之间建立可信的时间状态转换。
+
 **Output:** Image  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Photo-preserving day/night twin poster with intelligent split layout.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Before | After |
+|---|---|
+| ![](../../examples/day-night-dual-poster/before.svg) | ![](../../examples/day-night-dual-poster/after.svg) |
+
+This is a public-safe documentation demo created specifically for the repository.
+
+## Use
+
+```text
+Use day-night-dual-poster on this image. Keep the subject and framing unchanged and create a believable night state.
+```
+
+中文调用：
+
+```text
+用 day-night-dual-poster 处理这张图。主体和机位不变，生成可信的夜景状态。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/day-night-dual-poster ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).

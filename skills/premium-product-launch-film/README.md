@@ -1,17 +1,38 @@
-# 旗舰发布广告片 / premium-product-launch-film
+# 旗舰发布广告片 / Premium Product Launch Film
 
-**Author:** 德里克文  
+根据产品类型组织高级发布片镜头，最终目标是实际视频而不是提示词。
+
 **Output:** Video  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Product-aware premium launch-film workflow prioritizing end-to-end video generation.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Input | Video Preview |
+|---|---|
+| ![](../../examples/premium-product-launch-film/before.svg) | ![](../../examples/premium-product-launch-film/preview-frame.svg) |
+
+Preview shown here is a representative frame, not the final video file.
+
+## Use
+
+```text
+Use premium-product-launch-film with this product reference and generate a premium launch film.
+```
+
+中文调用：
+
+```text
+用 premium-product-launch-film 处理这个产品参考，生成高级产品发布广告片。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/premium-product-launch-film ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).
