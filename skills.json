@@ -1,0 +1,78 @@
+{
+  "collection": "DerekWen AIGC Visual Skills",
+  "version": "1.0.0",
+  "author": "德里克文",
+  "repository": "derekwalldevin-wen/Derekwen-aigc-visual-skills",
+  "skills": [
+    {
+      "id": "day-night-dual-poster",
+      "name_zh": "昼夜双生海报",
+      "description": "Photo-preserving day/night twin poster with intelligent split layout.",
+      "output": "image",
+      "entry": "skills/day-night-dual-poster/SKILL.md"
+    },
+    {
+      "id": "geometric-flat-twin-poster",
+      "name_zh": "几何平涂双生海报",
+      "description": "Photo plus modernist geometric-flat reinterpretation.",
+      "output": "image",
+      "entry": "skills/geometric-flat-twin-poster/SKILL.md"
+    },
+    {
+      "id": "quirky-handdrawn-twin-poster",
+      "name_zh": "怪诞手绘双生海报",
+      "description": "Recognizable photo plus personality-driven hand-drawn reinterpretation.",
+      "output": "image",
+      "entry": "skills/quirky-handdrawn-twin-poster/SKILL.md"
+    },
+    {
+      "id": "etched-concept-twin-poster",
+      "name_zh": "蚀刻概念双生海报",
+      "description": "Photo-preserving black-and-white engraving reinterpretation with conceptual reinforcement.",
+      "output": "image",
+      "entry": "skills/etched-concept-twin-poster/SKILL.md"
+    },
+    {
+      "id": "then-now-film-twin-poster",
+      "name_zh": "今昔胶片双生海报",
+      "description": "Same moment recreated as contemporary photography and believable circa-1985 35mm film.",
+      "output": "image",
+      "entry": "skills/then-now-film-twin-poster/SKILL.md"
+    },
+    {
+      "id": "character-sheet-board",
+      "name_zh": "角色设定板",
+      "description": "Professional identity-locking character sheet board.",
+      "output": "image",
+      "entry": "skills/character-sheet-board/SKILL.md"
+    },
+    {
+      "id": "materialized-explainer",
+      "name_zh": "材质化解释图",
+      "description": "Turns abstract structures and flows into tactile studio-shot explanatory models.",
+      "output": "image",
+      "entry": "skills/materialized-explainer/SKILL.md"
+    },
+    {
+      "id": "memory-tile-portrait-poster",
+      "name_zh": "记忆切片肖像海报",
+      "description": "Continuous portrait grid with a restrained number of real memory-photo cells.",
+      "output": "image",
+      "entry": "skills/memory-tile-portrait-poster/SKILL.md"
+    },
+    {
+      "id": "shadow-theater-twin-poster",
+      "name_zh": "影子剧场双生海报",
+      "description": "Keeps the real subject unchanged while transforming only a physically plausible cast shadow.",
+      "output": "image",
+      "entry": "skills/shadow-theater-twin-poster/SKILL.md"
+    },
+    {
+      "id": "premium-product-launch-film",
+      "name_zh": "旗舰发布广告片",
+      "description": "Product-aware premium launch-film workflow prioritizing end-to-end video generation.",
+      "output": "video",
+      "entry": "skills/premium-product-launch-film/SKILL.md"
+    }
+  ]
+}
