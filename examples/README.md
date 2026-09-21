@@ -1,14 +1,10 @@
 # Examples
 
-Visual examples will be added only when the contributor has the right to publish them.
+Each Skill includes one public-safe documentation example.
 
-The repository's Skill instructions are MIT-licensed, but visual assets are governed separately by [ASSET-LICENSE.md](../ASSET-LICENSE.md).
+- Image Skills: `before.svg` + `after.svg`
+- Video Skill: `before.svg` + `preview-frame.svg`
 
-Recommended example format for each Skill:
+These demo assets were created specifically for repository documentation so no private source photography is exposed. The video preview is a representative still, not the final video output.
 
-- input / reference image when publishing rights allow;
-- generated result;
-- a short caption describing what the Skill is demonstrating;
-- tool/model and date when useful.
-
-Do not commit third-party images without permission.
+See [ASSET-LICENSE.md](../ASSET-LICENSE.md) for visual-asset licensing.

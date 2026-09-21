@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#f4f0e8"/>
+  
+    <rect width="720" height="960" fill="#e3e7eb"/>
+    <rect y="0" width="720" height="650" fill="#b8cbd7"/>
+    <circle cx="360" cy="305" r="150" fill="#d6a083"/>
+    <path d="M220 290 C230 105 500 100 515 310 C470 185 400 155 315 170 C260 180 240 230 220 290Z" fill="#252a31"/>
+    <path d="M225 530 Q360 470 505 540 L570 960 L150 960Z" fill="#1d5a7a"/>
+    <text x="55" y="885" font-family="Arial" font-size="54" fill="#233445">2026</text>
+    
+  
+</svg>
