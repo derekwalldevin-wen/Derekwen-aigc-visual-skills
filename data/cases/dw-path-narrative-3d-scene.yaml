@@ -1,0 +1,59 @@
+id: dw-path-narrative-3d-scene
+date: '2026-09-23'
+date_precision: exact
+title_zh: 路径叙事式3D场景
+title_en: Path-Narrative 3D Scene
+series: AI绘画每日一词
+category:
+- information-design
+- 3d-visualization
+- spatial-storytelling
+status: tested
+summary: 把线性的流程步骤转换成一条具有高度、方向、节点和终点焦点的3D空间路径，让观众沿画面完成一次可视化旅程。
+tested_with: []
+core_prompt: |
+  为【主题/产品/工作流程】设计一张3:4竖版“路径叙事式3D场景”视觉海报，3D Journey Mapping。
+
+  深海军蓝到纯黑渐变背景，画面中心是一条从左下方进入、向远处盘旋上升的立体路径，形成清晰的S形视觉动线。路径具有真实空间厚度、柔和倒角和精密工程结构。
+
+  沿路径依次设置4个关键节点：【起点】、【转化】、【处理】、【成果】，分别用微缩建筑、设备、人物或抽象装置表达。核心产品位于路径终点，尺寸最大，并被冷白聚光照亮。
+
+  使用等距透视与微缩沙盘质感，材质结合哑光金属、磨砂玻璃和低反射塑料。主色为深蓝、石墨黑和冷白，仅用少量电光青标记路径方向。
+
+  标题使用粗体无衬线字体，占画面上方约20%；节点采用小型编号、坐标、箭头和极短标签。整体像未来交通系统、科技品牌官网与电影级3D信息视觉的结合。
+
+  避免普通流程图、扁平箭头、密集文字、卡通玩具感、霓虹城市和无意义机械零件。
+controls:
+- 节点控制在3—5个
+- 路径只能有一个主方向
+- 终点主体面积约占30%
+- 路径亮度高于背景、低于主体
+- 摄像机使用35°—45°俯视角
+- 标签只写关键词，不写完整说明
+extensions:
+- AI工作流：文字→图像→分镜→视频
+- 人物成长：起点→挫折→突破→高光
+- 产品功能：输入→分析→处理→输出
+- 城市宣传：地标串联成一条视觉旅程
+assets:
+  status: public-preview-ready
+  preview: assets/daily-words/2026/09/path-narrative-3d-scene.webp
+  source_full_resolution: user-library
+  note: Repository asset is a compressed preview of a generated result.
+rights_status: public-safe-ai-generated
+references:
+- United Carriers — spatial-path idea referenced in the original social copy
+- Lapa Ninja — discovery/reference source noted in the original social copy
+template:
+  id: 3d-journey-mapping-base
+  status: proposed
+skill:
+  id: null
+  candidate: null
+published:
+  social: true
+  github: true
+source:
+  type: same-day-final-content
+  original_date: '2026-09-23'
+notes: Reference sources informed the method only; the repository preview is independently generated. Exact image-generation model was not verified.
