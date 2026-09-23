@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/shadow-theater-twin-poster/before.svg) | ![](../../examples/shadow-theater-twin-poster/after.svg) |
+| ![](../../examples/shadow-theater-twin-poster/before.png) | ![](../../examples/shadow-theater-twin-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

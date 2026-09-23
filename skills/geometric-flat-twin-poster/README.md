@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/geometric-flat-twin-poster/before.svg) | ![](../../examples/geometric-flat-twin-poster/after.svg) |
+| ![](../../examples/geometric-flat-twin-poster/before.png) | ![](../../examples/geometric-flat-twin-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

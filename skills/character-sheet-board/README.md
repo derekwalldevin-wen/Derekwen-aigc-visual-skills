@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/character-sheet-board/before.svg) | ![](../../examples/character-sheet-board/after.svg) |
+| ![](../../examples/character-sheet-board/before.png) | ![](../../examples/character-sheet-board/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/etched-concept-twin-poster/before.svg) | ![](../../examples/etched-concept-twin-poster/after.svg) |
+| ![](../../examples/etched-concept-twin-poster/before.png) | ![](../../examples/etched-concept-twin-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

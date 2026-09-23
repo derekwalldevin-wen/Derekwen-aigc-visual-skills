@@ -24,10 +24,10 @@
 ## Visual Case Wall
 
 <table>
-<tr><td align="center" width="33%"><a href="./skills/day-night-dual-poster/"><img src="./examples/day-night-dual-poster/after.svg" alt="Day / Night Twin Poster" width="100%"></a><br><b>昼夜双生海报</b><br><sub>Day / Night Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/geometric-flat-twin-poster/"><img src="./examples/geometric-flat-twin-poster/after.svg" alt="Geometric Flat Twin Poster" width="100%"></a><br><b>几何平涂双生海报</b><br><sub>Geometric Flat Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/quirky-handdrawn-twin-poster/"><img src="./examples/quirky-handdrawn-twin-poster/after.svg" alt="Quirky Hand-drawn Twin Poster" width="100%"></a><br><b>怪诞手绘双生海报</b><br><sub>Quirky Hand-drawn Twin Poster</sub></td></tr>
-<tr><td align="center" width="33%"><a href="./skills/etched-concept-twin-poster/"><img src="./examples/etched-concept-twin-poster/after.svg" alt="Etched Concept Twin Poster" width="100%"></a><br><b>蚀刻概念双生海报</b><br><sub>Etched Concept Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/then-now-film-twin-poster/"><img src="./examples/then-now-film-twin-poster/after.svg" alt="Then / Now Film Twin Poster" width="100%"></a><br><b>今昔胶片双生海报</b><br><sub>Then / Now Film Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/character-sheet-board/"><img src="./examples/character-sheet-board/after.svg" alt="Character Sheet Board" width="100%"></a><br><b>角色设定板</b><br><sub>Character Sheet Board</sub></td></tr>
-<tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.svg" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.svg" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.svg" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
-<tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.svg" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/day-night-dual-poster/"><img src="./examples/day-night-dual-poster/after.png" alt="Day / Night Twin Poster" width="100%"></a><br><b>昼夜双生海报</b><br><sub>Day / Night Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/geometric-flat-twin-poster/"><img src="./examples/geometric-flat-twin-poster/after.png" alt="Geometric Flat Twin Poster" width="100%"></a><br><b>几何平涂双生海报</b><br><sub>Geometric Flat Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/quirky-handdrawn-twin-poster/"><img src="./examples/quirky-handdrawn-twin-poster/after.png" alt="Quirky Hand-drawn Twin Poster" width="100%"></a><br><b>怪诞手绘双生海报</b><br><sub>Quirky Hand-drawn Twin Poster</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/etched-concept-twin-poster/"><img src="./examples/etched-concept-twin-poster/after.png" alt="Etched Concept Twin Poster" width="100%"></a><br><b>蚀刻概念双生海报</b><br><sub>Etched Concept Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/then-now-film-twin-poster/"><img src="./examples/then-now-film-twin-poster/after.png" alt="Then / Now Film Twin Poster" width="100%"></a><br><b>今昔胶片双生海报</b><br><sub>Then / Now Film Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/character-sheet-board/"><img src="./examples/character-sheet-board/after.png" alt="Character Sheet Board" width="100%"></a><br><b>角色设定板</b><br><sub>Character Sheet Board</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.png" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.png" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.png" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
 
 ## Featured Before / After
@@ -38,7 +38,7 @@ Keep the same subject and framing while creating a believable day/night state ch
 
 | Before | After |
 |---|---|
-| ![](./examples/day-night-dual-poster/before.svg) | ![](./examples/day-night-dual-poster/after.svg) |
+| ![](./examples/day-night-dual-poster/before.png) | ![](./examples/day-night-dual-poster/after.png) |
 
 ### 几何平涂双生海报 · Geometric Flat Twin Poster
 
@@ -46,15 +46,7 @@ Preserve identity and composition while translating the image into restrained ge
 
 | Before | After |
 |---|---|
-| ![](./examples/geometric-flat-twin-poster/before.svg) | ![](./examples/geometric-flat-twin-poster/after.svg) |
-
-### 记忆切片肖像海报 · Memory Tile Portrait Poster
-
-Combine one continuous portrait with a restrained set of memory tiles.
-
-| Before | After |
-|---|---|
-| ![](./examples/memory-tile-portrait-poster/before.svg) | ![](./examples/memory-tile-portrait-poster/after.svg) |
+| ![](./examples/geometric-flat-twin-poster/before.png) | ![](./examples/geometric-flat-twin-poster/after.png) |
 
 ### 影子剧场双生海报 · Shadow Theater Twin Poster
 
@@ -62,7 +54,15 @@ Keep the subject unchanged and transform only the physically plausible cast shad
 
 | Before | After |
 |---|---|
-| ![](./examples/shadow-theater-twin-poster/before.svg) | ![](./examples/shadow-theater-twin-poster/after.svg) |
+| ![](./examples/shadow-theater-twin-poster/before.png) | ![](./examples/shadow-theater-twin-poster/after.png) |
+
+### 角色设定板 · Character Sheet Board
+
+Turn a character into a reusable identity board with views, expressions, poses, costume and hands.
+
+| Before | After |
+|---|---|
+| ![](./examples/character-sheet-board/before.png) | ![](./examples/character-sheet-board/after.png) |
 
 
 ## Skills

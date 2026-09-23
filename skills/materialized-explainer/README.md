@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/materialized-explainer/before.svg) | ![](../../examples/materialized-explainer/after.svg) |
+| ![](../../examples/materialized-explainer/before.png) | ![](../../examples/materialized-explainer/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/quirky-handdrawn-twin-poster/before.svg) | ![](../../examples/quirky-handdrawn-twin-poster/after.svg) |
+| ![](../../examples/quirky-handdrawn-twin-poster/before.png) | ![](../../examples/quirky-handdrawn-twin-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

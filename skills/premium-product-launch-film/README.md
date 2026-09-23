@@ -9,9 +9,9 @@
 
 | Input | Video Preview |
 |---|---|
-| ![](../../examples/premium-product-launch-film/before.svg) | ![](../../examples/premium-product-launch-film/preview-frame.svg) |
+| ![](../../examples/premium-product-launch-film/before.png) | ![](../../examples/premium-product-launch-film/preview-frame.png) |
 
-Preview shown here is a representative frame, not the final video file.
+Preview shown here is a representative generated frame, not the final video file.
 
 ## Use
 

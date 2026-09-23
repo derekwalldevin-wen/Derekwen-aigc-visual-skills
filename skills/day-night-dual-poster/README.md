@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/day-night-dual-poster/before.svg) | ![](../../examples/day-night-dual-poster/after.svg) |
+| ![](../../examples/day-night-dual-poster/before.png) | ![](../../examples/day-night-dual-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

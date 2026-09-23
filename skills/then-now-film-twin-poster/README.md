@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/then-now-film-twin-poster/before.svg) | ![](../../examples/then-now-film-twin-poster/after.svg) |
+| ![](../../examples/then-now-film-twin-poster/before.png) | ![](../../examples/then-now-film-twin-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 

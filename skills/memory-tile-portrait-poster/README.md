@@ -9,7 +9,7 @@
 
 | Before | After |
 |---|---|
-| ![](../../examples/memory-tile-portrait-poster/before.svg) | ![](../../examples/memory-tile-portrait-poster/after.svg) |
+| ![](../../examples/memory-tile-portrait-poster/before.png) | ![](../../examples/memory-tile-portrait-poster/after.png) |
 
 This is a public-safe documentation demo created specifically for the repository.
 
