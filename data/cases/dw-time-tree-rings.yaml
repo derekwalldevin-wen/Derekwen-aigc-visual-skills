@@ -1,0 +1,26 @@
+id: "dw-time-tree-rings"
+date: "2026-08"
+date_precision: "month"
+title_zh: "时间树轮"
+title_en: "Time Tree Rings"
+series: "AI绘画每日一词"
+category:
+  - "material-transformation"
+  - "temporal-visualization"
+status: "tested"
+existing_assets:
+  - "multiple historical tests with different spaces and camera positions (filenames pending recovery)"
+missing_assets:
+  - "exact publish date"
+  - "recover final copy"
+  - "recover canonical example filename"
+regenerate: "no"
+asset_strategy: "recover historical generated tests before considering any new generation"
+template:
+  id: "temporal-growth-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+assets_status: "historical-assets-to-recover"
+rights_status: "pending-review"

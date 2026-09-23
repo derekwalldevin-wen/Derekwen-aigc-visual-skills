@@ -1,0 +1,25 @@
+id: "dw-etched-concept-twin-poster"
+date: "2026-09-16"
+date_precision: "exact"
+title_zh: "蚀刻概念双生海报"
+title_en: "Etched Concept Twin Poster"
+series: "AI绘画每日一词"
+category:
+  - "twin-poster"
+  - "style-translation"
+status: "tested"
+existing_assets:
+  - "夜色书房双重印象.png"
+  - "a_wide_dramatic_black_and_white_highly_detailed.png"
+missing_assets:
+  - "confirm source-image rights and choose final historical pair"
+regenerate: "not_required_now"
+asset_strategy: "reuse historical generated output; regenerate only if source rights prevent a coherent public case"
+template:
+  id: "etched-concept-base"
+  status: "proposed"
+skill:
+  id: "etched-concept-twin-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

@@ -1,0 +1,26 @@
+id: "dw-quirky-handdrawn-twin-poster"
+date: "2026-09-16"
+date_precision: "exact"
+title_zh: "怪诞手绘双生海报"
+title_en: "Quirky Hand-drawn Twin Poster"
+series: "AI绘画每日一词"
+category:
+  - "twin-poster"
+  - "style-translation"
+status: "verified"
+existing_assets:
+  - "夕阳江畔写真与手绘双联画.png"
+  - "two_panel_poster_collage_image_the_same_advertise.png"
+  - "historical multi-person / pet boundary tests"
+missing_assets:
+  - "select strongest historical public-safe example"
+regenerate: "not_required_now"
+asset_strategy: "prioritize existing generated results; regenerate only if no historical asset can be published"
+template:
+  id: "quirky-handdrawn-base"
+  status: "proposed"
+skill:
+  id: "quirky-handdrawn-twin-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

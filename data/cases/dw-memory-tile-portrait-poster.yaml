@@ -1,0 +1,25 @@
+id: "dw-memory-tile-portrait-poster"
+date: "2026-09-19"
+date_precision: "exact"
+title_zh: "记忆切片肖像海报"
+title_en: "Memory Tile Portrait Poster"
+series: "AI绘画每日一词"
+category:
+  - "photo-transformation"
+  - "portrait-editorial"
+status: "verified"
+existing_assets:
+  - "师者_记忆中的桥与课堂.png"
+  - "historical portrait and memory-image set"
+missing_assets:
+  - "confirm whether source portrait/memory images may be published"
+regenerate: "not_required_now"
+asset_strategy: "reuse historical generated result; source images may remain omitted if rights are unclear"
+template:
+  id: "memory-portrait-base"
+  status: "proposed"
+skill:
+  id: "memory-tile-portrait-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

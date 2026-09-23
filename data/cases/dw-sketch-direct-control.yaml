@@ -1,0 +1,26 @@
+id: "dw-sketch-direct-control"
+date: "2026-09-11"
+date_precision: "exact"
+title_zh: "草图直控"
+title_en: "Sketch Direct Control"
+series: "AI绘画每日一词"
+category:
+  - "image-control"
+  - "sketch-to-image"
+status: "tested"
+existing_assets:
+  - "six historical tutorial images"
+  - "three historical doodle before/after examples"
+missing_assets:
+  - "recover exact filenames"
+  - "select canonical public case"
+regenerate: "no"
+asset_strategy: "reuse historical tutorial and doodle cases"
+template:
+  id: "sketch-control-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+assets_status: "historical-assets-to-recover"
+rights_status: "pending-review"

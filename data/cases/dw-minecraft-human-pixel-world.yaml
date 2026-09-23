@@ -1,0 +1,27 @@
+id: "dw-minecraft-human-pixel-world"
+date: null
+date_precision: "unknown"
+title_zh: "Minecraft 真人 × 像素宇宙"
+title_en: "Minecraft Human × Pixel World"
+series: "AI绘画每日一词"
+category:
+  - "worldbuilding"
+  - "photo-transformation"
+status: "recovered"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final copy"
+  - "final prompt"
+  - "historical example filenames"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "world-transformation-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+assets_status: "history-recovery-needed"
+rights_status: "pending"

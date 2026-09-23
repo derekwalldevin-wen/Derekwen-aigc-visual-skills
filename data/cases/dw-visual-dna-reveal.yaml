@@ -1,0 +1,26 @@
+id: "dw-visual-dna-reveal"
+date: "2026-08-25"
+date_precision: "exact"
+title_zh: "视觉 DNA 显影"
+title_en: "Visual DNA Reveal"
+series: "AI绘画每日一词"
+category:
+  - "reference-analysis"
+  - "style-translation"
+status: "verified"
+existing_assets:
+  - "six historical 3:4 generated examples (filenames pending recovery)"
+missing_assets:
+  - "recover exact filenames"
+  - "recover final core prompt"
+  - "rights review"
+regenerate: "no"
+asset_strategy: "recover and reuse the existing six generated examples"
+template:
+  id: "reference-visual-dna-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+assets_status: "historical-assets-to-recover"
+rights_status: "pending-review"

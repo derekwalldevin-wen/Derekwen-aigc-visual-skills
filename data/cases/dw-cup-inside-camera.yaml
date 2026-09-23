@@ -1,0 +1,26 @@
+id: "dw-cup-inside-camera"
+date: null
+date_precision: "unknown"
+title_zh: "杯中机位"
+title_en: "Cup-inside Camera"
+series: "AI绘画每日一词"
+category:
+  - "camera-perspective"
+status: "recovered"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final copy"
+  - "final prompt"
+  - "historical generated image"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "camera-perspective-base"
+  status: "candidate"
+skill:
+  id: null
+  candidate: null
+assets_status: "history-recovery-needed"
+rights_status: "pending"

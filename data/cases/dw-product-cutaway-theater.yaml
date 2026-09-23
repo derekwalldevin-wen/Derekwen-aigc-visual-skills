@@ -1,0 +1,27 @@
+id: "dw-product-cutaway-theater"
+date: null
+date_precision: "unknown"
+title_zh: "产品剖面剧场"
+title_en: "Product Cutaway Theater"
+series: "AI绘画每日一词"
+category:
+  - "product-visualization"
+  - "worldbuilding"
+status: "recovered"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final social copy"
+  - "final prompt"
+  - "historical product/cutaway example"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "product-cutaway-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "product-cutaway-theater"
+assets_status: "history-recovery-needed"
+rights_status: "pending"

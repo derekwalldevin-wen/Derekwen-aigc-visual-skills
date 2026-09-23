@@ -1,0 +1,27 @@
+id: "dw-character-camera-passport"
+date: null
+date_precision: "unknown"
+title_zh: "角色镜头护照"
+title_en: "Character Camera Passport"
+series: "AI绘画每日一词"
+category:
+  - "character-consistency"
+  - "cinematic"
+status: "recovered"
+existing_assets:
+  - "historical topic and method confirmed"
+missing_assets:
+  - "exact date"
+  - "final social copy"
+  - "final prompt"
+  - "historical example filenames"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "character-consistency-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "character-camera-passport"
+assets_status: "history-recovery-needed"
+rights_status: "pending"

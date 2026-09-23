@@ -1,0 +1,25 @@
+id: "dw-geometric-flat-twin-poster"
+date: "2026-09-16"
+date_precision: "exact"
+title_zh: "几何平涂双生海报"
+title_en: "Geometric Flat Twin Poster"
+series: "AI绘画每日一词"
+category:
+  - "twin-poster"
+  - "style-translation"
+status: "verified"
+existing_assets:
+  - "体育场重逢_照片与几何插画.png"
+  - "historical stadium source photo"
+missing_assets:
+  - "GitHub-safe before/after pairing or rights clearance"
+regenerate: "not_required_now"
+asset_strategy: "reuse 体育场重逢_照片与几何插画.png first; retain source photo only if public rights are confirmed"
+template:
+  id: "geometric-flat-base"
+  status: "proposed"
+skill:
+  id: "geometric-flat-twin-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

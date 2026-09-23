@@ -1,0 +1,26 @@
+id: "dw-three-shot-emotion-slice"
+date: "2026-09"
+date_precision: "month"
+title_zh: "三镜情绪切片双生"
+title_en: "Three-shot Emotion Slice"
+series: "AI绘画每日一词"
+category:
+  - "photo-transformation"
+  - "cinematic"
+status: "tested"
+existing_assets:
+  - "final daily-word method and social-copy structure"
+missing_assets:
+  - "exact publish date"
+  - "recover generated example if available"
+  - "canonical final prompt"
+regenerate: "only_if_no_historical_result_exists"
+asset_strategy: "search historical generated outputs before producing any new example"
+template:
+  id: "cinematic-photo-slice-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "three-shot-emotion-slice"
+assets_status: "historical-result-search-needed"
+rights_status: "pending"

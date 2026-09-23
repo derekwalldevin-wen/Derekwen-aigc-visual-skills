@@ -1,0 +1,26 @@
+id: "dw-then-now-film-twin-poster"
+date: "2026-09-17"
+date_precision: "exact"
+title_zh: "今昔胶片双生海报"
+title_en: "Then / Now Film Twin Poster"
+series: "AI绘画每日一词"
+category:
+  - "twin-poster"
+  - "identity-time"
+status: "verified"
+existing_assets:
+  - "同一个人_不同年代.png"
+  - "复古会议厅双画幅纪实插画.png"
+  - "historical blue-jacket male source photo"
+missing_assets:
+  - "select publishable historical pairing"
+regenerate: "not_required_now"
+asset_strategy: "reuse existing generated era-reconstruction result first"
+template:
+  id: "identity-time-base"
+  status: "proposed"
+skill:
+  id: "then-now-film-twin-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

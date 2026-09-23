@@ -1,0 +1,25 @@
+id: "dw-shadow-theater-twin-poster"
+date: "2026-09-19"
+date_precision: "exact"
+title_zh: "影子剧场双生海报"
+title_en: "Shadow Theater Twin Poster"
+series: "AI绘画每日一词"
+category:
+  - "twin-poster"
+  - "conceptual-photo"
+status: "verified"
+existing_assets:
+  - "双联画中的消防英雄之影.png"
+  - "historical full-body source photo"
+missing_assets:
+  - "rights review for identifiable-person source photo"
+regenerate: "not_required_now"
+asset_strategy: "reuse historical generated result first; source image can be omitted if needed"
+template:
+  id: "shadow-theater-base"
+  status: "proposed"
+skill:
+  id: "shadow-theater-twin-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

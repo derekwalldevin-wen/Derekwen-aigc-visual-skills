@@ -1,0 +1,27 @@
+id: "dw-continuous-action-sprite-sheet"
+date: "2026-09-10"
+date_precision: "exact"
+title_zh: "连续动作精灵表"
+title_en: "Continuous Action Sprite Sheet"
+series: "AI绘画每日一词"
+category:
+  - "character-consistency"
+  - "animation"
+status: "verified"
+existing_assets:
+  - "16-frame animation test"
+  - "10 FPS transparent-background loop GIF"
+  - "historical generation script"
+missing_assets:
+  - "recover exact filenames"
+  - "confirm character asset rights"
+regenerate: "no"
+asset_strategy: "reuse existing frames/GIF if the character source is public-safe"
+template:
+  id: "sprite-sequence-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "continuous-action-sprite-sheet"
+assets_status: "historical-assets-to-recover"
+rights_status: "pending-review"

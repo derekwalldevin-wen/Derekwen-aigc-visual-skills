@@ -1,0 +1,24 @@
+id: "dw-character-sheet-board"
+date: "2026-09-17"
+date_precision: "exact"
+title_zh: "角色设定板"
+title_en: "Character Sheet Board"
+series: "AI绘画每日一词"
+category:
+  - "character-consistency"
+status: "verified"
+existing_assets:
+  - "德小文单体标准参考图"
+  - "德小文三视图角色设定集.png"
+missing_assets:
+  - "normalize English filenames and GitHub display size"
+regenerate: "no"
+asset_strategy: "reuse existing 德小文 assets directly"
+template:
+  id: "character-consistency-base"
+  status: "proposed"
+skill:
+  id: "character-sheet-board"
+  candidate: null
+assets_status: "historical-assets-ready"
+rights_status: "public-safe-original-ip"

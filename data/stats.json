@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "DerekWen AIGC Visual Library",
+  "generated_at": "2026-09-23",
+  "source": "data/cases/*.yaml",
+  "totals": {
+    "cases": 24,
+    "status": {
+      "verified": 10,
+      "tested": 6,
+      "drafted": 1,
+      "recovered": 7
+    },
+    "linked_skills": 10,
+    "skill_candidates": 7,
+    "template_refs": 22,
+    "date_precision": {
+      "exact": 15,
+      "month": 2,
+      "unknown": 7
+    }
+  },
+  "categories": {
+    "twin-poster": 6,
+    "photo-transformation": 6,
+    "style-translation": 4,
+    "identity-time": 2,
+    "character-consistency": 3,
+    "information-design": 1,
+    "material-transformation": 2,
+    "product-visualization": 3,
+    "video-generation": 2,
+    "portrait-editorial": 1,
+    "conceptual-photo": 1,
+    "reference-analysis": 1,
+    "temporal-visualization": 1,
+    "animation": 1,
+    "image-control": 1,
+    "sketch-to-image": 1,
+    "editorial-poster": 1,
+    "sports-visual": 1,
+    "cinematic": 2,
+    "worldbuilding": 3,
+    "paper-to-world": 1,
+    "camera-perspective": 1,
+    "outpainting-story": 1
+  },
+  "asset_policy": {
+    "default": "historical-first",
+    "note": "Reuse previously generated assets before creating new images. Regenerate only when historical assets cannot be recovered, published, or meet quality requirements."
+  }
+}
