@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
-  <rect width="720" height="960" fill="#f4f0e8"/>
-  
-    <defs><filter id="sh"><feDropShadow dx="0" dy="18" stdDeviation="14" flood-opacity=".18"/></filter></defs>
-    <rect width="720" height="960" fill="#fbfaf7"/>
-    <g filter="url(#sh)"><rect x="135" y="140" width="450" height="100" rx="28" fill="#e7ebe9"/><rect x="165" y="162" width="60" height="56" rx="14" fill="#fff"/><circle cx="195" cy="190" r="14" fill="#2d8a80"/></g><g filter="url(#sh)"><rect x="135" y="320" width="450" height="100" rx="28" fill="#a9e5dc"/><rect x="165" y="342" width="60" height="56" rx="14" fill="#fff"/><circle cx="195" cy="370" r="14" fill="#2d8a80"/></g><g filter="url(#sh)"><rect x="135" y="500" width="450" height="100" rx="28" fill="#a9e5dc"/><rect x="165" y="522" width="60" height="56" rx="14" fill="#fff"/><circle cx="195" cy="550" r="14" fill="#2d8a80"/></g><g filter="url(#sh)"><rect x="135" y="680" width="450" height="100" rx="28" fill="#e7ebe9"/><rect x="165" y="702" width="60" height="56" rx="14" fill="#fff"/><circle cx="195" cy="730" r="14" fill="#2d8a80"/></g>
-    <path d="M360 240V320 M360 420V500 M360 600V680" stroke="#5b7773" stroke-width="7" stroke-linecap="round"/>
-  
-</svg>

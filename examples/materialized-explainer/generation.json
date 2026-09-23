@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-b2578e2d-36d5-463e-891a-668c6e54d918.png",
+      "prompt": "Use case: photorealistic-natural. ONE standalone AI-original source photograph of a physical planning sheet on a pale wooden desk, portrait 3:4. Single ivory sheet, nearly front-facing overhead composition, four neatly drawn black pen rectangles arranged vertically and connected by exactly three downward arrows. Exact Simplified Chinese labels from top to bottom: 输入, 整理, 创作, 输出. Plain unbranded black pen beside sheet. Realistic daylight, paper grain and slight page curl, photographed planning document. This is the independent source input for a later tactile-model transformation. No other text, no logo, no watermark, no split layout.",
+      "sha256": "be00bed4efbf44c252a9f255612ec9e3c568a63d5529836f8f913c8fa6651433",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2240622,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-0fe6b215-5981-4da3-a602-eed200639e07.png",
+      "prompt": "Use case: infographic-diagram. Supplied planning-sheet photograph is the source of content and relationships. Follow materialized-explainer: transform its EXACT four-stage linear flow 输入 → 整理 → 创作 → 输出 into one coherent tactile physical explanatory model photographed on a real white tabletop in white studio, portrait 3:4. Four clearly separated stages arranged from back/top to front/bottom in a gentle descending sequence, connected by exactly three cobalt-blue acrylic arrow tracks, unambiguous direction. Input stage is a small stack of paper cards in matte white tray; organization stage clear acrylic sorting fins holding ordered cards; creation stage frosted acrylic chamber with a subtle blue central element; output stage refined white display plinth holding one finished paper card. Front-facing readable short black Simplified Chinese labels respectively 输入, 整理, 创作, 输出 on separate small physical white signs. One single vivid accent COBALT BLUE represents the process path only; remaining materials neutral white, pale gray, transparent and brushed metal. Real scale, contact shadows, controlled reflections and refraction, varied materials, soft studio light, clean negative space, slight high 3/4 camera. Preserve correct flow, no extra stage or feedback loop. No huge headline, marketing slogan, decorative floating blocks, neon, HUD, robots, brand or watermark. Not a diptych, deliver the transformed model image only.",
+      "sha256": "d924500e29513e3fc3f978c374f886335ad6a0da642e23da00937bc3c8b12141",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 1594399,
+      "input_sha256": {
+        "before.png": "be00bed4efbf44c252a9f255612ec9e3c568a63d5529836f8f913c8fa6651433"
+      }
+    }
+  ]
+}
