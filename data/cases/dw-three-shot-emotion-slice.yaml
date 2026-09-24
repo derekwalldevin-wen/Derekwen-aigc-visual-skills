@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-three-shot-emotion-slice"
-date: "2026-09"
-date_precision: "month"
 title_zh: "三镜情绪切片双生"
 title_en: "Three-shot Emotion Slice"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09"
+  evidence_date_precision: "month"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "not-found"
+published:
+  social: null
+  github: false
 category:
   - "photo-transformation"
   - "cinematic"

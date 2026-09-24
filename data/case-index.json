@@ -1,98 +1,28 @@
 [
   {
-    "id": "dw-day-night-dual-poster",
-    "date": "2026-09-15",
-    "date_precision": "exact",
-    "title_zh": "昼夜双生海报",
-    "title_en": "Day / Night Twin Poster",
-    "status": "verified",
+    "id": "dw-character-camera-passport",
+    "title_zh": "角色镜头护照",
+    "title_en": "Character Camera Passport",
+    "status": "experimental",
     "category": [
-      "twin-poster",
-      "photo-transformation"
+      "character-consistency",
+      "cinematic"
     ],
-    "template": "twin-poster-base",
+    "template": "character-consistency-base",
     "template_status": "proposed",
-    "skill": "day-night-dual-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-geometric-flat-twin-poster",
-    "date": "2026-09-16",
-    "date_precision": "exact",
-    "title_zh": "几何平涂双生海报",
-    "title_en": "Geometric Flat Twin Poster",
-    "status": "verified",
-    "category": [
-      "twin-poster",
-      "style-translation"
-    ],
-    "template": "geometric-flat-base",
-    "template_status": "proposed",
-    "skill": "geometric-flat-twin-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-quirky-handdrawn-twin-poster",
-    "date": "2026-09-16",
-    "date_precision": "exact",
-    "title_zh": "怪诞手绘双生海报",
-    "title_en": "Quirky Hand-drawn Twin Poster",
-    "status": "verified",
-    "category": [
-      "twin-poster",
-      "style-translation"
-    ],
-    "template": "quirky-handdrawn-base",
-    "template_status": "proposed",
-    "skill": "quirky-handdrawn-twin-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-etched-concept-twin-poster",
-    "date": "2026-09-16",
-    "date_precision": "exact",
-    "title_zh": "蚀刻概念双生海报",
-    "title_en": "Etched Concept Twin Poster",
-    "status": "tested",
-    "category": [
-      "twin-poster",
-      "style-translation"
-    ],
-    "template": "etched-concept-base",
-    "template_status": "proposed",
-    "skill": "etched-concept-twin-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-then-now-film-twin-poster",
-    "date": "2026-09-17",
-    "date_precision": "exact",
-    "title_zh": "今昔胶片双生海报",
-    "title_en": "Then / Now Film Twin Poster",
-    "status": "verified",
-    "category": [
-      "twin-poster",
-      "identity-time"
-    ],
-    "template": "identity-time-base",
-    "template_status": "proposed",
-    "skill": "then-now-film-twin-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
+    "skill": null,
+    "skill_candidate": "character-camera-passport",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
   },
   {
     "id": "dw-character-sheet-board",
-    "date": "2026-09-17",
-    "date_precision": "exact",
     "title_zh": "角色设定板",
     "title_en": "Character Sheet Board",
     "status": "verified",
@@ -103,121 +33,17 @@
     "template_status": "proposed",
     "skill": "character-sheet-board",
     "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-17",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
     "assets_status": "historical-assets-ready",
-    "rights_status": "public-safe-original-ip"
-  },
-  {
-    "id": "dw-materialized-explainer",
-    "date": "2026-09-17",
-    "date_precision": "exact",
-    "title_zh": "材质化解释图",
-    "title_en": "Materialized Explainer",
-    "status": "verified",
-    "category": [
-      "information-design",
-      "material-transformation"
-    ],
-    "template": "materialized-explainer-base",
-    "template_status": "proposed",
-    "skill": "materialized-explainer",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-premium-product-launch-film",
-    "date": "2026-09-17",
-    "date_precision": "exact",
-    "title_zh": "旗舰发布广告片",
-    "title_en": "Premium Product Launch Film",
-    "status": "tested",
-    "category": [
-      "product-visualization",
-      "video-generation"
-    ],
-    "template": "premium-product-launch-base",
-    "template_status": "proposed",
-    "skill": "premium-product-launch-film",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "review-ai-generated-assets"
-  },
-  {
-    "id": "dw-memory-tile-portrait-poster",
-    "date": "2026-09-19",
-    "date_precision": "exact",
-    "title_zh": "记忆切片肖像海报",
-    "title_en": "Memory Tile Portrait Poster",
-    "status": "verified",
-    "category": [
-      "photo-transformation",
-      "portrait-editorial"
-    ],
-    "template": "memory-portrait-base",
-    "template_status": "proposed",
-    "skill": "memory-tile-portrait-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-shadow-theater-twin-poster",
-    "date": "2026-09-19",
-    "date_precision": "exact",
-    "title_zh": "影子剧场双生海报",
-    "title_en": "Shadow Theater Twin Poster",
-    "status": "verified",
-    "category": [
-      "twin-poster",
-      "conceptual-photo"
-    ],
-    "template": "shadow-theater-base",
-    "template_status": "proposed",
-    "skill": "shadow-theater-twin-poster",
-    "skill_candidate": null,
-    "assets_status": "historical-assets-identified",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-visual-dna-reveal",
-    "date": "2026-08-25",
-    "date_precision": "exact",
-    "title_zh": "视觉 DNA 显影",
-    "title_en": "Visual DNA Reveal",
-    "status": "verified",
-    "category": [
-      "reference-analysis",
-      "style-translation"
-    ],
-    "template": "reference-visual-dna-base",
-    "template_status": "proposed",
-    "skill": null,
-    "skill_candidate": null,
-    "assets_status": "historical-assets-to-recover",
-    "rights_status": "pending-review"
-  },
-  {
-    "id": "dw-time-tree-rings",
-    "date": "2026-08",
-    "date_precision": "month",
-    "title_zh": "时间树轮",
-    "title_en": "Time Tree Rings",
-    "status": "tested",
-    "category": [
-      "material-transformation",
-      "temporal-visualization"
-    ],
-    "template": "temporal-growth-base",
-    "template_status": "proposed",
-    "skill": null,
-    "skill_candidate": null,
-    "assets_status": "historical-assets-to-recover",
-    "rights_status": "pending-review"
+    "rights_status": "public-safe-original-ip",
+    "github_published": false
   },
   {
     "id": "dw-continuous-action-sprite-sheet",
-    "date": "2026-09-10",
-    "date_precision": "exact",
     "title_zh": "连续动作精灵表",
     "title_en": "Continuous Action Sprite Sheet",
     "status": "verified",
@@ -229,31 +55,324 @@
     "template_status": "proposed",
     "skill": null,
     "skill_candidate": "continuous-action-sprite-sheet",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-10",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
     "assets_status": "historical-assets-to-recover",
-    "rights_status": "pending-review"
+    "rights_status": "pending-review",
+    "github_published": false
   },
   {
-    "id": "dw-sketch-direct-control",
-    "date": "2026-09-11",
-    "date_precision": "exact",
-    "title_zh": "草图直控",
-    "title_en": "Sketch Direct Control",
+    "id": "dw-cross-age-gaze",
+    "title_zh": "跨龄对视",
+    "title_en": "Cross-age Gaze",
+    "status": "experimental",
+    "category": [
+      "identity-time",
+      "photo-transformation"
+    ],
+    "template": "identity-time-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": "cross-age-gaze",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
+  },
+  {
+    "id": "dw-cup-inside-camera",
+    "title_zh": "杯中机位",
+    "title_en": "Cup-inside Camera",
+    "status": "experimental",
+    "category": [
+      "camera-perspective"
+    ],
+    "template": "camera-perspective-base",
+    "template_status": "candidate",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
+  },
+  {
+    "id": "dw-day-night-dual-poster",
+    "title_zh": "昼夜双生海报",
+    "title_en": "Day / Night Twin Poster",
+    "status": "verified",
+    "category": [
+      "twin-poster",
+      "photo-transformation"
+    ],
+    "template": "twin-poster-base",
+    "template_status": "proposed",
+    "skill": "day-night-dual-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-15",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-etched-concept-twin-poster",
+    "title_zh": "蚀刻概念双生海报",
+    "title_en": "Etched Concept Twin Poster",
     "status": "tested",
     "category": [
-      "image-control",
-      "sketch-to-image"
+      "twin-poster",
+      "style-translation"
     ],
-    "template": "sketch-control-base",
+    "template": "etched-concept-base",
+    "template_status": "proposed",
+    "skill": "etched-concept-twin-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-16",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-geometric-flat-twin-poster",
+    "title_zh": "几何平涂双生海报",
+    "title_en": "Geometric Flat Twin Poster",
+    "status": "verified",
+    "category": [
+      "twin-poster",
+      "style-translation"
+    ],
+    "template": "geometric-flat-base",
+    "template_status": "proposed",
+    "skill": "geometric-flat-twin-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-16",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-ground-pressure-sports-poster",
+    "title_zh": "贴地压迫体育海报",
+    "title_en": "Low-angle Pressure Sports Poster",
+    "status": "experimental",
+    "category": [
+      "editorial-poster",
+      "sports-visual"
+    ],
+    "template": "sports-editorial-base",
     "template_status": "proposed",
     "skill": null,
     "skill_candidate": null,
-    "assets_status": "historical-assets-to-recover",
-    "rights_status": "pending-review"
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-16",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-result-search-needed",
+    "rights_status": "not-applicable-until-asset-recovered",
+    "github_published": false
+  },
+  {
+    "id": "dw-materialized-explainer",
+    "title_zh": "材质化解释图",
+    "title_en": "Materialized Explainer",
+    "status": "verified",
+    "category": [
+      "information-design",
+      "material-transformation"
+    ],
+    "template": "materialized-explainer-base",
+    "template_status": "proposed",
+    "skill": "materialized-explainer",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-17",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-memory-tile-portrait-poster",
+    "title_zh": "记忆切片肖像海报",
+    "title_en": "Memory Tile Portrait Poster",
+    "status": "verified",
+    "category": [
+      "photo-transformation",
+      "portrait-editorial"
+    ],
+    "template": "memory-portrait-base",
+    "template_status": "proposed",
+    "skill": "memory-tile-portrait-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-19",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-minecraft-human-pixel-world",
+    "title_zh": "Minecraft 真人 × 像素宇宙",
+    "title_en": "Minecraft Human × Pixel World",
+    "status": "experimental",
+    "category": [
+      "worldbuilding",
+      "photo-transformation"
+    ],
+    "template": "world-transformation-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
+  },
+  {
+    "id": "dw-photo-continuation",
+    "title_zh": "照片续写",
+    "title_en": "Photo Continuation",
+    "status": "experimental",
+    "category": [
+      "photo-transformation",
+      "outpainting-story"
+    ],
+    "template": "outpainting-story-base",
+    "template_status": "candidate",
+    "skill": null,
+    "skill_candidate": "photo-continuation",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
+  },
+  {
+    "id": "dw-premium-product-launch-film",
+    "title_zh": "旗舰发布广告片",
+    "title_en": "Premium Product Launch Film",
+    "status": "tested",
+    "category": [
+      "product-visualization",
+      "video-generation"
+    ],
+    "template": "premium-product-launch-base",
+    "template_status": "proposed",
+    "skill": "premium-product-launch-film",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-17",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "review-ai-generated-assets",
+    "github_published": false
+  },
+  {
+    "id": "dw-product-cutaway-theater",
+    "title_zh": "产品剖面剧场",
+    "title_en": "Product Cutaway Theater",
+    "status": "experimental",
+    "category": [
+      "product-visualization",
+      "worldbuilding"
+    ],
+    "template": "product-cutaway-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": "product-cutaway-theater",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
+    "assets_status": "history-recovery-needed",
+    "rights_status": "pending",
+    "github_published": false
+  },
+  {
+    "id": "dw-quirky-handdrawn-twin-poster",
+    "title_zh": "怪诞手绘双生海报",
+    "title_en": "Quirky Hand-drawn Twin Poster",
+    "status": "verified",
+    "category": [
+      "twin-poster",
+      "style-translation"
+    ],
+    "template": "quirky-handdrawn-base",
+    "template_status": "proposed",
+    "skill": "quirky-handdrawn-twin-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-16",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-shadow-theater-twin-poster",
+    "title_zh": "影子剧场双生海报",
+    "title_en": "Shadow Theater Twin Poster",
+    "status": "verified",
+    "category": [
+      "twin-poster",
+      "conceptual-photo"
+    ],
+    "template": "shadow-theater-base",
+    "template_status": "proposed",
+    "skill": "shadow-theater-twin-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-19",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
   },
   {
     "id": "dw-single-image-motion-film",
-    "date": "2026-09-12",
-    "date_precision": "exact",
     "title_zh": "单图动效成片",
     "title_en": "Single-image Motion Film",
     "status": "tested",
@@ -265,31 +384,61 @@
     "template_status": "proposed",
     "skill": null,
     "skill_candidate": "single-image-motion-film",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-12",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
     "assets_status": "historical-assets-identified",
-    "rights_status": "review-ai-generated-assets"
+    "rights_status": "review-ai-generated-assets",
+    "github_published": false
   },
   {
-    "id": "dw-ground-pressure-sports-poster",
-    "date": "2026-09-16",
-    "date_precision": "exact",
-    "title_zh": "贴地压迫体育海报",
-    "title_en": "Low-angle Pressure Sports Poster",
-    "status": "drafted",
+    "id": "dw-sketch-direct-control",
+    "title_zh": "草图直控",
+    "title_en": "Sketch Direct Control",
+    "status": "tested",
     "category": [
-      "editorial-poster",
-      "sports-visual"
+      "image-control",
+      "sketch-to-image"
     ],
-    "template": "sports-editorial-base",
+    "template": "sketch-control-base",
     "template_status": "proposed",
     "skill": null,
     "skill_candidate": null,
-    "assets_status": "historical-result-search-needed",
-    "rights_status": "not-applicable-until-asset-recovered"
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-11",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-to-recover",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-then-now-film-twin-poster",
+    "title_zh": "今昔胶片双生海报",
+    "title_en": "Then / Now Film Twin Poster",
+    "status": "verified",
+    "category": [
+      "twin-poster",
+      "identity-time"
+    ],
+    "template": "identity-time-base",
+    "template_status": "proposed",
+    "skill": "then-now-film-twin-poster",
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09-17",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-identified",
+    "rights_status": "pending-review",
+    "github_published": false
   },
   {
     "id": "dw-three-shot-emotion-slice",
-    "date": "2026-09",
-    "date_precision": "month",
     "title_zh": "三镜情绪切片双生",
     "title_en": "Three-shot Emotion Slice",
     "status": "tested",
@@ -301,70 +450,20 @@
     "template_status": "proposed",
     "skill": null,
     "skill_candidate": "three-shot-emotion-slice",
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-09",
+    "evidence_date_precision": "month",
+    "evidence_confidence": "high",
     "assets_status": "historical-result-search-needed",
-    "rights_status": "pending"
-  },
-  {
-    "id": "dw-character-camera-passport",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "角色镜头护照",
-    "title_en": "Character Camera Passport",
-    "status": "recovered",
-    "category": [
-      "character-consistency",
-      "cinematic"
-    ],
-    "template": "character-consistency-base",
-    "template_status": "proposed",
-    "skill": null,
-    "skill_candidate": "character-camera-passport",
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
-  },
-  {
-    "id": "dw-minecraft-human-pixel-world",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "Minecraft 真人 × 像素宇宙",
-    "title_en": "Minecraft Human × Pixel World",
-    "status": "recovered",
-    "category": [
-      "worldbuilding",
-      "photo-transformation"
-    ],
-    "template": "world-transformation-base",
-    "template_status": "proposed",
-    "skill": null,
-    "skill_candidate": null,
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
-  },
-  {
-    "id": "dw-product-cutaway-theater",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "产品剖面剧场",
-    "title_en": "Product Cutaway Theater",
-    "status": "recovered",
-    "category": [
-      "product-visualization",
-      "worldbuilding"
-    ],
-    "template": "product-cutaway-base",
-    "template_status": "proposed",
-    "skill": null,
-    "skill_candidate": "product-cutaway-theater",
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
+    "rights_status": "pending",
+    "github_published": false
   },
   {
     "id": "dw-ticket-stub-diorama",
-    "date": null,
-    "date_precision": "unknown",
     "title_zh": "票根立景",
     "title_en": "Ticket Stub Diorama",
-    "status": "recovered",
+    "status": "experimental",
     "category": [
       "paper-to-world",
       "worldbuilding"
@@ -373,60 +472,57 @@
     "template_status": "candidate",
     "skill": null,
     "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": null,
+    "evidence_date_precision": "unknown",
+    "evidence_confidence": "medium",
     "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
+    "rights_status": "pending",
+    "github_published": false
   },
   {
-    "id": "dw-cup-inside-camera",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "杯中机位",
-    "title_en": "Cup-inside Camera",
-    "status": "recovered",
+    "id": "dw-time-tree-rings",
+    "title_zh": "时间树轮",
+    "title_en": "Time Tree Rings",
+    "status": "tested",
     "category": [
-      "camera-perspective"
+      "material-transformation",
+      "temporal-visualization"
     ],
-    "template": "camera-perspective-base",
-    "template_status": "candidate",
-    "skill": null,
-    "skill_candidate": null,
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
-  },
-  {
-    "id": "dw-photo-continuation",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "照片续写",
-    "title_en": "Photo Continuation",
-    "status": "recovered",
-    "category": [
-      "photo-transformation",
-      "outpainting-story"
-    ],
-    "template": "outpainting-story-base",
-    "template_status": "candidate",
-    "skill": null,
-    "skill_candidate": "photo-continuation",
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
-  },
-  {
-    "id": "dw-cross-age-gaze",
-    "date": null,
-    "date_precision": "unknown",
-    "title_zh": "跨龄对视",
-    "title_en": "Cross-age Gaze",
-    "status": "recovered",
-    "category": [
-      "identity-time",
-      "photo-transformation"
-    ],
-    "template": "identity-time-base",
+    "template": "temporal-growth-base",
     "template_status": "proposed",
     "skill": null,
-    "skill_candidate": "cross-age-gaze",
-    "assets_status": "history-recovery-needed",
-    "rights_status": "pending"
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-08",
+    "evidence_date_precision": "month",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-to-recover",
+    "rights_status": "pending-review",
+    "github_published": false
+  },
+  {
+    "id": "dw-visual-dna-reveal",
+    "title_zh": "视觉 DNA 显影",
+    "title_en": "Visual DNA Reveal",
+    "status": "verified",
+    "category": [
+      "reference-analysis",
+      "style-translation"
+    ],
+    "template": "reference-visual-dna-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "recovered-history",
+    "original_date": null,
+    "evidence_date": "2026-08-25",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "historical-assets-to-recover",
+    "rights_status": "pending-review",
+    "github_published": false
   }
 ]

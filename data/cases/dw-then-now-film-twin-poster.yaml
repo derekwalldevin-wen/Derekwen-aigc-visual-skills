@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-then-now-film-twin-poster"
-date: "2026-09-17"
-date_precision: "exact"
 title_zh: "今昔胶片双生海报"
 title_en: "Then / Now Film Twin Poster"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-17"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
 category:
   - "twin-poster"
   - "identity-time"
