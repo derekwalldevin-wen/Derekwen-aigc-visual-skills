@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-day-night-dual-poster"
-date: "2026-09-15"
-date_precision: "exact"
 title_zh: "昼夜双生海报"
 title_en: "Day / Night Twin Poster"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-15"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
 category:
   - "twin-poster"
   - "photo-transformation"

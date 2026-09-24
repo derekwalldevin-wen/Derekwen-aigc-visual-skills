@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-etched-concept-twin-poster"
-date: "2026-09-16"
-date_precision: "exact"
 title_zh: "蚀刻概念双生海报"
 title_en: "Etched Concept Twin Poster"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-16"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
 category:
   - "twin-poster"
   - "style-translation"

@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-materialized-explainer"
-date: "2026-09-17"
-date_precision: "exact"
 title_zh: "材质化解释图"
 title_en: "Materialized Explainer"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-17"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
 category:
   - "information-design"
   - "material-transformation"

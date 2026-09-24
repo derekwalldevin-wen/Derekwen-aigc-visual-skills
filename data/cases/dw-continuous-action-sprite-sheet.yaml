@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-continuous-action-sprite-sheet"
-date: "2026-09-10"
-date_precision: "exact"
 title_zh: "连续动作精灵表"
 title_en: "Continuous Action Sprite Sheet"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-10"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "not-found"
+published:
+  social: null
+  github: false
 category:
   - "character-consistency"
   - "animation"

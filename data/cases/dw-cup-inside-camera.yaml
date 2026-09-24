@@ -1,12 +1,24 @@
+schema_version: "1.0.0"
 id: "dw-cup-inside-camera"
-date: null
-date_precision: "unknown"
 title_zh: "杯中机位"
 title_en: "Cup-inside Camera"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: null
+  evidence_date_precision: "unknown"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "not-found"
+  assets: "not-found"
+published:
+  social: null
+  github: false
 category:
   - "camera-perspective"
-status: "recovered"
+status: "experimental"
 existing_assets:
   - "historical topic confirmed"
 missing_assets:
