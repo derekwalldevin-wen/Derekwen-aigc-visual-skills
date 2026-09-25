@@ -8,117 +8,147 @@
 
 # DerekWen AIGC Visual Skills
 
-**Open-source visual-generation skills for image transformation, editorial posters, character systems, explainers, and premium product films.**
+**德里克文 AIGC 视觉技能库**
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
-![Version](https://img.shields.io/badge/COLLECTION-1.0.0-214f9b?style=flat-square&labelColor=333)
-![License](https://img.shields.io/badge/LICENSE-MIT-e37f2c?style=flat-square&labelColor=333)
-![Author](https://img.shields.io/badge/AUTHOR-%E5%BE%B7%E9%87%8C%E5%85%8B%E6%96%87-7d4cdb?style=flat-square&labelColor=333)
+![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
+![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
+![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
+![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
+[![Validate Skills](https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills/actions/workflows/validate.yml)
 
 </div>
 
-A growing collection of production-oriented `SKILL.md` workflows created by **德里克文** from the long-running **AI绘画每日一词** practice.
+**10 production-oriented AIGC visual skills.** Not prompt snippets — reusable workflows with routing, consistency rules, failure checks, and real artifact generation.
 
-These skills are not just prompt snippets. Each one encodes a repeatable workflow: input routing, composition logic, identity preservation, tool-execution rules, failure conditions, and quality checks.
+## Visual Case Wall
+
+<table>
+<tr><td align="center" width="33%"><a href="./skills/day-night-dual-poster/"><img src="./examples/day-night-dual-poster/after.png" alt="Day / Night Twin Poster" width="100%"></a><br><b>昼夜双生海报</b><br><sub>Day / Night Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/geometric-flat-twin-poster/"><img src="./examples/geometric-flat-twin-poster/after.png" alt="Geometric Flat Twin Poster" width="100%"></a><br><b>几何平涂双生海报</b><br><sub>Geometric Flat Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/quirky-handdrawn-twin-poster/"><img src="./examples/quirky-handdrawn-twin-poster/after.png" alt="Quirky Hand-drawn Twin Poster" width="100%"></a><br><b>怪诞手绘双生海报</b><br><sub>Quirky Hand-drawn Twin Poster</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/etched-concept-twin-poster/"><img src="./examples/etched-concept-twin-poster/after.png" alt="Etched Concept Twin Poster" width="100%"></a><br><b>蚀刻概念双生海报</b><br><sub>Etched Concept Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/then-now-film-twin-poster/"><img src="./examples/then-now-film-twin-poster/after.png" alt="Then / Now Film Twin Poster" width="100%"></a><br><b>今昔胶片双生海报</b><br><sub>Then / Now Film Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/character-sheet-board/"><img src="./examples/character-sheet-board/after.png" alt="Character Sheet Board" width="100%"></a><br><b>角色设定板</b><br><sub>Character Sheet Board</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.png" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.png" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.png" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
+<tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
+</table>
+
+## Featured Before / After
+
+### 昼夜双生海报 · Day / Night Twin Poster
+
+Keep the same subject and framing while creating a believable day/night state change.
+
+| Before | After |
+|---|---|
+| ![](./examples/day-night-dual-poster/before.png) | ![](./examples/day-night-dual-poster/after.png) |
+
+### 几何平涂双生海报 · Geometric Flat Twin Poster
+
+Preserve identity and composition while translating the image into restrained geometric flat art.
+
+| Before | After |
+|---|---|
+| ![](./examples/geometric-flat-twin-poster/before.png) | ![](./examples/geometric-flat-twin-poster/after.png) |
+
+### 影子剧场双生海报 · Shadow Theater Twin Poster
+
+Keep the subject unchanged and transform only the physically plausible cast shadow.
+
+| Before | After |
+|---|---|
+| ![](./examples/shadow-theater-twin-poster/before.png) | ![](./examples/shadow-theater-twin-poster/after.png) |
+
+### 角色设定板 · Character Sheet Board
+
+Turn a character into a reusable identity board with views, expressions, poses, costume and hands.
+
+| Before | After |
+|---|---|
+| ![](./examples/character-sheet-board/before.png) | ![](./examples/character-sheet-board/after.png) |
+
 
 ## Skills
 
-| Skill | What it does | Default output |
+| Skill | What it does | Output |
 |---|---|---|
-| [Day / Night Twin Poster](./skills/day-night-dual-poster/) | Same subject and composition, two time states, physically separated comparison layout | Image |
-| [Geometric Flat Twin Poster](./skills/geometric-flat-twin-poster/) | Photo + modernist geometric flat reinterpretation | Image |
-| [Quirky Hand-drawn Twin Poster](./skills/quirky-handdrawn-twin-poster/) | Photo + personality-driven colored-pencil / crayon hand-drawn reinterpretation | Image |
-| [Etched Concept Twin Poster](./skills/etched-concept-twin-poster/) | Photo + black-and-white engraving reinterpretation with restrained conceptual reinforcement | Image |
-| [Then / Now Film Twin Poster](./skills/then-now-film-twin-poster/) | Recreates the same moment as contemporary photography and a believable circa-1985 35mm photograph | Image |
-| [Character Sheet Board](./skills/character-sheet-board/) | Locks a character's identity, turnarounds, palette, expressions, poses, costume details, and hands | Image |
-| [Materialized Explainer](./skills/materialized-explainer/) | Turns flows, layers, cycles, comparisons, networks, and other concepts into tactile studio-shot models | Image |
-| [Memory Tile Portrait Poster](./skills/memory-tile-portrait-poster/) | One continuous portrait tiled with a small number of real memory photographs | Image |
-| [Shadow Theater Twin Poster](./skills/shadow-theater-twin-poster/) | Keeps the real subject unchanged while transforming only the physically plausible cast shadow | Image |
-| [Premium Product Launch Film](./skills/premium-product-launch-film/) | Routes by product type and prioritizes single-invocation end-to-end premium launch-film generation | Video |
+| [Day / Night Twin Poster](./skills/day-night-dual-poster/) | Keep the same subject and framing while creating a believable day/night state change. | Image |
+| [Geometric Flat Twin Poster](./skills/geometric-flat-twin-poster/) | Preserve identity and composition while translating the image into restrained geometric flat art. | Image |
+| [Quirky Hand-drawn Twin Poster](./skills/quirky-handdrawn-twin-poster/) | Keep the subject recognizable while amplifying personality through quirky hand-drawn treatment. | Image |
+| [Etched Concept Twin Poster](./skills/etched-concept-twin-poster/) | Translate the same scene into black-and-white engraving while preserving its conceptual structure. | Image |
+| [Then / Now Film Twin Poster](./skills/then-now-film-twin-poster/) | Recreate the same person and moment across contemporary and vintage-film eras. | Image |
+| [Character Sheet Board](./skills/character-sheet-board/) | Turn a character into a reusable identity board with views, expressions, poses, costume and hands. | Image |
+| [Materialized Explainer](./skills/materialized-explainer/) | Turn abstract flows, layers and relationships into tactile, readable explanatory models. | Image |
+| [Memory Tile Portrait Poster](./skills/memory-tile-portrait-poster/) | Combine one continuous portrait with a restrained set of memory tiles. | Image |
+| [Shadow Theater Twin Poster](./skills/shadow-theater-twin-poster/) | Keep the subject unchanged and transform only the physically plausible cast shadow. | Image |
+| [Premium Product Launch Film](./skills/premium-product-launch-film/) | Route by product type and aim for an actual premium launch film, not a prompt-only deliverable. | Video |
 
-## Design principles
+## Quick Start
 
-1. **Workflow over prompt fragments.** Each skill includes routing, constraints, execution, and quality gates.
-2. **Preserve identity.** Uploaded people, products, places, and characters remain recognizable unless the user explicitly asks otherwise.
-3. **Choose the layout from the input.** Where appropriate, the skill evaluates aspect ratio, subject axis, crop loss, and visual hierarchy instead of blindly applying one template.
-4. **Generate the requested artifact.** Image skills default to actual image generation when tools are available; the video skill defaults to an actual video, not a text prompt pretending to be a finished output.
-5. **Fail explicitly.** Each skill defines common structural and visual failure modes so an agent can inspect and retry intelligently.
-
-## Install
-
-Clone the collection:
+**1. Clone**
 
 ```bash
 git clone https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills.git
+cd Derekwen-aigc-visual-skills
 ```
 
-For agent environments that load skills from individual directories, copy the desired skill folder. Example for Claude Code:
+**2. Copy one Skill**
 
 ```bash
-cp -R Derekwen-aigc-visual-skills/skills/day-night-dual-poster ~/.claude/skills/
+cp -R skills/day-night-dual-poster ~/.claude/skills/
 ```
 
-Restart the agent environment if required. Other environments can load the relevant `SKILL.md` as their skill entry point where supported.
+**3. Invoke it**
+
+```text
+Use day-night-dual-poster on this photo.
+Keep the subject and framing unchanged and create a believable night state.
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
+
+## Why Skills, not Prompts?
+
+- **Input Routing** — choose the execution path from the reference, target and aspect ratio.
+- **Identity Preservation** — keep critical identity cues for people, products, characters and scenes.
+- **Failure Checks** — define visual and structural failure conditions before accepting a result.
+- **Artifact Generation** — the target is an actual image or video, not a text prompt presented as completion.
 
 ## Try it
 
 ```text
-Use day-night-dual-poster on this photo. Keep the person and camera framing unchanged; make the second state a believable night version.
+Use shadow-theater-twin-poster. Keep the subject unchanged and transform only the cast shadow.
 ```
 
 ```text
-Use geometric-flat-twin-poster on this travel photo. Preserve the composition and turn the comparison panel into a modernist geometric flat illustration.
+Use character-sheet-board with this character and build a consistent professional identity sheet.
 ```
 
 ```text
-Use shadow-theater-twin-poster. Keep me exactly as photographed, but make my cast shadow a firefighter.
+Use materialized-explainer to visualize this workflow as a tactile studio-shot model.
 ```
+
+## Contributing
+
+Issues, failure cases, model-compatibility notes and focused improvements are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Repository Layout
 
 ```text
-Use character-sheet-board with this character image and build a professional identity sheet with turnarounds, expressions, pose studies, costume details, and hands.
+assets/
+examples/
+skills/
+scripts/
+README.md
+README.zh.md
+skills.json
 ```
 
-```text
-Use materialized-explainer to visualize an AI Agent workflow: input → understanding → tool use → execution → validation → output.
-```
+## Asset Licensing
 
-## Repository layout
-
-```text
-derekwen-aigc-visual-skills/
-├── .github/workflows/validate.yml
-├── examples/README.md
-├── scripts/validate_skills.py
-├── skills/
-│   ├── day-night-dual-poster/
-│   ├── geometric-flat-twin-poster/
-│   ├── quirky-handdrawn-twin-poster/
-│   ├── etched-concept-twin-poster/
-│   ├── then-now-film-twin-poster/
-│   ├── character-sheet-board/
-│   ├── materialized-explainer/
-│   ├── memory-tile-portrait-poster/
-│   ├── shadow-theater-twin-poster/
-│   └── premium-product-launch-film/
-├── skills.json
-├── README.md
-├── README.zh.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── ASSET-LICENSE.md
-└── LICENSE
-```
-
-## Examples and visual assets
-
-The skills are open source under MIT. Visual example files should only be committed when the uploader has the right to publish them. See [`ASSET-LICENSE.md`](./ASSET-LICENSE.md).
+Visual examples are managed separately from the MIT-licensed Skill instructions. See [ASSET-LICENSE.md](./ASSET-LICENSE.md).
 
 ## License
 
-The skill instructions, documentation, validation scripts, and repository source files are released under the [MIT License](./LICENSE).
-
-Visual examples are handled separately; see [ASSET-LICENSE.md](./ASSET-LICENSE.md).
+Skill instructions, documentation and validation scripts are released under the [MIT License](./LICENSE).
 
 ---
 
-Created by **德里克文** · GitHub: [@derekwalldevin-wen](https://github.com/derekwalldevin-wen) · X: [@derek_wall90176](https://x.com/derek_wall90176)
+Created by **德里克文** · GitHub [@derekwalldevin-wen](https://github.com/derekwalldevin-wen) · X [@derek_wall90176](https://x.com/derek_wall90176)

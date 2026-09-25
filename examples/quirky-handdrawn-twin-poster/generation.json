@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-3f63a3d8-a112-4415-9a33-5aba66405315.png",
+      "prompt": "Use case: photorealistic-natural. ONE standalone landscape 3:2 source photograph, not diptych. Fictional adult man with curly dark hair, round amber acetate spectacles, narrow moustache, light olive skin, burnt orange overshirt over cream tee. Seated at a simple green cafe table, one elbow resting on table, chin resting on fist, eyes looking slightly upwards with mildly bemused daydreaming expression, softly pursed lips. One pale blue ceramic mug, potted leafy plant on right, plain warm plaster wall. Waist-up framing with full head, both forearms and hands visible, natural candid editorial photography, warm daylight, tactile fabrics. No brand, logo, text, celebrity likeness or watermark.",
+      "sha256": "33ea25e4e591786043f492b93281cc809768f6ed4e1cfb092f3dfb78cdb27297",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2181691,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-ac4a1b2f-9b39-4311-ae33-ec0d92b1e941.png",
+      "prompt": "Use case: style-transfer. Sole input is current cafe portrait. Follow quirky-handdrawn-twin-poster: 3:4 portrait diptych, two independently closed equal horizontal windows stacked, hard ivory divider, handmade cream-paper border and thin pen keylines. Upper keeps the exact original photo, face, curly hair, round amber glasses, narrow moustache, orange overshirt, chin on fist, upward bemused gaze, mug and plant. Lower reinterprets this same subject, pose and scene in visibly handmade black ballpoint shaky repeated outlines, colored pencil and crayon grain on coarse beige paper. Amplify the existing bemused daydreaming expression 250%: prominent white OVAL eye whites, tiny black dot pupils glancing upward, slightly pursed crooked mouth, slightly oversized head but SAME recognizable identity. Retain both hands, table, blue mug and plant anchors. Quirky cute and perceptive, no random expression switch. Uneven coloring, exposed paper fibers, charming imperfect contours. No polished digital illustration, no anime eyes, no CGI, no vector look, no text, logo or watermark. Nothing crosses divider.",
+      "sha256": "0254c8a38792b3610d2b91b7e354f46a691626c452e240a2ca86387b2dd3682a",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2957742,
+      "input_sha256": {
+        "before.png": "33ea25e4e591786043f492b93281cc809768f6ed4e1cfb092f3dfb78cdb27297"
+      }
+    }
+  ]
+}

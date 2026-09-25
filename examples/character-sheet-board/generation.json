@@ -1,0 +1,41 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [
+        "owner-provided historical derekwen-original-fullbody.png (not redistributed)"
+      ],
+      "generation_file": "exec-baa2f731-6d41-48a4-8359-06278b1034dc.png",
+      "prompt": "Use case: background-extraction. Use this supplied original user's character image as edit target. Isolate the exact same full body character on a clean pale ivory studio background, preserving exact face, chestnut hair, gold hair ornament, amber eyes, chibi proportions, folded arms pose, ivory-gold adventurer outfit, brown leather belt pouches and boots, every identity detail. Remove entire workshop background including laptop, graphics and brand symbol. Keep subtle contact shadow. A single character only, head to toe with margins, 3:4 portrait. No labels, text, logo, no redesign, no character sheet yet. This is a clean BEFORE reference for the original IP 德小文.",
+      "sha256": "d2b1cc0dad7d04e37e2e6bcf592be0b4e9d23f08585806b81b33e9cf89f1d189",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 877068,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-d7bbd503-6b5b-4829-9662-7b8fe77acc02.png",
+      "prompt": "Use case: identity-preserve. Use supplied isolated 德小文 character as sole identity reference to create ONE complete professional character-sheet-board, portrait 3:4, pale ivory white background, clean technical grid, finely organized. Every study is EXACT same character: chibi round face, chestnut layered side-swept hair with gold curved ornament, amber eyes, confident eyebrows, ivory gold high-collar adventurer suit, cognac leather harness/pouches/belt, gold knee guards and brown gold boots. Largest main upper-middle band: FRONT, 3/4, SIDE, BACK full bodies in standard neutral stance on aligned height proportion guides; retain believable asymmetry, true profile and back. Header title 德小文, subtitle 原创角色 · 创作探险家, compact 性格：认真 / 好奇 / 坚定, 年龄：未设定. 7 palette swatches. Lower clean rows: 8 expression heads calm curious tense surprised afraid sad determined relaxed; 5 small subtle micro-expression heads; 4 head angle studies 3/4 side up down; 3 small poses relaxed tense confident; one emotional chest-up portrait; four costume material close-ups hair/ornament leather/ivory/boots; five hand studies relaxed tense pointing gripping touching cheek; two small front and side silhouettes. Main identity turnarounds MUST remain largest and readable, supporting rows subordinate, prioritize consistency and clean separation, no crowding. Short simple labels, no long text, no logos, no watermark. Premium polished stylized 3D character concept render, not advertising poster, not moodboard, no scene background.",
+      "sha256": "d4fe61c0dbc2d20b6930459a15f06033ec111a758e21234a2fca8cf67254e9c9",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2276903,
+      "input_sha256": {
+        "before.png": "d2b1cc0dad7d04e37e2e6bcf592be0b4e9d23f08585806b81b33e9cf89f1d189"
+      }
+    }
+  ]
+}

@@ -1,17 +1,38 @@
-# 材质化解释图 / materialized-explainer
+# 材质化解释图 / Materialized Explainer
 
-**Author:** 德里克文  
+把抽象流程、层级与关系做成可观看、可解释的实体模型图。
+
 **Output:** Image  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Turns abstract structures and flows into tactile studio-shot explanatory models.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Before | After |
+|---|---|
+| ![](../../examples/materialized-explainer/before.png) | ![](../../examples/materialized-explainer/after.png) |
+
+This is a public-safe documentation demo created specifically for the repository.
+
+## Use
+
+```text
+Use materialized-explainer to visualize this workflow as a tactile studio-shot model.
+```
+
+中文调用：
+
+```text
+用 materialized-explainer 把这个流程做成白底、可触摸感的实体解释模型。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/materialized-explainer ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).

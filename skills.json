@@ -1,78 +1,98 @@
 {
   "collection": "DerekWen AIGC Visual Skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "德里克文",
   "repository": "derekwalldevin-wen/Derekwen-aigc-visual-skills",
   "skills": [
     {
       "id": "day-night-dual-poster",
       "name_zh": "昼夜双生海报",
-      "description": "Photo-preserving day/night twin poster with intelligent split layout.",
+      "name_en": "Day / Night Twin Poster",
+      "description": "Keep the same subject and framing while creating a believable day/night state change.",
       "output": "image",
-      "entry": "skills/day-night-dual-poster/SKILL.md"
+      "entry": "skills/day-night-dual-poster/SKILL.md",
+      "example": "examples/day-night-dual-poster/README.md"
     },
     {
       "id": "geometric-flat-twin-poster",
       "name_zh": "几何平涂双生海报",
-      "description": "Photo plus modernist geometric-flat reinterpretation.",
+      "name_en": "Geometric Flat Twin Poster",
+      "description": "Preserve identity and composition while translating the image into restrained geometric flat art.",
       "output": "image",
-      "entry": "skills/geometric-flat-twin-poster/SKILL.md"
+      "entry": "skills/geometric-flat-twin-poster/SKILL.md",
+      "example": "examples/geometric-flat-twin-poster/README.md"
     },
     {
       "id": "quirky-handdrawn-twin-poster",
       "name_zh": "怪诞手绘双生海报",
-      "description": "Recognizable photo plus personality-driven hand-drawn reinterpretation.",
+      "name_en": "Quirky Hand-drawn Twin Poster",
+      "description": "Keep the subject recognizable while amplifying personality through quirky hand-drawn treatment.",
       "output": "image",
-      "entry": "skills/quirky-handdrawn-twin-poster/SKILL.md"
+      "entry": "skills/quirky-handdrawn-twin-poster/SKILL.md",
+      "example": "examples/quirky-handdrawn-twin-poster/README.md"
     },
     {
       "id": "etched-concept-twin-poster",
       "name_zh": "蚀刻概念双生海报",
-      "description": "Photo-preserving black-and-white engraving reinterpretation with conceptual reinforcement.",
+      "name_en": "Etched Concept Twin Poster",
+      "description": "Translate the same scene into black-and-white engraving while preserving its conceptual structure.",
       "output": "image",
-      "entry": "skills/etched-concept-twin-poster/SKILL.md"
+      "entry": "skills/etched-concept-twin-poster/SKILL.md",
+      "example": "examples/etched-concept-twin-poster/README.md"
     },
     {
       "id": "then-now-film-twin-poster",
       "name_zh": "今昔胶片双生海报",
-      "description": "Same moment recreated as contemporary photography and believable circa-1985 35mm film.",
+      "name_en": "Then / Now Film Twin Poster",
+      "description": "Recreate the same person and moment across contemporary and vintage-film eras.",
       "output": "image",
-      "entry": "skills/then-now-film-twin-poster/SKILL.md"
+      "entry": "skills/then-now-film-twin-poster/SKILL.md",
+      "example": "examples/then-now-film-twin-poster/README.md"
     },
     {
       "id": "character-sheet-board",
       "name_zh": "角色设定板",
-      "description": "Professional identity-locking character sheet board.",
+      "name_en": "Character Sheet Board",
+      "description": "Turn a character into a reusable identity board with views, expressions, poses, costume and hands.",
       "output": "image",
-      "entry": "skills/character-sheet-board/SKILL.md"
+      "entry": "skills/character-sheet-board/SKILL.md",
+      "example": "examples/character-sheet-board/README.md"
     },
     {
       "id": "materialized-explainer",
       "name_zh": "材质化解释图",
-      "description": "Turns abstract structures and flows into tactile studio-shot explanatory models.",
+      "name_en": "Materialized Explainer",
+      "description": "Turn abstract flows, layers and relationships into tactile, readable explanatory models.",
       "output": "image",
-      "entry": "skills/materialized-explainer/SKILL.md"
+      "entry": "skills/materialized-explainer/SKILL.md",
+      "example": "examples/materialized-explainer/README.md"
     },
     {
       "id": "memory-tile-portrait-poster",
       "name_zh": "记忆切片肖像海报",
-      "description": "Continuous portrait grid with a restrained number of real memory-photo cells.",
+      "name_en": "Memory Tile Portrait Poster",
+      "description": "Combine one continuous portrait with a restrained set of memory tiles.",
       "output": "image",
-      "entry": "skills/memory-tile-portrait-poster/SKILL.md"
+      "entry": "skills/memory-tile-portrait-poster/SKILL.md",
+      "example": "examples/memory-tile-portrait-poster/README.md"
     },
     {
       "id": "shadow-theater-twin-poster",
       "name_zh": "影子剧场双生海报",
-      "description": "Keeps the real subject unchanged while transforming only a physically plausible cast shadow.",
+      "name_en": "Shadow Theater Twin Poster",
+      "description": "Keep the subject unchanged and transform only the physically plausible cast shadow.",
       "output": "image",
-      "entry": "skills/shadow-theater-twin-poster/SKILL.md"
+      "entry": "skills/shadow-theater-twin-poster/SKILL.md",
+      "example": "examples/shadow-theater-twin-poster/README.md"
     },
     {
       "id": "premium-product-launch-film",
       "name_zh": "旗舰发布广告片",
-      "description": "Product-aware premium launch-film workflow prioritizing end-to-end video generation.",
+      "name_en": "Premium Product Launch Film",
+      "description": "Route by product type and aim for an actual premium launch film, not a prompt-only deliverable.",
       "output": "video",
-      "entry": "skills/premium-product-launch-film/SKILL.md"
+      "entry": "skills/premium-product-launch-film/SKILL.md",
+      "example": "examples/premium-product-launch-film/README.md"
     }
   ]
 }

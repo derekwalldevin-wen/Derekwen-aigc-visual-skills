@@ -1,17 +1,38 @@
-# 角色设定板 / character-sheet-board
+# 角色设定板 / Character Sheet Board
 
-**Author:** 德里克文  
+把角色身份、视图、表情、姿态、服装和手部组织成可复用设定板。
+
 **Output:** Image  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Professional identity-locking character sheet board.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Before | After |
+|---|---|
+| ![](../../examples/character-sheet-board/before.png) | ![](../../examples/character-sheet-board/after.png) |
+
+This is a public-safe documentation demo created specifically for the repository.
+
+## Use
+
+```text
+Use character-sheet-board with this character and build a consistent professional identity sheet.
+```
+
+中文调用：
+
+```text
+用 character-sheet-board 处理这个角色，建立统一专业的角色设定板。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/character-sheet-board ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).

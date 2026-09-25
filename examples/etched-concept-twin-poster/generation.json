@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-632c511a-4236-4441-a287-d559eaad5d50.png",
+      "prompt": "Use case: photorealistic-natural. ONE original standalone landscape 3:2 cinematic editorial photograph. Fictional adult East Asian man with short dark hair and round wire glasses wearing a charcoal knit sweater, seated in profile at a walnut desk in a quiet evening study, right hand writing with a pencil on an open blank notebook, left hand resting on desk. Fully visible head and both hands, waist-up environmental framing. A warm brass desk lamp on left, orderly bookshelves with plain unlettered spines, a tall window on right with blue night sky, repeated rectangular window panes and shelves. Thoughtful focused expression, photographic skin and materials, nuanced warm/cool lighting. No floating surreal objects, no logos, no text, no watermark, no split layout.",
+      "sha256": "f4a7233c0084d4cffa5b557da1023a2309372eb1d54c90b6fd6bc395334fd26b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2036585,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-200b0bf6-5596-4671-b557-532cd9ba7df4.png",
+      "prompt": "Use case: style-transfer. Current study image is only identity/composition input. Follow etched-concept-twin-poster: finished 3:4 portrait two equal stacked independently enclosed landscape windows, upper original photograph, lower black-white copperplate engraving. Fine ivory mounting border with black rules, hard full-width ivory separator. Preserve same man, face, glasses, sweater, writing pose, pencil, notebook, hands, desk, lamp, shelf rhythm, window geometry and camera framing. Lower translates to 19th century etching / wood engraving: fine hatching, crosshatching, stippling, grays formed only by engraved black marks on warm white paper, handcut textures, high-contrast blacks with quiet white breathing areas. Strengthen the existing lamp illumination as a restrained radiating field of engraved lines toward the notebook, emphasize existing repeated shelves as a metaphor for accumulated thought. Do not add unrelated symbols, floating brains or a new world. Preserve photograph scene skeleton and identity. Not a grayscale filter, not sketch tracing, no color in lower, no CGI, no text or logo, nothing crosses frame boundaries.",
+      "sha256": "60671e58a154377eab8d9b0bfc61a1b6db70ac3925ebcc5796350a15f3351d14",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2982855,
+      "input_sha256": {
+        "before.png": "f4a7233c0084d4cffa5b557da1023a2309372eb1d54c90b6fd6bc395334fd26b"
+      }
+    }
+  ]
+}

@@ -1,17 +1,38 @@
-# 几何平涂双生海报 / geometric-flat-twin-poster
+# 几何平涂双生海报 / Geometric Flat Twin Poster
 
-**Author:** 德里克文  
+保留主体识别度与构图，把照片转译成克制的几何平涂视觉。
+
 **Output:** Image  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Photo plus modernist geometric-flat reinterpretation.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Before | After |
+|---|---|
+| ![](../../examples/geometric-flat-twin-poster/before.png) | ![](../../examples/geometric-flat-twin-poster/after.png) |
+
+This is a public-safe documentation demo created specifically for the repository.
+
+## Use
+
+```text
+Use geometric-flat-twin-poster. Preserve composition and identity; translate it into geometric flat art.
+```
+
+中文调用：
+
+```text
+用 geometric-flat-twin-poster。保留构图与主体识别，转成几何平涂。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/geometric-flat-twin-poster ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).

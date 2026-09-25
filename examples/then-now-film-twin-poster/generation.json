@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-feadc1a3-99e5-4727-b3bc-89fed37f2785.png",
+      "prompt": "Use case: photorealistic-natural. ONE original standalone landscape 3:2 contemporary photograph. Fictional adult East Asian woman in her early thirties, short black hair tucked behind ears, cobalt-blue zip jacket over white tee, dark straight trousers, white sneakers. Full body seated naturally on a rust-colored sofa, hands resting on knees, feet visible, looking calmly at camera. Modern modest living room with thin flat-screen television switched off on low cabinet to right, slim floor lamp to left, small round side table with a modern smartphone flat on it, pale walls, rectangular window behind, daylight. Wide enough to retain person and key furnishing geometry. Clear modern digital photograph, natural skin. No brand logos, readable text, celebrity likeness, watermark, diptych or collage.",
+      "sha256": "5f74e3e66cf775c7aa6a9abcc298cf6e876acf87051c4d42933111161122cbdf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2752537,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-8b3455e5-2045-4c23-9000-2c41fcf6021a.png",
+      "prompt": "Edit the supplied source into one finished 3:4 then-now-film-twin-poster. Two strictly equal top/bottom independently closed landscape windows with hard ivory divider and refined ivory frame. Top retains original contemporary photo. Bottom: exact same woman's face, age, short hair, gaze, seated pose, hands, feet, subject scale, camera framing and room architecture, recreated as a believable 1985 35mm photograph. Change era cues: blue jacket becomes 1980s blue nylon tracksuit top, trousers dark high-waisted denim, vintage canvas shoes; rust sofa becomes same-sized period velour sofa; flat TV becomes bulky CRT in same spot, smartphone becomes cassette player on same table, lamp gets pleated shade. Preserve all composition anchors. Warm faded negative-film color, fine grain, mild scan marks and soft highlights, not just a color filter, no painting or CGI. No logos, no text, no cross-frame elements; keep full head, hands and feet in both.",
+      "sha256": "7a8c8546e65cfc20032e63a91a2d14464715adc8adbef47ceb6974735462ae6e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2581719,
+      "input_sha256": {
+        "before.png": "5f74e3e66cf775c7aa6a9abcc298cf6e876acf87051c4d42933111161122cbdf"
+      }
+    }
+  ]
+}
