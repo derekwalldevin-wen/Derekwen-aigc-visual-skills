@@ -1,17 +1,38 @@
-# 怪诞手绘双生海报 / quirky-handdrawn-twin-poster
+# 怪诞手绘双生海报 / Quirky Hand-drawn Twin Poster
 
-**Author:** 德里克文  
+保留“像本人”的核心识别，把情绪与性格放大成怪诞手绘。
+
 **Output:** Image  
-**Entry:** [SKILL.md](./SKILL.md)
+[View `SKILL.md`](./SKILL.md)
 
-Recognizable photo plus personality-driven hand-drawn reinterpretation.
+## Example
 
-这是 **DerekWen AIGC Visual Skills** 开源集合中的一个独立 Skill。完整触发规则、工作流、质量门槛与失败判定见 `SKILL.md`。
+| Before | After |
+|---|---|
+| ![](../../examples/quirky-handdrawn-twin-poster/before.png) | ![](../../examples/quirky-handdrawn-twin-poster/after.png) |
+
+This is a public-safe documentation demo created specifically for the repository.
+
+## Use
+
+```text
+Use quirky-handdrawn-twin-poster. Keep the subject recognizable and amplify the emotion with hand-drawn texture.
+```
+
+中文调用：
+
+```text
+用 quirky-handdrawn-twin-poster。保留主体识别，把情绪放大成手绘质感。
+```
 
 ## Install
 
-Copy this directory into an agent environment that supports `SKILL.md`-style skills, or load `SKILL.md` directly where supported.
+```bash
+cp -R skills/quirky-handdrawn-twin-poster ~/.claude/skills/
+```
+
+Other compatible agent environments can load the corresponding `SKILL.md` directly.
 
 ## License
 
-Skill instructions are released under the repository's MIT License. Visual assets, if added later, are governed separately by the repository's `ASSET-LICENSE.md`.
+Skill instructions are covered by the repository [MIT License](../../LICENSE). Visual examples follow [ASSET-LICENSE.md](../../ASSET-LICENSE.md).

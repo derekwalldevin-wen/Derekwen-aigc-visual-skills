@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-02299d7b-da8f-42db-bd8f-57c88da8feb5.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE standalone original landscape 3:2 photograph. Fictional adult East Asian woman with tied-back black hair, plain rust-orange short sleeve T-shirt, charcoal work trousers and white low-top sneakers, standing full-body on a matte concrete floor beside a plain warm gray plaster wall. Woman on left third; large unobstructed wall and floor on right. Both arms naturally down, feet grounded and fully visible. Strong directional warm light from upper camera left projects her ordinary human shadow diagonally right across the floor and wall, connected to her feet, plausible perspective and softened distance falloff. Editorial studio portrait, natural skin, restrained warm/cool contrast. No firefighter clothes or equipment, no second person, no logo, no text, no watermark, no split layout. This is the original BEFORE photo.",
+      "sha256": "50093b0f46cdf2f2e1ef3d4fa34a10e153ba887876a89e5ebca4520a679dbc1e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2438678,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-5feaf27b-2a7d-4239-95cb-aec04f95b2b8.png",
+      "prompt": "Use case: precise-object-edit. Input is sole edit target. Follow shadow-theater-twin-poster exactly: one 3:4 portrait poster, two equal top-bottom closed windows, hard ivory horizontal divider, fine black frame, restrained ivory border. Upper retains the supplied photograph and ordinary shadow. Lower repeats EXACT same woman, face, tied hair, rust-orange tee, charcoal trousers, white shoes, arms-down pose, position, scale, camera framing, floor and wall. Transform ONLY her cast shadow into a recognizable FIREFIGHTER silhouette, helmet with brim, bulky breathing-air cylinder on back, protective jacket silhouette; arms stay down matching pose. The woman herself retains casual clothes and no equipment. Shadow must begin at her actual shoe-floor contact points, extend diagonally right across concrete floor and bend continuously onto plaster wall, matching upper-left directional key light, coherent perspective and natural penumbra. Keep real subject unchanged. No second physical firefighter, no floating silhouette, no sticker, no neon outline, no hologram, no added objects. Minimal clear occupational shadow, physically attached and readable. Preserve entire head and shoes in both panels, no crossing divider. No text or logos.",
+      "sha256": "e138aaa1d4d79b0c182b4468c92d8eed24b78e897c09f2cca962d2b8cb797029",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2090800,
+      "input_sha256": {
+        "before.png": "50093b0f46cdf2f2e1ef3d4fa34a10e153ba887876a89e5ebca4520a679dbc1e"
+      }
+    }
+  ]
+}

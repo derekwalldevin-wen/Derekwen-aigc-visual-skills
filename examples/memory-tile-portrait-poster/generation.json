@@ -1,0 +1,54 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-86b22e6a-5393-4286-a4fe-496ce7088d74.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE original standalone close portrait photograph of a fictional East Asian woman aged about 58, short slightly wavy salt-and-pepper hair, oval face, gentle smile, simple dark navy knit cardigan over ivory top. Looking directly at camera, head and shoulders centered, entire face clearly lit by soft window light, warm neutral background, realistic skin and age, no beauty retouching. 3:4 portrait, refined documentary photograph. This fictional character is for a public-safe memory-themed design demo, not a real person or celebrity. No text, no logo, no watermark, no tiles, no collage.",
+      "sha256": "2c0eb4f24bcb1a35cf7521e82d599ba88074ecbac47484fd05f15c8d89f7fd23",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2184088,
+      "input_sha256": {}
+    },
+    {
+      "output": "after.png",
+      "inputs": [
+        "before.png",
+        "memory-classroom.png"
+      ],
+      "generation_file": "exec-84b2d79d-0089-4b14-bf83-352f3b1f5834.png",
+      "prompt": "Use case: compositing. Image 1 is SOLE continuous portrait identity source, image 2 SOLE memory photograph (fictional classroom). Follow memory-tile-portrait-poster with requested 3:4 ratio. One editorial art-house poster, aligned 4 by 6 rectangular grid, narrow ivory gutters. Establish ONE continuous recognizable face from image 1, exact facial geometry, hair and expression, then cut it with the grid. 20 of 24 cells retain continuous aligned high-contrast coarse BLACK AND WHITE newspaper halftone portrait with visible print dots. Exactly ONE peripheral shoulder/background cell replaced entirely with the classroom image in fluorescent PINK AND BLACK, the only pink anywhere. Three peripheral cells fully blank ivory paper. Do not repeat the classroom; do not invent other scenes. Both eyes, nose, mouth and jaw readable and aligned; no duplicate features. No text, logo, watermark, transparency, double exposure, outside photos or tape. Fine paper texture. Fictional design demo, not real biography.",
+      "sha256": "f811cd9f4cbe29f984be3ec6f967a3fcb635154388fe19e5e7259916815b129d",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 3965669,
+      "input_sha256": {
+        "before.png": "2c0eb4f24bcb1a35cf7521e82d599ba88074ecbac47484fd05f15c8d89f7fd23",
+        "memory-classroom.png": "452fe19c1566be397d539861fd975419a1c3571e048f0631539e039ec4e78ddc"
+      }
+    },
+    {
+      "output": "memory-classroom.png",
+      "inputs": [],
+      "generation_file": "exec-fbfb2212-1826-4a95-97f2-d48dc8a1d64a.png",
+      "prompt": "Use case: photorealistic-natural. ONE standalone landscape 3:2 photograph of an original fictional small classroom after lessons, wooden desks in orderly rows, green chalkboard with no writing, a single closed cream notebook on nearest desk, soft golden afternoon light through side windows. Quiet humane documentary photography, subtle faded analog color and film grain. No people, no brand, no readable text, no watermark. A publicly safe AI-generated fictional memory scene for a portrait design demo, no claim of an actual person's life.",
+      "sha256": "452fe19c1566be397d539861fd975419a1c3571e048f0631539e039ec4e78ddc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2100818,
+      "input_sha256": {}
+    }
+  ]
+}

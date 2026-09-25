@@ -1,0 +1,39 @@
+{
+  "author": "德里克文",
+  "publication_status": "A",
+  "generated_on": "2026-09-22",
+  "tool": "Codex built-in image_gen",
+  "model_version": "not exposed by tool",
+  "steps": [
+    {
+      "output": "before.png",
+      "inputs": [],
+      "generation_file": "exec-ed6c9180-8dc2-4d76-98bb-b17124b787b1.png",
+      "prompt": "Use case: product-mockup. ONE standalone original catalog photograph of an invented unbranded white and cobalt-blue running sneaker, portrait 3:4. Three-quarter side view, toe pointing left, entire shoe on clean pale gray studio surface with subtle contact shadow. Identity: white engineered mesh upper, cobalt-blue collar lining and angular blue heel counter, white laces through six pairs of eyelets, ivory foam midsole with one shallow cobalt insert at arch, gray segmented rubber outsole. Realistic stitching, mesh, foam, soft neutral studio illumination. No swoosh, no stripes logo, no brand-like symbol, no monogram, no lettering, watermark or performance claims. No ad layout or split panels. Independent BEFORE source only.",
+      "sha256": "f7589117904aede71db8a2f73cc6bcbb221f077ce9fb761ce94ce684b668f634",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 1798771,
+      "input_sha256": {}
+    },
+    {
+      "output": "preview-frame.png",
+      "inputs": [
+        "before.png"
+      ],
+      "generation_file": "exec-436a05fb-87dc-4593-a947-2271e0f15b30.png",
+      "prompt": "Use case: product-mockup edit. The supplied product photo is the sole identity anchor. Create ONE premium-product-launch-film representative generated static preview frame, portrait 3:4 for GitHub documentation. Preserve exact same unbranded white/blue running shoe, mesh knit pattern, six lace eyelet pairs, blue lining, angular heel counter, ivory sculpted foam sole, shallow blue arch insert, gray segmented outsole. Product is hero, toe points left and heel right, same three-quarter view with full shoe and generous margins. Place shoe on a low pale matte stone plinth in spacious light-gray studio; refined sculptural softbox light with blue-tinted edge light revealing mesh and sole contours, gentle grounded shadow, quiet atmospheric gray background, premium product cinematography, no dark generic tech template. Visible material detail, controlled highlights, elegant composition. One shoe only, no people, no extra features, no exploded parts, no invented performance statistics, no text, logos, watermarks, play buttons or fake video-player UI. This is a still visual reference, not a completed video.",
+      "sha256": "8e9a5fb01d2e8766d7d05105c2924a518fc51150e7d632b3d6cd217038f3c3df",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 1975137,
+      "input_sha256": {
+        "before.png": "f7589117904aede71db8a2f73cc6bcbb221f077ce9fb761ce94ce684b668f634"
+      }
+    }
+  ]
+}
