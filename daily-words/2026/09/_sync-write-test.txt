@@ -1,0 +1,1 @@
+temporary write test for authorized daily sync
