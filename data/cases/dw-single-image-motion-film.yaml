@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-single-image-motion-film"
-date: "2026-09-12"
-date_precision: "exact"
 title_zh: "单图动效成片"
 title_en: "Single-image Motion Film"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-12"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
 category:
   - "product-visualization"
   - "video-generation"

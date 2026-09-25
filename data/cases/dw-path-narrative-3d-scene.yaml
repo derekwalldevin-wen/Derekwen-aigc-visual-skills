@@ -1,15 +1,27 @@
-id: dw-path-narrative-3d-scene
-date: '2026-09-23'
-date_precision: exact
-title_zh: 路径叙事式3D场景
-title_en: Path-Narrative 3D Scene
-series: AI绘画每日一词
+schema_version: "1.0.0"
+id: "dw-path-narrative-3d-scene"
+title_zh: "路径叙事式3D场景"
+title_en: "Path-Narrative 3D Scene"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-23"
+  evidence_date: "2026-09-23"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: true
+  github: true
 category:
-- information-design
-- 3d-visualization
-- spatial-storytelling
-status: tested
-summary: 把线性的流程步骤转换成一条具有高度、方向、节点和终点焦点的3D空间路径，让观众沿画面完成一次可视化旅程。
+  - "information-design"
+  - "3d-visualization"
+  - "spatial-storytelling"
+status: "tested"
+summary: "把线性的流程步骤转换成一条具有高度、方向、节点和终点焦点的3D空间路径，让观众沿画面完成一次可视化旅程。"
 tested_with: []
 core_prompt: |
   为【主题/产品/工作流程】设计一张3:4竖版“路径叙事式3D场景”视觉海报，3D Journey Mapping。
@@ -24,36 +36,31 @@ core_prompt: |
 
   避免普通流程图、扁平箭头、密集文字、卡通玩具感、霓虹城市和无意义机械零件。
 controls:
-- 节点控制在3—5个
-- 路径只能有一个主方向
-- 终点主体面积约占30%
-- 路径亮度高于背景、低于主体
-- 摄像机使用35°—45°俯视角
-- 标签只写关键词，不写完整说明
+  - "节点控制在3—5个"
+  - "路径只能有一个主方向"
+  - "终点主体面积约占30%"
+  - "路径亮度高于背景、低于主体"
+  - "摄像机使用35°—45°俯视角"
+  - "标签只写关键词，不写完整说明"
 extensions:
-- AI工作流：文字→图像→分镜→视频
-- 人物成长：起点→挫折→突破→高光
-- 产品功能：输入→分析→处理→输出
-- 城市宣传：地标串联成一条视觉旅程
+  - "AI工作流：文字→图像→分镜→视频"
+  - "人物成长：起点→挫折→突破→高光"
+  - "产品功能：输入→分析→处理→输出"
+  - "城市宣传：地标串联成一条视觉旅程"
 assets:
-  status: public-preview-ready
-  preview: assets/daily-words/2026/09/path-narrative-3d-scene.webp
-  source_full_resolution: user-library
-  note: Repository asset is a compressed preview of a generated result.
-rights_status: public-safe-ai-generated
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/path-narrative-3d-scene.webp"
+  source_full_resolution: "user-library"
+  note: "Repository asset is a generated full visual example prepared for public display."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
 references:
-- United Carriers — spatial-path idea referenced in the original social copy
-- Lapa Ninja — discovery/reference source noted in the original social copy
+  - "United Carriers — spatial-path idea referenced in the original social copy"
+  - "Lapa Ninja — discovery/reference source noted in the original social copy"
 template:
-  id: 3d-journey-mapping-base
-  status: proposed
+  id: "3d-journey-mapping-base"
+  status: "proposed"
 skill:
   id: null
   candidate: null
-published:
-  social: true
-  github: true
-source:
-  type: same-day-final-content
-  original_date: '2026-09-23'
-notes: Reference sources informed the method only; the repository preview is independently generated. Exact image-generation model was not verified.
+notes: "Reference sources informed the method only; the repository example is independently generated. Exact image-generation model was not verified."

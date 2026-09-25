@@ -1,9 +1,21 @@
+schema_version: "1.0.0"
 id: "dw-sketch-direct-control"
-date: "2026-09-11"
-date_precision: "exact"
 title_zh: "草图直控"
 title_en: "Sketch Direct Control"
 series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-11"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "not-found"
+published:
+  social: null
+  github: false
 category:
   - "image-control"
   - "sketch-to-image"
