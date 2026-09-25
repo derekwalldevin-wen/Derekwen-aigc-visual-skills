@@ -22,6 +22,8 @@
 
 **10 production-oriented AIGC visual skills.** Not prompt snippets — reusable workflows with routing, consistency rules, failure checks, and real artifact generation.
 
+[**Visual Gallery**](./GALLERY.md) · [Latest Daily Words](./data/latest.json) · [All 27 Cases](./data/case-index.json)
+
 ## Visual Case Wall
 
 <table>
@@ -43,7 +45,7 @@ The library now contains **27 Case records**. These three are finalized current 
 </tr>
 </table>
 
-[Browse all Case data](./data/case-index.json) · [Daily Words](./daily-words/README.md)
+[Visual Gallery](./GALLERY.md) · [Latest data](./data/latest.json) · [Browse all Case data](./data/case-index.json) · [Daily Words](./daily-words/README.md)
 
 
 ## Featured Before / After
@@ -149,9 +151,12 @@ Issues, failure cases, model-compatibility notes and focused improvements are we
 
 ```text
 assets/
+daily-words/
+data/
 examples/
 skills/
 scripts/
+GALLERY.md
 README.md
 README.zh.md
 skills.json

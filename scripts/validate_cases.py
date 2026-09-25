@@ -6,12 +6,13 @@ import re
 import sys
 import yaml
 
-from build_case_data import build_index, build_stats, load_cases
+from build_case_data import build_index, build_latest, build_stats, load_cases
 
 ROOT = Path(__file__).resolve().parents[1]
 CASES_DIR = ROOT / "data" / "cases"
 INDEX_PATH = ROOT / "data" / "case-index.json"
 STATS_PATH = ROOT / "data" / "stats.json"
+LATEST_PATH = ROOT / "data" / "latest.json"
 SKILLS_DIR = ROOT / "skills"
 
 errors = []
@@ -28,7 +29,7 @@ CASE_ID = re.compile(r"^dw-[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 def valid_date(value, precision):
     if value is None:
-        return precision == "unknown" or precision in {"exact", "month"}
+        return precision == "unknown"
     try:
         if precision == "exact":
             date.fromisoformat(value)
@@ -46,6 +47,7 @@ for path, case in cases:
     if not isinstance(case, dict):
         errors.append(f"{path.name}: root must be a mapping")
         continue
+
     required = [
         "schema_version", "id", "title_zh", "title_en", "series", "category",
         "status", "source", "evidence", "published", "template", "skill",
@@ -120,8 +122,24 @@ for path, case in cases:
     if skill_id is not None and not (SKILLS_DIR / skill_id).is_dir():
         errors.append(f"{path.name}: linked skill does not exist: {skill_id}")
 
+    if source.get("type") == "current-daily" and published.get("github"):
+        assets = case.get("assets") or {}
+        preview = assets.get("preview")
+        if not preview:
+            errors.append(f"{path.name}: current-daily GitHub publication requires assets.preview")
+        elif not (ROOT / preview).is_file():
+            errors.append(f"{path.name}: preview asset does not exist: {preview}")
+
+        if original:
+            slug = str(cid).removeprefix("dw-")
+            year, month, _ = original.split("-")
+            article = ROOT / "daily-words" / year / month / f"{slug}.md"
+            if not article.is_file():
+                errors.append(f"{path.name}: Daily Word article does not exist: {article.relative_to(ROOT)}")
+
 expected_index = build_index(cases)
 expected_stats = build_stats(expected_index)
+expected_latest = build_latest(cases)
 
 try:
     actual_index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
@@ -137,6 +155,13 @@ try:
 except Exception as exc:
     errors.append(f"cannot read stats.json: {exc}")
 
+try:
+    actual_latest = json.loads(LATEST_PATH.read_text(encoding="utf-8"))
+    if actual_latest != expected_latest:
+        errors.append("data/latest.json is stale; run python scripts/build_case_data.py")
+except Exception as exc:
+    errors.append(f"cannot read latest.json: {exc}")
+
 if errors:
     print("CASE VALIDATION FAILED")
     for error in errors:
@@ -149,3 +174,4 @@ print(f" - tested: {expected_stats['totals']['status']['tested']}")
 print(f" - experimental: {expected_stats['totals']['status']['experimental']}")
 print(f" - published templates: {expected_stats['totals']['templates']['published']}")
 print(f" - proposed template refs: {expected_stats['totals']['templates']['proposed_refs']}")
+print(f" - latest Daily Words: {expected_latest['count']} on {expected_latest['latest_date']}")

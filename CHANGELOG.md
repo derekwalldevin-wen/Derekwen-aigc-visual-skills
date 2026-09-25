@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- added `GALLERY.md` as a single visual entry point for all 13 currently public visual examples
+- added machine-readable `data/latest.json` for the latest published Daily Words
+- extended the Case data builder and validator to generate and verify Latest data
+- current Daily Word publications now require a real article and repository preview asset
+- tightened date validation so missing dates must use `evidence_date_precision: unknown`
+- added Gallery / Latest navigation to the repository and Daily Words entry points
+
 ## 1.1.0 — 2026-09-21
 
 - replaced 20 SVG placeholders with 21 real generated PNG assets, including a separate memory-scene input

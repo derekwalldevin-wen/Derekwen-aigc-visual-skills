@@ -22,6 +22,8 @@
 
 **10 个生产级 AIGC 视觉 Skill。** 不是提示词合集，而是包含判断、执行、一致性控制、失败检查与实际生成的可复用视觉工作流。
 
+[**完整视觉 Gallery**](./GALLERY.md) · [最新每日一词数据](./data/latest.json) · [全部 27 条 Case](./data/case-index.json)
+
 ## 视觉案例墙 / Visual Case Wall
 
 <table>
@@ -43,7 +45,7 @@
 </tr>
 </table>
 
-[查看全部 Case 数据](./data/case-index.json) · [每日一词入口](./daily-words/README.md)
+[完整视觉 Gallery](./GALLERY.md) · [Latest 数据](./data/latest.json) · [查看全部 Case 数据](./data/case-index.json) · [每日一词入口](./daily-words/README.md)
 
 
 ## 精选 Before / After
@@ -149,9 +151,12 @@ cp -R skills/day-night-dual-poster ~/.claude/skills/
 
 ```text
 assets/
+daily-words/
+data/
 examples/
 skills/
 scripts/
+GALLERY.md
 README.md
 README.zh.md
 skills.json
