@@ -12,6 +12,7 @@
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-27-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -29,6 +30,21 @@
 <tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.png" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.png" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.png" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
+
+## 最新每日一词 · 2026-09-23
+
+当前资料库已收录 **27 条 Case 记录**。以下 3 条为已定稿、已生图、通过公开安全检查的当日新增案例。
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/09/high-signal-two-color-branding.md"><img src="./assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="高信号双色品牌视觉" width="100%"></a><br><b>高信号双色品牌视觉</b><br><sub>High-Signal Two-Color Branding</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/night-flash-motion-twin.md"><img src="./assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="夜闪拖影双生" width="100%"></a><br><b>夜闪拖影双生</b><br><sub>Night Flash Motion Twin</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/path-narrative-3d-scene.md"><img src="./assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="路径叙事式3D场景" width="100%"></a><br><b>路径叙事式3D场景</b><br><sub>Path-Narrative 3D Scene</sub></td>
+</tr>
+</table>
+
+[查看全部 Case 数据](./data/case-index.json) · [每日一词入口](./daily-words/README.md)
+
 
 ## 精选 Before / After
 

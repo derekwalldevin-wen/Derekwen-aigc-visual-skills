@@ -12,6 +12,7 @@
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-27-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -29,6 +30,21 @@
 <tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.png" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.png" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.png" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
+
+## Latest Daily Words · 2026-09-23
+
+The library now contains **27 Case records**. These three are finalized current Daily Word cases with public-safe generated visual examples.
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/09/high-signal-two-color-branding.md"><img src="./assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="High-Signal Two-Color Branding" width="100%"></a><br><b>高信号双色品牌视觉</b><br><sub>High-Signal Two-Color Branding</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/night-flash-motion-twin.md"><img src="./assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="Night Flash Motion Twin" width="100%"></a><br><b>夜闪拖影双生</b><br><sub>Night Flash Motion Twin</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/path-narrative-3d-scene.md"><img src="./assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="Path-Narrative 3D Scene" width="100%"></a><br><b>路径叙事式3D场景</b><br><sub>Path-Narrative 3D Scene</sub></td>
+</tr>
+</table>
+
+[Browse all Case data](./data/case-index.json) · [Daily Words](./daily-words/README.md)
+
 
 ## Featured Before / After
 
