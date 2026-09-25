@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CASES_DIR = ROOT / "data" / "cases"
 INDEX_PATH = ROOT / "data" / "case-index.json"
 STATS_PATH = ROOT / "data" / "stats.json"
+LATEST_PATH = ROOT / "data" / "latest.json"
 
 def load_cases():
     cases = []
@@ -97,13 +98,64 @@ def build_stats(index):
         },
     }
 
-def dump(index, stats):
+def build_latest(cases):
+    published = []
+    for _, case in cases:
+        source = case.get("source") or {}
+        publication = case.get("published") or {}
+        if source.get("type") != "current-daily" or not publication.get("github"):
+            continue
+
+        original_date = source.get("original_date")
+        if not original_date:
+            continue
+
+        slug = case["id"].removeprefix("dw-")
+        year, month, _ = original_date.split("-")
+        assets = case.get("assets") or {}
+        published.append({
+            "id": case["id"],
+            "title_zh": case["title_zh"],
+            "title_en": case["title_en"],
+            "date": original_date,
+            "status": case["status"],
+            "article": f"daily-words/{year}/{month}/{slug}.md",
+            "preview": assets.get("preview"),
+            "rights_status": case.get("rights_status"),
+        })
+
+    if not published:
+        return {
+            "schema_version": "1.0.0",
+            "collection": "DerekWen AIGC Visual Library",
+            "latest_date": None,
+            "count": 0,
+            "cases": [],
+        }
+
+    latest_date = max(row["date"] for row in published)
+    latest_cases = sorted(
+        (row for row in published if row["date"] == latest_date),
+        key=lambda row: row["id"],
+    )
+    return {
+        "schema_version": "1.0.0",
+        "collection": "DerekWen AIGC Visual Library",
+        "latest_date": latest_date,
+        "count": len(latest_cases),
+        "cases": latest_cases,
+    }
+
+def dump(index, stats, latest):
     INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATS_PATH.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    LATEST_PATH.write_text(json.dumps(latest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 if __name__ == "__main__":
     cases = load_cases()
     index = build_index(cases)
     stats = build_stats(index)
-    dump(index, stats)
+    latest = build_latest(cases)
+    dump(index, stats, latest)
     print(f"Built {len(index)} Case records")
+    print(f"Latest Daily Words: {latest['count']} on {latest['latest_date']}")
