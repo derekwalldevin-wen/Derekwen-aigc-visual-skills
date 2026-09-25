@@ -3,57 +3,63 @@
   "collection": "DerekWen AIGC Visual Library",
   "source": "data/cases/*.yaml",
   "totals": {
-    "cases": 24,
+    "cases": 27,
     "status": {
       "verified": 10,
-      "tested": 6,
+      "tested": 9,
       "experimental": 8
     },
     "linked_skills": 10,
-    "skill_candidates": 7,
+    "skill_candidates": 8,
     "templates": {
       "published": 0,
-      "proposed_refs": 22
+      "proposed_refs": 24
     },
     "source_types": {
+      "current-daily": 3,
       "recovered-history": 24
     },
     "evidence_confidence": {
-      "high": 17,
+      "high": 20,
       "medium": 7,
       "low": 0
     },
     "dates": {
-      "original_known": 0,
+      "original_known": 3,
       "evidence_precision": {
-        "exact": 15,
+        "exact": 18,
         "month": 2,
         "unknown": 7
       }
     }
   },
   "categories": {
+    "3d-visualization": 1,
     "animation": 1,
+    "branding": 1,
     "camera-perspective": 1,
     "character-consistency": 3,
     "cinematic": 2,
+    "color-system": 1,
     "conceptual-photo": 1,
-    "editorial-poster": 1,
+    "editorial-poster": 2,
     "identity-time": 2,
     "image-control": 1,
-    "information-design": 1,
+    "information-design": 2,
     "material-transformation": 2,
+    "night-photography": 1,
     "outpainting-story": 1,
     "paper-to-world": 1,
-    "photo-transformation": 6,
+    "photo-transformation": 7,
     "portrait-editorial": 1,
     "product-visualization": 3,
     "reference-analysis": 1,
     "sketch-to-image": 1,
+    "spatial-storytelling": 1,
     "sports-visual": 1,
     "style-translation": 4,
     "temporal-visualization": 1,
-    "twin-poster": 6,
+    "twin-poster": 7,
     "video-generation": 2,
     "worldbuilding": 3
   },
@@ -61,6 +67,7 @@
     "not-applicable-until-asset-recovered": 1,
     "pending": 8,
     "pending-review": 12,
+    "public-safe-ai-generated": 3,
     "public-safe-original-ip": 1,
     "review-ai-generated-assets": 2
   },

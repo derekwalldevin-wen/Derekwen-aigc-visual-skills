@@ -196,6 +196,29 @@
     "github_published": false
   },
   {
+    "id": "dw-high-signal-two-color-branding",
+    "title_zh": "高信号双色品牌视觉",
+    "title_en": "High-Signal Two-Color Branding",
+    "status": "tested",
+    "category": [
+      "branding",
+      "editorial-poster",
+      "color-system"
+    ],
+    "template": "high-signal-branding-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-23",
+    "evidence_date": "2026-09-23",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-materialized-explainer",
     "title_zh": "材质化解释图",
     "title_en": "Materialized Explainer",
@@ -260,6 +283,52 @@
     "assets_status": "history-recovery-needed",
     "rights_status": "pending",
     "github_published": false
+  },
+  {
+    "id": "dw-night-flash-motion-twin",
+    "title_zh": "夜闪拖影双生",
+    "title_en": "Night Flash Motion Twin",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "photo-transformation",
+      "night-photography"
+    ],
+    "template": "twin-poster-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": "night-flash-motion-twin",
+    "source_type": "current-daily",
+    "original_date": "2026-09-23",
+    "evidence_date": "2026-09-23",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
+    "id": "dw-path-narrative-3d-scene",
+    "title_zh": "路径叙事式3D场景",
+    "title_en": "Path-Narrative 3D Scene",
+    "status": "tested",
+    "category": [
+      "information-design",
+      "3d-visualization",
+      "spatial-storytelling"
+    ],
+    "template": "3d-journey-mapping-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-23",
+    "evidence_date": "2026-09-23",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
   },
   {
     "id": "dw-photo-continuation",

@@ -1,0 +1,65 @@
+schema_version: "1.0.0"
+id: "dw-high-signal-two-color-branding"
+title_zh: "高信号双色品牌视觉"
+title_en: "High-Signal Two-Color Branding"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-23"
+  evidence_date: "2026-09-23"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: true
+  github: true
+category:
+  - "branding"
+  - "editorial-poster"
+  - "color-system"
+status: "tested"
+summary: "让一种主色统治画面、第二种颜色只承担稀缺强调，用不对称网格、技术字体和方向性运动建立一眼可识别的品牌记忆。"
+tested_with: []
+core_prompt: |
+  为【品牌/产品/人物IP】设计一张3:4竖版“高信号双色品牌视觉”海报，High-Signal Two-Color Branding。
+
+  画面采用电光洋红作为绝对主色，占比约75%；速度蓝作为稀缺强调色，占比不超过10%；其余使用纯黑和冷白。禁止平均分配颜色。
+
+  使用瑞士网格与大胆非对称构图，超大标题从画面边缘切入，局部允许自然裁切；核心主体偏离中心，占画面约45%，带高速运动模糊、扫描轨迹或方向性拖影，表达野心、速度和上升感。
+
+  标题使用粗体几何无衬线字体，数字、坐标、日期和技术注释使用等宽字体。加入细线坐标、箭头、序列编号和极少量数据，但不制作复杂仪表盘。
+
+  主体采用高完成度摄影或精致3D视觉，避免握手、写字楼、商务会议等陈词滥调。整体像前沿科技品牌、潮流杂志与量化金融视觉系统的结合，醒目、精准、年轻、有冲击力。
+controls:
+  - "全图主要颜色不超过4种"
+  - "主色约占75%"
+  - "强调色面积控制在5%—10%"
+  - "主标题最多两行"
+  - "只保留一种运动方向"
+  - "数据文字用于营造秩序，不抢主体"
+  - "先确定品牌性格，再选择信号色"
+extensions:
+  - "AI产品：电光蓝＋荧光橙"
+  - "个人IP：品牌蓝＋高饱和黄"
+  - "潮流运动：酸性绿＋深紫"
+  - "文化活动：朱红＋孔雀蓝"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/high-signal-two-color-branding.webp"
+  source_full_resolution: "user-library"
+  note: "Repository asset is a generated full visual example prepared for public display."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references:
+  - "Aspen Search — visual reference noted in the original social copy"
+  - "Minimal Gallery — discovery/reference source noted in the original social copy"
+template:
+  id: "high-signal-branding-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Reference sources informed the visual method; the repository example is independently generated and does not reproduce site screenshots or third-party logos. Exact image-generation model was not verified."
