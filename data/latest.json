@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "DerekWen AIGC Visual Library",
+  "latest_date": "2026-09-23",
+  "count": 3,
+  "cases": [
+    {
+      "id": "dw-high-signal-two-color-branding",
+      "title_zh": "高信号双色品牌视觉",
+      "title_en": "High-Signal Two-Color Branding",
+      "date": "2026-09-23",
+      "status": "tested",
+      "article": "daily-words/2026/09/high-signal-two-color-branding.md",
+      "preview": "assets/daily-words/2026/09/high-signal-two-color-branding.webp",
+      "rights_status": "public-safe-ai-generated"
+    },
+    {
+      "id": "dw-night-flash-motion-twin",
+      "title_zh": "夜闪拖影双生",
+      "title_en": "Night Flash Motion Twin",
+      "date": "2026-09-23",
+      "status": "tested",
+      "article": "daily-words/2026/09/night-flash-motion-twin.md",
+      "preview": "assets/daily-words/2026/09/night-flash-motion-twin.webp",
+      "rights_status": "public-safe-ai-generated"
+    },
+    {
+      "id": "dw-path-narrative-3d-scene",
+      "title_zh": "路径叙事式3D场景",
+      "title_en": "Path-Narrative 3D Scene",
+      "date": "2026-09-23",
+      "status": "tested",
+      "article": "daily-words/2026/09/path-narrative-3d-scene.md",
+      "preview": "assets/daily-words/2026/09/path-narrative-3d-scene.webp",
+      "rights_status": "public-safe-ai-generated"
+    }
+  ]
+}
