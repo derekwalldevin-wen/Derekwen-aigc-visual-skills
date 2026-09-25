@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "DerekWen AIGC Visual Library",
+  "source": "data/cases/*.yaml",
+  "totals": {
+    "cases": 24,
+    "status": {
+      "verified": 10,
+      "tested": 6,
+      "experimental": 8
+    },
+    "linked_skills": 10,
+    "skill_candidates": 7,
+    "templates": {
+      "published": 0,
+      "proposed_refs": 22
+    },
+    "source_types": {
+      "recovered-history": 24
+    },
+    "evidence_confidence": {
+      "high": 17,
+      "medium": 7,
+      "low": 0
+    },
+    "dates": {
+      "original_known": 0,
+      "evidence_precision": {
+        "exact": 15,
+        "month": 2,
+        "unknown": 7
+      }
+    }
+  },
+  "categories": {
+    "animation": 1,
+    "camera-perspective": 1,
+    "character-consistency": 3,
+    "cinematic": 2,
+    "conceptual-photo": 1,
+    "editorial-poster": 1,
+    "identity-time": 2,
+    "image-control": 1,
+    "information-design": 1,
+    "material-transformation": 2,
+    "outpainting-story": 1,
+    "paper-to-world": 1,
+    "photo-transformation": 6,
+    "portrait-editorial": 1,
+    "product-visualization": 3,
+    "reference-analysis": 1,
+    "sketch-to-image": 1,
+    "sports-visual": 1,
+    "style-translation": 4,
+    "temporal-visualization": 1,
+    "twin-poster": 6,
+    "video-generation": 2,
+    "worldbuilding": 3
+  },
+  "rights": {
+    "not-applicable-until-asset-recovered": 1,
+    "pending": 8,
+    "pending-review": 12,
+    "public-safe-original-ip": 1,
+    "review-ai-generated-assets": 2
+  },
+  "asset_policy": {
+    "default": "historical-first",
+    "note": "Reuse previously generated assets before creating new images. Regenerate only when historical assets cannot be recovered, published, or meet quality requirements."
+  }
+}

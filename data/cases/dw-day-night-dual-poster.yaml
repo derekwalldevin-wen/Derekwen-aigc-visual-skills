@@ -1,0 +1,39 @@
+schema_version: "1.0.0"
+id: "dw-day-night-dual-poster"
+title_zh: "昼夜双生海报"
+title_en: "Day / Night Twin Poster"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-15"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
+category:
+  - "twin-poster"
+  - "photo-transformation"
+status: "verified"
+existing_assets:
+  - "同一片海的昼夜光影.png"
+  - "地中海海岸的昼夜变奏.png"
+  - "a_vertical_cinematic_split_composition_travel_lif.png"
+  - "historical identifiable-person source photo"
+missing_assets:
+  - "public-safe GitHub before/after selection or rights clearance"
+regenerate: "not_required_now"
+asset_strategy: "reuse historical generated assets first; do not generate replacements unless rights/quality block publication"
+template:
+  id: "twin-poster-base"
+  status: "proposed"
+skill:
+  id: "day-night-dual-poster"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

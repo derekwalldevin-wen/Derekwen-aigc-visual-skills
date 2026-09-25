@@ -1,0 +1,45 @@
+schema_version: "1.0.0"
+id: "dw-single-image-motion-film"
+title_zh: "单图动效成片"
+title_en: "Single-image Motion Film"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-12"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
+category:
+  - "product-visualization"
+  - "video-generation"
+status: "tested"
+existing_assets:
+  - "historical product image set"
+  - "advertising style frames"
+  - "Blender-preview tutorial assets"
+  - "image-gen-2(20260912-043627).png"
+  - "image-gen-3(20260912-043629).png"
+  - "image-gen-4(20260912-043634).png"
+  - "image-gen-6(20260912-043638).png"
+  - "image-gen-7(20260912-043640).png"
+  - "image-gen-9(20260912-043645).png"
+missing_assets:
+  - "identify strongest before/style-frame pair"
+  - "recover final motion result if available"
+regenerate: "no"
+asset_strategy: "reuse the existing image-generation set and recover the final dynamic proof if available"
+template:
+  id: "single-image-motion-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "single-image-motion-film"
+assets_status: "historical-assets-identified"
+rights_status: "review-ai-generated-assets"

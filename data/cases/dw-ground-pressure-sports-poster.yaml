@@ -1,0 +1,37 @@
+schema_version: "1.0.0"
+id: "dw-ground-pressure-sports-poster"
+title_zh: "贴地压迫体育海报"
+title_en: "Low-angle Pressure Sports Poster"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-16"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "not-found"
+published:
+  social: null
+  github: false
+category:
+  - "editorial-poster"
+  - "sports-visual"
+status: "experimental"
+existing_assets:
+  - "final social copy"
+  - "final core prompt"
+missing_assets:
+  - "recover any historical generated result if one exists"
+regenerate: "only_if_no_historical_result_exists"
+asset_strategy: "search historical assets first; generate only if no prior result can be recovered"
+template:
+  id: "sports-editorial-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+assets_status: "historical-result-search-needed"
+rights_status: "not-applicable-until-asset-recovered"

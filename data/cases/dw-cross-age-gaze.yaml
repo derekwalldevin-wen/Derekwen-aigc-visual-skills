@@ -1,0 +1,39 @@
+schema_version: "1.0.0"
+id: "dw-cross-age-gaze"
+title_zh: "跨龄对视"
+title_en: "Cross-age Gaze"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: null
+  evidence_date_precision: "unknown"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "not-found"
+  assets: "not-found"
+published:
+  social: null
+  github: false
+category:
+  - "identity-time"
+  - "photo-transformation"
+status: "experimental"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final copy"
+  - "final prompt"
+  - "historical cross-age result"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "identity-time-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "cross-age-gaze"
+assets_status: "history-recovery-needed"
+rights_status: "pending"

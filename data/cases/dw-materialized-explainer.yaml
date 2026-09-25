@@ -1,0 +1,38 @@
+schema_version: "1.0.0"
+id: "dw-materialized-explainer"
+title_zh: "材质化解释图"
+title_en: "Materialized Explainer"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: "2026-09-17"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "partial"
+  assets: "candidates-found"
+published:
+  social: null
+  github: false
+category:
+  - "information-design"
+  - "material-transformation"
+status: "verified"
+existing_assets:
+  - "自己装修流程图.png"
+  - "图像问题五层检查流程_инфографики.png"
+  - "a_clean_high_end_product_design_infographic_on_a.png"
+missing_assets:
+  - "confirm which source/after pair is owned and best suited for GitHub"
+regenerate: "conditional"
+asset_strategy: "reuse historical output if source rights are confirmed; otherwise defer asset replacement"
+template:
+  id: "materialized-explainer-base"
+  status: "proposed"
+skill:
+  id: "materialized-explainer"
+  candidate: null
+assets_status: "historical-assets-identified"
+rights_status: "pending-review"

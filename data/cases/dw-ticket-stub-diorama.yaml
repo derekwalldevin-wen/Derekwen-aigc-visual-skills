@@ -1,0 +1,39 @@
+schema_version: "1.0.0"
+id: "dw-ticket-stub-diorama"
+title_zh: "票根立景"
+title_en: "Ticket Stub Diorama"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: null
+  evidence_date_precision: "unknown"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "not-found"
+  assets: "not-found"
+published:
+  social: null
+  github: false
+category:
+  - "paper-to-world"
+  - "worldbuilding"
+status: "experimental"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final copy"
+  - "final prompt"
+  - "historical ticket/diorama result"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "paper-to-world-base"
+  status: "candidate"
+skill:
+  id: null
+  candidate: null
+assets_status: "history-recovery-needed"
+rights_status: "pending"

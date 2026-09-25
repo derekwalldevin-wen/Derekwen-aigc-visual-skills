@@ -1,0 +1,39 @@
+schema_version: "1.0.0"
+id: "dw-photo-continuation"
+title_zh: "照片续写"
+title_en: "Photo Continuation"
+series: "AI绘画每日一词"
+source:
+  type: "recovered-history"
+  original_date: null
+  evidence_date: null
+  evidence_date_precision: "unknown"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "not-found"
+  assets: "not-found"
+published:
+  social: null
+  github: false
+category:
+  - "photo-transformation"
+  - "outpainting-story"
+status: "experimental"
+existing_assets:
+  - "historical topic confirmed"
+missing_assets:
+  - "exact date"
+  - "final copy"
+  - "final prompt"
+  - "historical before/after assets"
+regenerate: "no_until_history_search_complete"
+asset_strategy: "historical recovery first"
+template:
+  id: "outpainting-story-base"
+  status: "candidate"
+skill:
+  id: null
+  candidate: "photo-continuation"
+assets_status: "history-recovery-needed"
+rights_status: "pending"
