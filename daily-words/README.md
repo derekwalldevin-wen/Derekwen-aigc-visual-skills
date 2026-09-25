@@ -22,6 +22,13 @@ Daily Word → Case → Template → Skill
 
 仓库优先复用历史真实生成资产；只有历史资产无法找回、不能公开或质量不足时，才重新生成。
 
+## 最新收录 · 2026-09-25
+
+- [玻璃错层 · Glass Layering](./2026/09/glass-layering.md)
+- [四图合一 · Four-Reference Fusion](./2026/09/four-image-fusion.md)
+
+两条均已完成图片公开安全检查；测试模型未获得可靠历史证据，因此没有补造具体模型名称。
+
 ## 数据入口
 
 - [Case 数据](../data/cases/)

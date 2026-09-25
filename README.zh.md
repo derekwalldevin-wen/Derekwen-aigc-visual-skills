@@ -12,7 +12,7 @@
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-27-6f42c1?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-29-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -31,15 +31,14 @@
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
 
-## 最新每日一词 · 2026-09-23
+## 最新每日一词 · 2026-09-25
 
-当前资料库已收录 **27 条 Case 记录**。以下 3 条为已定稿、已生图、通过公开安全检查的当日新增案例。
+当前资料库已收录 **29 条 Case 记录**。以下 2 条为今天已定稿、已生图并通过公开安全检查的新案例。
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./daily-words/2026/09/high-signal-two-color-branding.md"><img src="./assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="高信号双色品牌视觉" width="100%"></a><br><b>高信号双色品牌视觉</b><br><sub>High-Signal Two-Color Branding</sub></td>
-<td align="center" width="33%"><a href="./daily-words/2026/09/night-flash-motion-twin.md"><img src="./assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="夜闪拖影双生" width="100%"></a><br><b>夜闪拖影双生</b><br><sub>Night Flash Motion Twin</sub></td>
-<td align="center" width="33%"><a href="./daily-words/2026/09/path-narrative-3d-scene.md"><img src="./assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="路径叙事式3D场景" width="100%"></a><br><b>路径叙事式3D场景</b><br><sub>Path-Narrative 3D Scene</sub></td>
+<td align="center" width="50%"><a href="./daily-words/2026/09/glass-layering.md"><img src="./assets/daily-words/2026/09/glass-layering.webp" alt="玻璃错层" width="100%"></a><br><b>玻璃错层</b><br><sub>Glass Layering</sub></td>
+<td align="center" width="50%"><a href="./daily-words/2026/09/four-image-fusion.md"><img src="./assets/daily-words/2026/09/four-image-fusion.webp" alt="四图合一" width="100%"></a><br><b>四图合一</b><br><sub>Four-Reference Fusion</sub></td>
 </tr>
 </table>
 
