@@ -48,7 +48,7 @@ source:
 
 `original_date` is reserved for a directly supported original/publication date. A chat timestamp, file creation date, or later recovery date must not be silently promoted to `original_date`.
 
-`evidence_date` preserves the best historical date evidence already known.
+`evidence_date` preserves the best historical date evidence already known. A missing date must use `evidence_date: null` with `evidence_date_precision: unknown`; `exact` and `month` require a real date value.
 
 ## Evidence
 
@@ -67,6 +67,17 @@ Allowed values:
 - prompt: `confirmed-final | confirmed | partial | not-found`
 - assets: `confirmed | candidates-found | not-found`
 
+## Current Daily Word publication contract
+
+A `current-daily` Case with `published.github: true` must have:
+
+- a supported `source.original_date`
+- a real Daily Word page at `daily-words/YYYY/MM/<slug>.md`
+- an `assets.preview` path that exists in the repository
+- a reviewed `rights_status`
+
+The validator checks the article and preview paths. Do not publish placeholder assets.
+
 ## Templates
 
 A Case may reference a proposed Template, but that does **not** mean the Template already exists.
@@ -84,11 +95,15 @@ Use `null`, `pending`, or an explicit evidence state. Do not invent dates, model
 
 ## Generated files
 
-`data/case-index.json` and `data/stats.json` are generated from Case YAML files by:
+`data/case-index.json`, `data/stats.json`, and `data/latest.json` are generated from Case YAML files by:
 
 ```bash
 python scripts/build_case_data.py
 ```
+
+- `case-index.json` — canonical Case index
+- `stats.json` — aggregate counts and category / rights statistics
+- `latest.json` — latest GitHub-published `current-daily` entries for homepage, gallery, or external consumers
 
 Validation:
 
