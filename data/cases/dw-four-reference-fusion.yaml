@@ -1,0 +1,59 @@
+schema_version: "1.0.0"
+id: "dw-four-reference-fusion"
+title_zh: "四图合一"
+title_en: "Four-Reference Fusion"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-25"
+  evidence_date: "2026-09-25"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "image-control"
+  - "multi-reference"
+  - "fashion-photography"
+status: "tested"
+summary: "把人物、服装、姿势与构图、场景与光线拆成四个互不串权的参考职责，再统一透视、光线与接触关系完成可信合成。"
+tested_with: []
+core_prompt: |
+  上传图1、图2、图3、图4，生成一张独立的3:4竖版写实时尚摄影作品。
+  图1：人物身份参考。只参考脸型、五官、发型、肤色、年龄与体型，最终人物必须保持图1的身份与辨识度。
+  图2：服装造型参考。只参考服装版型、颜色、面料、纹理、配饰与穿搭层次，不继承图2人物身份和背景。
+  图3：姿势与构图参考。只参考身体朝向、四肢位置、重心、视线、景别和人物在画面中的位置，不继承图3人物身份与服装。
+  图4：场景与光线参考。只参考空间结构、环境材质、主光方向、色温、阴影与整体氛围，不复制图4中的原人物、文字或标志。
+  最终结果必须是：图1的人物，穿着图2的服装，完成图3的姿势，真实站在图4的环境中。统一透视、光线方向、色温和接触阴影；服装贴合身体并具有真实褶皱与材质反射；脚部真实接触地面；手指完整；人物与背景之间没有拼贴边缘。
+controls:
+  - "四张参考图职责必须严格分离，不允许交叉继承"
+  - "人物身份只来自图1"
+  - "服装造型只来自图2"
+  - "姿态与构图只来自图3"
+  - "场景与光线只来自图4"
+  - "统一透视、色温、光线方向与接触阴影"
+  - "检查手脚完整、衣物褶皱和人物与环境的物理接触"
+extensions:
+  - "古风大片"
+  - "潮流街拍"
+  - "未来人像"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/four-image-fusion.webp"
+  source_full_resolution: "user-library"
+  note: "Repository preview was selected from the same-day AI-generated set after public-safety review."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "multi-reference-fusion-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact image-generation model was not reliably verified, so tested_with is intentionally empty. Generated social-card variants carrying a visible Xiaohongshu mark were not published to the repository."

@@ -1,0 +1,56 @@
+schema_version: "1.0.0"
+id: "dw-glass-layering"
+title_zh: "玻璃错层"
+title_en: "Glass Layering"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-25"
+  evidence_date: "2026-09-25"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "photo-transformation"
+  - "portrait-editorial"
+  - "optical-refraction"
+status: "tested"
+summary: "不改人物与场景，只在镜头前加入真实透明玻璃层，用局部折射、轻微色散与前后景叠层把普通照片变成实验时尚摄影。"
+tested_with: []
+core_prompt: |
+  基于我上传的照片，生成一张独立的3:4竖版「玻璃错层」时尚摄影图。
+  保持人物身份、脸型、五官、发型、服装、姿态、场景和主体位置不变。在镜头与人物之间加入3—5块真实透明玻璃片，玻璃具有可见厚度、边缘、高光和真实透视，形成局部错移、少量放大或压缩、边缘双像、轻微色散、玻璃高光反射与前后景叠层。
+  主体至少60%保持清晰完整，玻璃折射方向不要完全一致，色散只做轻微控制。最终效果像真实摄影现场通过前景玻璃完成的实验时尚摄影，而不是后期故障特效。
+  禁止换脸、多人复制、整图碎裂、赛博故障、夸张彩虹、文字和拼贴感。
+controls:
+  - "玻璃数量控制在3—5块"
+  - "清晰主体面积至少60%"
+  - "色散保持轻微，不做夸张彩虹"
+  - "玻璃折射方向不要全部一致"
+  - "玻璃必须具有厚度、边缘、高光与真实透视"
+extensions:
+  - "人像版"
+  - "情侣版"
+  - "产品版"
+  - "建筑版"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/glass-layering.webp"
+  source_full_resolution: "user-library"
+  note: "Repository preview was selected from the same-day AI-generated set after public-safety review."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "optical-refraction-photo-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact image-generation model was not reliably verified, so tested_with is intentionally empty. One generated variant with visible third-party CHANCE branding was excluded from the public repository."
