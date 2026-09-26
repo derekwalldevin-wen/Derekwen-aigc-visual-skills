@@ -20,9 +20,17 @@
 
 </div>
 
-**10 production-oriented AIGC visual skills.** Not prompt snippets — reusable workflows with routing, consistency rules, failure checks, and real artifact generation.
+**30 real AIGC cases · 10 reusable Agent Skills · continuously updated**
 
-[**Visual Gallery**](./GALLERY.md) · [Latest Daily Words](./data/latest.json) · [All 30 Cases](./data/case-index.json)
+DerekWen AIGC Visual Library is an open-source visual production library built from real image and video experiments. **Not a prompt dump** — published cases preserve final prompts, visual evidence, key control points, model notes, and reusable workflow logic.
+
+[**Visual Gallery**](./GALLERY.md) · [**Daily Words**](./daily-words/README.md) · [**Browse 30 Cases**](./data/case-index.json) · [**Quick Start**](#quick-start)
+
+> ⭐ **If this library helps your AI visual workflow, Star the repository to follow new cases and reusable skills as they are added.**
+
+- **30 real cases** — finalized visual methods backed by actual generated results.
+- **10 reusable Skills** — production-oriented workflows with routing, consistency rules, and failure checks.
+- **Daily updates** — new “AI Visual Daily Word” experiments are continuously converted into structured Case data when finalized and publication-safe.
 
 ## Visual Case Wall
 
