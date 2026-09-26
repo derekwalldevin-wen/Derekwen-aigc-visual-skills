@@ -8,13 +8,12 @@
 Daily Word → Case → Template → Skill
 ```
 
-## 最新收录 · 2026-09-23
+## 最新收录 · 2026-09-26
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./2026/09/high-signal-two-color-branding.md"><img src="../assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="高信号双色品牌视觉" width="100%"></a><br><b>高信号双色品牌视觉</b></td>
-<td align="center" width="33%"><a href="./2026/09/night-flash-motion-twin.md"><img src="../assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="夜闪拖影双生" width="100%"></a><br><b>夜闪拖影双生</b></td>
-<td align="center" width="33%"><a href="./2026/09/path-narrative-3d-scene.md"><img src="../assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="路径叙事式3D场景" width="100%"></a><br><b>路径叙事式3D场景</b></td>
+<td align="center" width="33%"><a href="./2026/09/graybox-previsualization.md"><img src="../assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b></td>
+<td></td><td></td>
 </tr>
 </table>
 

@@ -3,31 +3,31 @@
   "collection": "DerekWen AIGC Visual Library",
   "source": "data/cases/*.yaml",
   "totals": {
-    "cases": 27,
+    "cases": 30,
     "status": {
       "verified": 10,
-      "tested": 9,
+      "tested": 12,
       "experimental": 8
     },
     "linked_skills": 10,
     "skill_candidates": 8,
     "templates": {
       "published": 0,
-      "proposed_refs": 24
+      "proposed_refs": 27
     },
     "source_types": {
-      "current-daily": 3,
+      "current-daily": 6,
       "recovered-history": 24
     },
     "evidence_confidence": {
-      "high": 20,
+      "high": 23,
       "medium": 7,
       "low": 0
     },
     "dates": {
-      "original_known": 3,
+      "original_known": 6,
       "evidence_precision": {
-        "exact": 18,
+        "exact": 21,
         "month": 2,
         "unknown": 7
       }
@@ -39,19 +39,23 @@
     "branding": 1,
     "camera-perspective": 1,
     "character-consistency": 3,
-    "cinematic": 2,
+    "cinematic": 3,
     "color-system": 1,
     "conceptual-photo": 1,
     "editorial-poster": 2,
+    "fashion-photography": 1,
     "identity-time": 2,
-    "image-control": 1,
+    "image-control": 2,
     "information-design": 2,
     "material-transformation": 2,
+    "multi-reference": 1,
     "night-photography": 1,
+    "optical-refraction": 1,
     "outpainting-story": 1,
     "paper-to-world": 1,
-    "photo-transformation": 7,
-    "portrait-editorial": 1,
+    "photo-transformation": 8,
+    "portrait-editorial": 2,
+    "previsualization": 1,
     "product-visualization": 3,
     "reference-analysis": 1,
     "sketch-to-image": 1,
@@ -60,14 +64,14 @@
     "style-translation": 4,
     "temporal-visualization": 1,
     "twin-poster": 7,
-    "video-generation": 2,
+    "video-generation": 3,
     "worldbuilding": 3
   },
   "rights": {
     "not-applicable-until-asset-recovered": 1,
     "pending": 8,
     "pending-review": 12,
-    "public-safe-ai-generated": 3,
+    "public-safe-ai-generated": 6,
     "public-safe-original-ip": 1,
     "review-ai-generated-assets": 2
   },

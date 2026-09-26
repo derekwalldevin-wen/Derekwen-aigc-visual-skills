@@ -1,0 +1,55 @@
+schema_version: "1.0.0"
+id: "dw-graybox-previsualization"
+title_zh: "灰盒预演"
+title_en: "Graybox Previsualization"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-26"
+  evidence_date: "2026-09-26"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "video-generation"
+  - "previsualization"
+  - "cinematic"
+status: "tested"
+summary: "先用低模和占位体把空间、动作顺序与镜头路径跑通，再让AI补角色、材质与风格，减少视频生成中因机位和调度不清造成的反复重抽。"
+tested_with: []
+core_prompt: |
+  以图1的灰盒预演为唯一镜头与动作参考，生成一段10秒、9:16的电影感视频；严格保留摄像机位置、焦段感与运动路径，人物和道具的位置、比例及朝向，每个动作发生的顺序与时间节点，前景/中景/后景的空间关系，以及遮挡、进出画和镜头停顿；将占位模型替换为完整角色、车辆、建筑和环境，角色身份参考图2、整体风格参考图3；先还原空间与镜头，再增加材质、光影、粒子和环境细节；禁止改变构图、重设计运镜、瞬移、交换动作顺序、擅加环绕镜头、重复角色或漂移物体。
+controls:
+  - "图1只负责空间、机位、镜头路径与动作时序，必须优先锁定"
+  - "保持人物、车辆和道具的相对比例、位置与朝向"
+  - "保持前景、中景、后景及遮挡、进出画关系"
+  - "图2只负责角色身份，不得改变调度"
+  - "图3只负责材质、光线与美术风格，不得重设计镜头"
+  - "先验证空间与动作，再增加纹理、光效、粒子和环境细节"
+extensions:
+  - "追车"
+  - "打斗"
+  - "产品广告"
+  - "一镜到底"
+  - "多镜头短片"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/graybox-previsualization.webp"
+  source_full_resolution: "user-library"
+  note: "Repository preview is a same-day AI-generated tutorial visual selected after public-safety review."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "graybox-previs-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact generation model was not reliably verified, so tested_with is intentionally empty. One generated teaching image containing visible CHANEL branding was excluded from the public repository."

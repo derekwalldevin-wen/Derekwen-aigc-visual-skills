@@ -2,10 +2,10 @@
 
 **德里克文 AIGC 视觉案例库**
 
-当前公开可视化案例：**13 个**  
-其中包括 **10 个 production Skill 示例 + 3 个最新「AI绘画每日一词」Case**。
+当前公开可视化案例：**16 个**  
+其中包括 **10 个 production Skill 示例 + 6 个已发布「AI绘画每日一词」Case**。
 
-> 视觉公开与 Case 数据状态分开管理。仓库目前有 27 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
+> 视觉公开与 Case 数据状态分开管理。仓库目前有 30 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
 
 ## Production Skills · 10
 
@@ -31,20 +31,25 @@
 </tr>
 </table>
 
-## Latest Daily Words · 2026-09-23
+## Published Daily Words · 6
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./daily-words/2026/09/high-signal-two-color-branding.md"><img src="./assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="高信号双色品牌视觉" width="100%"></a><br><b>高信号双色品牌视觉</b><br><sub>High-Signal Two-Color Branding</sub></td>
-<td align="center" width="33%"><a href="./daily-words/2026/09/night-flash-motion-twin.md"><img src="./assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="夜闪拖影双生" width="100%"></a><br><b>夜闪拖影双生</b><br><sub>Night Flash Motion Twin</sub></td>
-<td align="center" width="33%"><a href="./daily-words/2026/09/path-narrative-3d-scene.md"><img src="./assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="路径叙事式3D场景" width="100%"></a><br><b>路径叙事式3D场景</b><br><sub>Path-Narrative 3D Scene</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/high-signal-two-color-branding.md"><img src="./assets/daily-words/2026/09/high-signal-two-color-branding.webp" alt="高信号双色品牌视觉" width="100%"></a><br><b>高信号双色品牌视觉</b><br><sub>2026-09-23</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/night-flash-motion-twin.md"><img src="./assets/daily-words/2026/09/night-flash-motion-twin.webp" alt="夜闪拖影双生" width="100%"></a><br><b>夜闪拖影双生</b><br><sub>2026-09-23</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/path-narrative-3d-scene.md"><img src="./assets/daily-words/2026/09/path-narrative-3d-scene.webp" alt="路径叙事式3D场景" width="100%"></a><br><b>路径叙事式3D场景</b><br><sub>2026-09-23</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/09/glass-layering.md"><img src="./assets/daily-words/2026/09/glass-layering.webp" alt="玻璃错层" width="100%"></a><br><b>玻璃错层</b><br><sub>2026-09-25</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/four-reference-fusion.md"><img src="./assets/daily-words/2026/09/four-image-fusion.webp" alt="四图合一" width="100%"></a><br><b>四图合一</b><br><sub>2026-09-25</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/graybox-previsualization.md"><img src="./assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b><br><sub>2026-09-26</sub></td>
 </tr>
 </table>
 
 ## Data
 
 - [Latest Daily Words](./data/latest.json)
-- [All 27 Case records](./data/case-index.json)
+- [All 30 Case records](./data/case-index.json)
 - [Case statistics](./data/stats.json)
 - [Daily Words](./daily-words/README.md)
 - [Asset licensing](./ASSET-LICENSE.md)

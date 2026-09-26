@@ -152,6 +152,29 @@
     "github_published": false
   },
   {
+    "id": "dw-four-reference-fusion",
+    "title_zh": "四图合一",
+    "title_en": "Four-Reference Fusion",
+    "status": "tested",
+    "category": [
+      "image-control",
+      "multi-reference",
+      "fashion-photography"
+    ],
+    "template": "multi-reference-fusion-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-25",
+    "evidence_date": "2026-09-25",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-geometric-flat-twin-poster",
     "title_zh": "几何平涂双生海报",
     "title_en": "Geometric Flat Twin Poster",
@@ -172,6 +195,52 @@
     "assets_status": "historical-assets-identified",
     "rights_status": "pending-review",
     "github_published": false
+  },
+  {
+    "id": "dw-glass-layering",
+    "title_zh": "玻璃错层",
+    "title_en": "Glass Layering",
+    "status": "tested",
+    "category": [
+      "photo-transformation",
+      "portrait-editorial",
+      "optical-refraction"
+    ],
+    "template": "optical-refraction-photo-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-25",
+    "evidence_date": "2026-09-25",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
+    "id": "dw-graybox-previsualization",
+    "title_zh": "灰盒预演",
+    "title_en": "Graybox Previsualization",
+    "status": "tested",
+    "category": [
+      "video-generation",
+      "previsualization",
+      "cinematic"
+    ],
+    "template": "graybox-previs-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-26",
+    "evidence_date": "2026-09-26",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
   },
   {
     "id": "dw-ground-pressure-sports-poster",
