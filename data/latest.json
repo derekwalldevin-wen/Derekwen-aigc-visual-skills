@@ -1,17 +1,17 @@
 {
   "schema_version": "1.0.0",
   "collection": "DerekWen AIGC Visual Library",
-  "latest_date": "2026-09-26",
+  "latest_date": "2026-09-27",
   "count": 1,
   "cases": [
     {
-      "id": "dw-graybox-previsualization",
-      "title_zh": "灰盒预演",
-      "title_en": "Graybox Previsualization",
-      "date": "2026-09-26",
+      "id": "dw-convex-fisheye-twin",
+      "title_zh": "凸镜鱼眼双生",
+      "title_en": "Convex Fisheye Twin Poster",
+      "date": "2026-09-27",
       "status": "tested",
-      "article": "daily-words/2026/09/graybox-previsualization.md",
-      "preview": "assets/daily-words/2026/09/graybox-previsualization.webp",
+      "article": "daily-words/2026/09/convex-fisheye-twin.md",
+      "preview": "assets/daily-words/2026/09/convex-fisheye-twin.webp",
       "rights_status": "public-safe-ai-generated"
     }
   ]
