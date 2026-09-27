@@ -106,27 +106,36 @@ DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持
 
 ## 快速开始 / Quick Start
 
-**1. Clone**
+### 一条命令安装
+
+本仓库遵循开放 Agent Skills 的 `SKILL.md` 结构。可通过 Skills CLI 安装整套 Skills：
 
 ```bash
-git clone https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills.git
-cd Derekwen-aigc-visual-skills
+npx skills add derekwalldevin-wen/Derekwen-aigc-visual-skills
 ```
 
-**2. 复制一个 Skill**
+也可以只安装单个 Skill：
 
 ```bash
-cp -R skills/day-night-dual-poster ~/.claude/skills/
+npx skills add https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills --skill day-night-dual-poster
 ```
 
-**3. 直接调用**
+然后直接自然语言调用：
 
 ```text
 用 day-night-dual-poster 处理这张图。
 主体和机位保持不变，生成可信的夜景状态。
 ```
 
-其他兼容的 Agent 环境可以直接加载对应目录中的 `SKILL.md`。
+### 手动安装
+
+```bash
+git clone https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills.git
+cd Derekwen-aigc-visual-skills
+cp -R skills/day-night-dual-poster ~/.claude/skills/
+```
+
+其他兼容开放 Agent Skills 标准的环境也可以直接加载对应目录中的 `SKILL.md`。
 
 ## 为什么不是 Prompt 合集？
 

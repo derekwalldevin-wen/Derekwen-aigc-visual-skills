@@ -106,27 +106,36 @@ Turn a character into a reusable identity board with views, expressions, poses, 
 
 ## Quick Start
 
-**1. Clone**
+### One-command install
+
+This repository follows the open Agent Skills `SKILL.md` format. Install the collection with the Skills CLI:
 
 ```bash
-git clone https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills.git
-cd Derekwen-aigc-visual-skills
+npx skills add derekwalldevin-wen/Derekwen-aigc-visual-skills
 ```
 
-**2. Copy one Skill**
+Or install a single Skill:
 
 ```bash
-cp -R skills/day-night-dual-poster ~/.claude/skills/
+npx skills add https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills --skill day-night-dual-poster
 ```
 
-**3. Invoke it**
+Then invoke it naturally:
 
 ```text
 Use day-night-dual-poster on this photo.
 Keep the subject and framing unchanged and create a believable night state.
 ```
 
-Other compatible agent environments can load the corresponding `SKILL.md` directly.
+### Manual install
+
+```bash
+git clone https://github.com/derekwalldevin-wen/Derekwen-aigc-visual-skills.git
+cd Derekwen-aigc-visual-skills
+cp -R skills/day-night-dual-poster ~/.claude/skills/
+```
+
+Other compatible Agent Skills environments can load the corresponding `SKILL.md` directly.
 
 ## Why Skills, not Prompts?
 
