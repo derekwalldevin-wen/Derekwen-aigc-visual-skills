@@ -41,13 +41,13 @@ DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
 
-## 最新每日一词 · 2026-09-26
+## 最新每日一词 · 2026-09-27
 
 当前资料库已收录 **31 条 Case 记录**。以下为最近完成定稿、实际生图并通过公开安全检查的最新每日一词。
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./daily-words/2026/09/graybox-previsualization.md"><img src="./assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b><br><sub>Graybox Previsualization</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/convex-fisheye-twin.md"><img src="./assets/daily-words/2026/09/convex-fisheye-twin.webp" alt="凸镜鱼眼双生" width="100%"></a><br><b>凸镜鱼眼双生</b><br><sub>Convex Fisheye Twin Poster</sub></td>
 <td></td><td></td>
 </tr>
 </table>
