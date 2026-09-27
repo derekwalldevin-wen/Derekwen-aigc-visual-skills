@@ -12,7 +12,7 @@
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-30-6f42c1?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-31-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -20,15 +20,15 @@
 
 </div>
 
-**30 real AIGC cases · 10 reusable Agent Skills · continuously updated**
+**31 real AIGC cases · 10 reusable Agent Skills · continuously updated**
 
 DerekWen AIGC Visual Library is an open-source visual production library built from real image and video experiments. **Not a prompt dump** — published cases preserve final prompts, visual evidence, key control points, model notes, and reusable workflow logic.
 
-[**Visual Gallery**](./GALLERY.md) · [**Daily Words**](./daily-words/README.md) · [**Browse 30 Cases**](./data/case-index.json) · [**Quick Start**](#quick-start)
+[**Visual Gallery**](./GALLERY.md) · [**Daily Words**](./daily-words/README.md) · [**Browse 31 Cases**](./data/case-index.json) · [**Quick Start**](#quick-start)
 
 > ⭐ **If this library helps your AI visual workflow, Star the repository to follow new cases and reusable skills as they are added.**
 
-- **30 real cases** — finalized visual methods backed by actual generated results.
+- **31 real cases** — finalized visual methods backed by actual generated results.
 - **10 reusable Skills** — production-oriented workflows with routing, consistency rules, and failure checks.
 - **Daily updates** — new “AI Visual Daily Word” experiments are continuously converted into structured Case data when finalized and publication-safe.
 
@@ -41,13 +41,13 @@ DerekWen AIGC Visual Library is an open-source visual production library built f
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
 
-## Latest Daily Words · 2026-09-26
+## Latest Daily Words · 2026-09-27
 
-The library now contains **30 Case records**. This is the latest finalized Daily Word with a public-safe generated visual example.
+The library now contains **31 Case records**. This is the latest finalized Daily Word with a public-safe generated visual example.
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./daily-words/2026/09/graybox-previsualization.md"><img src="./assets/daily-words/2026/09/graybox-previsualization.webp" alt="Graybox Previsualization" width="100%"></a><br><b>灰盒预演</b><br><sub>Graybox Previsualization</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/convex-fisheye-twin.md"><img src="./assets/daily-words/2026/09/convex-fisheye-twin.webp" alt="Convex Fisheye Twin Poster" width="100%"></a><br><b>凸镜鱼眼双生</b><br><sub>Convex Fisheye Twin Poster</sub></td>
 <td></td><td></td>
 </tr>
 </table>

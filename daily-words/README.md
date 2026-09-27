@@ -8,11 +8,11 @@
 Daily Word → Case → Template → Skill
 ```
 
-## 最新收录 · 2026-09-26
+## 最新收录 · 2026-09-27
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./2026/09/graybox-previsualization.md"><img src="../assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b></td>
+<td align="center" width="33%"><a href="./2026/09/convex-fisheye-twin.md"><img src="../assets/daily-words/2026/09/convex-fisheye-twin.webp" alt="凸镜鱼眼双生" width="100%"></a><br><b>凸镜鱼眼双生</b></td>
 <td></td><td></td>
 </tr>
 </table>
