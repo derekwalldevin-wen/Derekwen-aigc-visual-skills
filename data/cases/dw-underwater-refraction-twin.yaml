@@ -14,7 +14,7 @@ evidence:
   prompt: "confirmed-final"
   assets: "confirmed"
 published:
-  social: true
+  social: false
   github: false
 category:
   - "twin-poster"
@@ -24,28 +24,32 @@ status: "tested"
 summary: "保持同一主体、动作、场景和机位，用真实水面折射、波纹光、水下颗粒和轻微漂浮感，把普通照片扩展成可信的水下双生画面。"
 tested_with: []
 core_prompt: |
-  基于上传照片制作 3:4 竖版「水下折光双生」海报，画面上下 1:1 分割。
-  上半保留原始照片。
-  下半保持同一人物、同一张脸、同一服装、同一动作、同一场景和同一构图，重构为真实水下摄影。加入 water refraction、caustic light、underwater lighting、floating particles、subtle bubbles。
-  禁止换脸、换动作、换场景、纯蓝滤镜、卡通水感、夸张特效和明显 AI 感。
+  请基于我上传的照片，制作一张独立的 3:4 竖版「水下折光双生」海报，画面上下严格 1:1 分割。
+  上半保留原始照片，只做轻微统一调色，不改变人物、脸、动作、服装、场景、机位和构图。
+  下半保持同一人物身份、五官、发型、服装、动作、姿态、主体位置、场景结构和构图不变，将画面重构为真实水下摄影。加入真实水面折射、蓝绿色水下光、caustic 波纹光、细小自然气泡、轻微漂浮感、柔和水体景深和真实水下悬浮颗粒。水光要贴合皮肤、衣物和场景表面，脸部与核心轮廓保持清晰。
+  禁止换脸、改动作、换场景、只加纯蓝滤镜、卡通水波、夸张特效和明显 AI 感。
 controls:
-  - "主体身份、五官、动作、服装、场景和构图保持一致"
-  - "水光贴合皮肤、衣物、墙面或产品表面"
-  - "漂浮感保持克制"
-  - "避免只加蓝色滤镜"
-  - "原图越干净、主体越清楚越稳定"
+  - "先保证脸部与主体身份清晰，再增加水感"
+  - "caustic 水光要贴合皮肤、衣物或物体轮廓"
+  - "头发、衣摆、气泡与悬浮颗粒保持轻微自然"
+  - "避免用纯蓝滤镜代替真实折射与水下光线变化"
+  - "原图背景干净、主体清楚时更稳定"
 extensions:
   - "人物照"
   - "旅行照"
   - "情侣照"
   - "产品照"
-assets_status: "source-verified-upload-pending"
+assets:
+  status: "public-preview-selected"
+  source_full_resolution: "user-library"
+  note: "已选定当天生成的无品牌产品版本作为公开预览候选。人物与旅行版本因来源人物/原始照片权属未充分确认，不进入公开仓库。"
+assets_status: "public-preview-selected"
 rights_status: "public-safe-ai-generated"
 references: []
 template:
-  id: "twin-poster-base"
+  id: "optical-refraction-photo-base"
   status: "proposed"
 skill:
   id: null
-  candidate: "underwater-refraction-twin"
-notes: "当天已完成 6 张 AI 生成图片并完成公开安全检查；当前 GitHub 连接无法写入二进制图片，因此暂不把 github 标记为已发布，也不使用占位图。测试模型未可靠记录，tested_with 保持为空。"
+  candidate: null
+notes: "当天共检查 6 张生成图；测试模型未可靠记录，tested_with 保持为空。公开安全预览已经选定，但当前 GitHub 连接无法写入二进制图片，因此 published.github 暂保持 false，且不使用占位图。"

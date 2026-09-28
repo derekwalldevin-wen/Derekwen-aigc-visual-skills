@@ -3,10 +3,10 @@
   "collection": "DerekWen AIGC Visual Library",
   "source": "data/cases/*.yaml",
   "totals": {
-    "cases": 30,
+    "cases": 31,
     "status": {
       "verified": 10,
-      "tested": 12,
+      "tested": 13,
       "experimental": 8
     },
     "linked_skills": 10,
@@ -16,18 +16,18 @@
       "proposed_refs": 27
     },
     "source_types": {
-      "current-daily": 6,
+      "current-daily": 7,
       "recovered-history": 24
     },
     "evidence_confidence": {
-      "high": 23,
+      "high": 24,
       "medium": 7,
       "low": 0
     },
     "dates": {
-      "original_known": 6,
+      "original_known": 7,
       "evidence_precision": {
-        "exact": 21,
+        "exact": 22,
         "month": 2,
         "unknown": 7
       }
@@ -50,10 +50,10 @@
     "material-transformation": 2,
     "multi-reference": 1,
     "night-photography": 1,
-    "optical-refraction": 1,
+    "optical-refraction": 2,
     "outpainting-story": 1,
     "paper-to-world": 1,
-    "photo-transformation": 8,
+    "photo-transformation": 9,
     "portrait-editorial": 2,
     "previsualization": 1,
     "product-visualization": 3,
@@ -63,7 +63,7 @@
     "sports-visual": 1,
     "style-translation": 4,
     "temporal-visualization": 1,
-    "twin-poster": 7,
+    "twin-poster": 8,
     "video-generation": 3,
     "worldbuilding": 3
   },
@@ -71,7 +71,7 @@
     "not-applicable-until-asset-recovered": 1,
     "pending": 8,
     "pending-review": 12,
-    "public-safe-ai-generated": 6,
+    "public-safe-ai-generated": 7,
     "public-safe-original-ip": 1,
     "review-ai-generated-assets": 2
   },
