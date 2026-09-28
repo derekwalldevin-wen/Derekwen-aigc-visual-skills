@@ -1,0 +1,51 @@
+schema_version: "1.0.0"
+id: "dw-underwater-refraction-twin"
+title_zh: "水下折光双生"
+title_en: "Underwater Refraction Twin"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-28"
+  evidence_date: "2026-09-28"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: true
+  github: false
+category:
+  - "twin-poster"
+  - "photo-transformation"
+  - "optical-refraction"
+status: "tested"
+summary: "保持同一主体、动作、场景和机位，用真实水面折射、波纹光、水下颗粒和轻微漂浮感，把普通照片扩展成可信的水下双生画面。"
+tested_with: []
+core_prompt: |
+  基于上传照片制作 3:4 竖版「水下折光双生」海报，画面上下 1:1 分割。
+  上半保留原始照片。
+  下半保持同一人物、同一张脸、同一服装、同一动作、同一场景和同一构图，重构为真实水下摄影。加入 water refraction、caustic light、underwater lighting、floating particles、subtle bubbles。
+  禁止换脸、换动作、换场景、纯蓝滤镜、卡通水感、夸张特效和明显 AI 感。
+controls:
+  - "主体身份、五官、动作、服装、场景和构图保持一致"
+  - "水光贴合皮肤、衣物、墙面或产品表面"
+  - "漂浮感保持克制"
+  - "避免只加蓝色滤镜"
+  - "原图越干净、主体越清楚越稳定"
+extensions:
+  - "人物照"
+  - "旅行照"
+  - "情侣照"
+  - "产品照"
+assets_status: "source-verified-upload-pending"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "twin-poster-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "underwater-refraction-twin"
+notes: "当天已完成 6 张 AI 生成图片并完成公开安全检查；当前 GitHub 连接无法写入二进制图片，因此暂不把 github 标记为已发布，也不使用占位图。测试模型未可靠记录，tested_with 保持为空。"
