@@ -15,7 +15,7 @@ evidence:
   assets: "confirmed"
 published:
   social: false
-  github: true
+  github: false
 category:
   - "twin-poster"
   - "photo-transformation"
@@ -46,9 +46,9 @@ extensions:
   - "美食照片"
 assets:
   status: "public-preview-ready"
-  preview: "assets/daily-words/2026/09/giant-scale-twin.webp"
+  preview: null
   source_full_resolution: "user-library"
-  note: "Repository preview was selected from the same-day AI-generated standalone demo set after public-safety review."
+  note: "Two same-day unbranded AI-generated standalone demos passed public-safety review. Binary asset upload was blocked by the current GitHub connector, so no placeholder or substitute asset was published."
 assets_status: "public-preview-ready"
 rights_status: "public-safe-ai-generated"
 references: []
