@@ -488,6 +488,29 @@
     "github_published": false
   },
   {
+    "id": "dw-seamless-pattern-tiling",
+    "title_zh": "无缝接花",
+    "title_en": "Seamless Pattern Tiling",
+    "status": "experimental",
+    "category": [
+      "pattern-design",
+      "surface-pattern",
+      "image-control"
+    ],
+    "template": "seamless-pattern-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-01",
+    "evidence_date": "2026-10-01",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "medium",
+    "assets_status": "public-safe-assets-upload-blocked",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": false
+  },
+  {
     "id": "dw-shadow-theater-twin-poster",
     "title_zh": "影子剧场双生海报",
     "title_en": "Shadow Theater Twin Poster",
