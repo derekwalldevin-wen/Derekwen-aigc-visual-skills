@@ -354,6 +354,29 @@
     "github_published": false
   },
   {
+    "id": "dw-negative-space-imaging",
+    "title_zh": "空隙成像",
+    "title_en": "Negative-Space Imaging",
+    "status": "tested",
+    "category": [
+      "negative-space",
+      "graphic-design",
+      "image-control"
+    ],
+    "template": "negative-space-composition-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-02",
+    "evidence_date": "2026-10-02",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "medium",
+    "assets_status": "public-safe-assets-upload-blocked",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": false
+  },
+  {
     "id": "dw-night-flash-motion-twin",
     "title_zh": "夜闪拖影双生",
     "title_en": "Night Flash Motion Twin",
