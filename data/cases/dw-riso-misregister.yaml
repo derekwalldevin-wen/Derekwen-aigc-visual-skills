@@ -1,0 +1,56 @@
+schema_version: "1.0.0"
+id: "dw-riso-misregister"
+title_zh: "孔版错印"
+title_en: "Risograph Misregistration"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-03"
+  evidence_date: "2026-10-03"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "photo-transformation"
+  - "style-translation"
+  - "editorial-poster"
+  - "print-simulation"
+status: "tested"
+summary: "把普通照片压缩为2—3种专色油墨，通过可见网点、纸张吸墨与克制的套印错位，生成具有真实孔版印刷触感的视觉效果，同时锁定主体身份和构图。"
+tested_with: []
+core_prompt: |
+  上传图1作为主体与构图的唯一参考。将图1转换为一张3:4竖版孔版印刷风格作品。准确保留原图中的人物身份、五官轮廓、发型、服装、姿态、主体数量及主要构图关系，只改变画面的印刷媒介与色彩表现。将照片压缩成2—3种高饱和专色油墨，例如荧光红、钴蓝与暖黄。分别用不同色层表现高光、中间调与阴影，色层重叠处自然形成新的混合颜色。使用清晰可见的半调网点、颗粒排线、粗糙色块边缘和局部油墨渗透。不同油墨层之间保留轻微套印偏移，让人物轮廓和物体边缘出现克制的红蓝错位。背景采用带有细微纤维、压痕与吸墨痕迹的暖白色纸张。整体像真实孔版印刷成品，颜色直接、层次简洁，同时保证人物脸部和主体结构仍然清楚可辨。禁止改变人物身份、重组服装、增加人物、破坏主体结构、大面积错位、数字故障、霓虹发光、塑料质感、复杂渐变、拼贴、边框、文字、Logo和水印。
+controls:
+  - "先锁定主体身份、主体数量与原始构图，再改变印刷媒介"
+  - "颜色控制在2—3种高饱和专色，避免复杂渐变和过多色阶"
+  - "半调网点必须可见，但不能糊掉人物五官和主体轮廓"
+  - "套印偏移只出现在边缘并保持轻微，避免演变成数字故障"
+  - "加入纸张纤维、压痕、吸墨和渗墨，让结果更接近真实印刷品"
+extensions:
+  - "人像"
+  - "建筑"
+  - "食物"
+  - "宠物"
+  - "产品"
+  - "国风"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/10/riso-misregister.webp"
+  source_full_resolution: "user-library"
+  note: "Three same-day AI-generated tutorial/example images passed public-safety review; one canonical repository preview is committed and full-resolution sources remain in the user Library."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "riso-misregister-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact generation model was not reliably verified, so tested_with is intentionally empty."
