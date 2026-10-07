@@ -15,7 +15,7 @@ evidence:
   assets: "confirmed"
 published:
   social: false
-  github: false
+  github: true
 category:
   - "negative-space"
   - "graphic-design"
@@ -37,10 +37,10 @@ extensions:
   - "花瓣水滴"
 assets:
   status: "public-safe-local-assets-ready"
-  preview: null
+  preview: "assets/daily-words/2026/10/negative-space-imaging.webp"
   source_full_resolution: "user-library"
-  note: "Same-day revised set contains six AI-generated tutorial/example images. All six passed public-safety review, but binary repository upload was blocked in this run."
-assets_status: "public-safe-assets-upload-blocked"
+  note: "Same-day revised set contains six AI-generated tutorial/example images. All six passed public-safety review, and the canonical preview is published in the repository."
+assets_status: "public-preview-ready"
 rights_status: "public-safe-ai-generated"
 references: []
 template:
