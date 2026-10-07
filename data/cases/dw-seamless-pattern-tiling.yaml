@@ -15,7 +15,7 @@ evidence:
   assets: "confirmed"
 published:
   social: false
-  github: false
+  github: true
 category: ["pattern-design", "surface-pattern", "image-control"]
 status: "experimental"
 summary: "先固定一组元素，再检查边缘衔接、色差与重复密度。"
@@ -29,8 +29,8 @@ controls:
 extensions: ["柠檬白花", "海边贝壳", "咖啡叶枝"]
 assets:
   status: "public-safe-local-assets-ready"
-  preview: null
-assets_status: "public-safe-assets-upload-blocked"
+  preview: "assets/daily-words/2026/10/seamless-pattern-tiling.webp"
+assets_status: "public-preview-ready"
 rights_status: "public-safe-ai-generated"
 references: []
 template:
