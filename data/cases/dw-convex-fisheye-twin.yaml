@@ -1,0 +1,70 @@
+schema_version: "1.0.0"
+id: "dw-convex-fisheye-twin"
+title_zh: "凸镜鱼眼双生"
+title_en: "Convex Fisheye Twin Poster"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-27"
+  evidence_date: "2026-09-27"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "twin-poster"
+  - "photo-transformation"
+  - "camera-perspective"
+status: "tested"
+summary: "锁定同一主体、身份、服装、动作与地点，把环境重构为真实8mm极端鱼眼或圆形凸面镜透视；中心主体保持稳定，球面畸变随画面边缘增强。"
+tested_with: []
+core_prompt: |
+  请基于我上传的照片，制作一张独立的3:4竖版「凸镜鱼眼双生」海报，画面上下严格1:1分割。
+
+  上半：完整保留原始照片，仅轻微统一调色。
+
+  下半：严格保持同一人物、同一张脸、同一服装、同一动作、同一地点和主体身份，将同一场景重构为真实8mm极端鱼眼 / 圆形凸面镜摄影。
+
+  要求：
+  - 主体位于画面中心
+  - 人脸保持准确，不拉坏五官
+  - 建筑、道路、天空和环境向边缘自然弯曲
+  - 越靠近边缘，球面透视越明显
+  - 保留真实镜面高光、边缘暗角和空间畸变
+  - 整体像真实鱼眼镜头拍摄，不是液化特效
+
+  禁止：换脸、换衣、换地点、复制人物、拉坏身体、随机扭曲物体、超现实融化、明显AI感。
+controls:
+  - "主体尽量保持在画面中心，优先保护脸型、五官和身份辨识度"
+  - "同一人物、同一张脸、同一服装、同一动作和同一地点必须保持"
+  - "畸变主要作用于环境；主体身份锁定，环境产生鱼眼畸变"
+  - "使用真实8mm fisheye / spherical distortion / circular perspective，而不是随机液化"
+  - "越靠近边缘球面透视越强，画面中心保持相对稳定"
+  - "保留真实镜面高光、边缘暗角和空间畸变，避免超现实融化与明显AI感"
+extensions:
+  - "人物街拍"
+  - "旅行照片"
+  - "汽车照片"
+  - "宠物照片"
+  - "产品照片"
+  - "圆形凸面镜版本"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/09/convex-fisheye-twin.webp"
+  source_full_resolution: "user-library"
+  note: "Repository preview is a same-day AI-generated tutorial cover selected after public-safety review. A branded product teaching card was excluded from publication because third-party trademark/asset rights were not sufficiently clear."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "twin-poster-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact image-generation model was not reliably verified, so tested_with is intentionally empty. No SKILL.md logic was changed."
