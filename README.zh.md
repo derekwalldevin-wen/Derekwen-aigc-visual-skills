@@ -12,7 +12,7 @@
 
 ![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-30-6f42c1?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-39-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -20,15 +20,15 @@
 
 </div>
 
-**30 个真实 AIGC 案例 · 10 个可复用 Agent Skills · 持续更新**
+**39 个真实 AIGC 案例 · 10 个可复用 Agent Skills · 持续更新**
 
 DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持续生长的开源视觉生产资料库。**它不是提示词仓库**：每个正式案例尽量保留最终提示词、实际生成结果、关键控制点、模型记录与可复用工作流逻辑。
 
-[**完整视觉 Gallery**](./GALLERY.md) · [**AI 绘画每日一词**](./daily-words/README.md) · [**浏览 30 条 Case**](./data/case-index.json) · [**快速开始**](#快速开始--quick-start)
+[**完整视觉 Gallery**](./GALLERY.md) · [**AI 绘画每日一词**](./daily-words/README.md) · [**浏览 39 条 Case**](./data/case-index.json) · [**快速开始**](#快速开始--quick-start)
 
 > ⭐ **如果这个资料库对你的 AI 视觉创作有帮助，可以点一个 Star，把它当成一个持续更新的视觉工作流收藏夹。**
 
-- **30 个真实 Case** —— 来自已经完成并实际生成结果的视觉方法，而不是只写了提示词的概念稿。
+- **39 个真实 Case** —— 来自已经完成并实际生成结果的视觉方法，而不是只写了提示词的概念稿。
 - **10 个可复用 Skills** —— 包含任务路由、一致性控制、失败检查与实际交付逻辑。
 - **持续日更** —— 新的“AI 绘画每日一词”在完成定稿、生图与公开安全检查后，会继续沉淀为结构化 Case。
 
@@ -41,14 +41,15 @@ DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
 </table>
 
-## 最新每日一词 · 2026-09-26
+## 最新每日一词 · 2026-10-04
 
-当前资料库已收录 **30 条 Case 记录**。以下为最近完成定稿、实际生图并通过公开安全检查的最新每日一词。
+当前资料库已收录 **39 条 Case 记录**。以下为最近完成定稿、实际生图并通过公开安全检查的最新每日一词。
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./daily-words/2026/09/graybox-previsualization.md"><img src="./assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b><br><sub>Graybox Previsualization</sub></td>
-<td></td><td></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/frozen-suspension-twin.md"><img src="./assets/daily-words/2026/10/frozen-suspension-twin.webp" alt="凝时悬浮双生" width="100%"></a><br><b>凝时悬浮双生</b><br><sub>Frozen Suspension Twin</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/white-line-fairy.md"><img src="./assets/daily-words/2026/10/white-line-fairy.webp" alt="白线童话" width="100%"></a><br><b>白线童话</b><br><sub>White-Line Fairy</sub></td>
+<td></td>
 </tr>
 </table>
 
