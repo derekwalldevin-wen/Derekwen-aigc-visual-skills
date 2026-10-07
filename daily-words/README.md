@@ -8,12 +8,13 @@
 Daily Word → Case → Template → Skill
 ```
 
-## 最新收录 · 2026-09-26
+## 最新收录 · 2026-10-04
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="./2026/09/graybox-previsualization.md"><img src="../assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b></td>
-<td></td><td></td>
+<td align="center" width="33%"><a href="./2026/10/frozen-suspension-twin.md"><img src="../assets/daily-words/2026/10/frozen-suspension-twin.webp" alt="凝时悬浮双生" width="100%"></a><br><b>凝时悬浮双生</b></td>
+<td align="center" width="33%"><a href="./2026/10/white-line-fairy.md"><img src="../assets/daily-words/2026/10/white-line-fairy.webp" alt="白线童话" width="100%"></a><br><b>白线童话</b></td>
+<td></td>
 </tr>
 </table>
 
