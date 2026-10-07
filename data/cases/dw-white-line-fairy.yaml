@@ -1,0 +1,57 @@
+schema_version: "1.0.0"
+id: "dw-white-line-fairy"
+title_zh: "白线童话"
+title_en: "White-Line Fairy"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-04"
+  evidence_date: "2026-10-04"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "partial"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "conceptual-photo"
+  - "style-translation"
+  - "photo-transformation"
+status: "tested"
+summary: "把粗白线绘制的极简童话角色嵌入真实摄影场景，角色内部保持透明，让真实环境透过去，再通过遮挡、接触和光线建立可信的互动关系。"
+tested_with: []
+core_prompt: |
+  在真实摄影场景中加入一个由粗白线完整绘制的极简童话角色。角色内部不填色，保持透明，让真实背景能够从角色内部透出；只有白色轮廓线带非常轻微的柔光。
+
+  角色必须与真实场景发生明确物理互动，例如坐在窗台、握住真实杯子、触碰真实萤火虫或把真实布艺星星放在枕边。接触点、遮挡关系、重量感、透视和环境光必须可信。
+
+  画面保持真实摄影质感，色彩克制温暖，可加入少量与场景相关的微小光点或环境细节。禁止把角色做成白色贴纸、实心剪影、霓虹灯管、发光边框，也不要加入文字、Logo或额外装饰框。
+controls:
+  - "角色整体由粗白线绘制，内部不填色并保持透明"
+  - "只有白色轮廓线允许轻微柔光，避免霓虹和贴纸感"
+  - "角色必须与真实物体产生接触、遮挡和重量关系"
+  - "真实场景保持摄影质感，角色不应破坏原有透视和光线"
+  - "浮动细节保持少量且与场景相关，避免粒子堆砌"
+  - "禁止文字、Logo、额外边框和实心白色区域"
+extensions:
+  - "雨窗热杯"
+  - "花园来客"
+  - "枕边好梦"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/10/white-line-fairy.webp"
+  source_full_resolution: "user-library"
+  note: "Canonical preview uses the finalized same-day Rainy Window Hot Cup generated example. Exact prompts for three finalized directions were recovered from the user Library."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "white-line-character-integration-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact prompts for three finalized images were verified from the user Library. The final social caption was not recovered as a complete source, so article evidence remains partial. Exact generation model was not reliably verified."
