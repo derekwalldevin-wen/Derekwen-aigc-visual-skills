@@ -1,0 +1,55 @@
+schema_version: "1.0.0"
+id: "dw-one-line-filter-builder"
+title_zh: "一句话造滤镜"
+title_en: "One-Line Filter Builder"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-03"
+  evidence_date: "2026-10-03"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "visual-tool-generation"
+  - "image-control"
+  - "interface-design"
+status: "experimental"
+summary: "把视觉需求写成一段可执行的小应用规格，让AI生成能够上传图片、实时调节参数、对比预览并导出结果的滤镜工具，将一次性生成扩展为可反复使用的视觉工作流。"
+tested_with: []
+core_prompt: |
+  请创建一个可直接运行的单页视觉滤镜应用，名称为「孔版印刷机」。用户可以上传JPG或PNG图片，应用实时将图片转换为2—4色孔版印刷效果。提供以下可调参数：油墨颜色、色彩数量、明暗阈值、网点大小、套印偏移、纸张颗粒和效果强度。所有参数调整后立即更新预览。提供原图对比、随机配色、恢复默认和下载PNG按钮，导出图片保持原始尺寸与清晰度。界面使用简洁的中文编辑器设计：中央显示大幅效果预览，参数集中排列，当前数值清楚可见，同时适配电脑与手机操作。图片只在浏览器本地处理，不上传服务器。确保所有按钮与滑块真实可用，参数变化能够明显反映在图像上。禁止只制作静态界面、虚假按钮、无法导出、拉伸原图和模糊预览。
+controls:
+  - "先写清工具名称与用途，明确目标是可运行工具"
+  - "明确支持的上传图片类型和本地处理边界"
+  - "把视觉转换规则与允许调节的参数逐项写清"
+  - "参数变化应即时反馈，并保留原图对比能力"
+  - "随机配色、恢复默认、下载PNG等功能需要真实可用"
+  - "避免静态界面、虚假按钮、拉伸原图和模糊预览"
+extensions:
+  - "水彩滤镜"
+  - "漫画滤镜"
+  - "海报滤镜"
+  - "高对比黑白"
+  - "像素滤镜"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/10/one-line-filter-builder.webp"
+  source_full_resolution: "user-library"
+  note: "Six same-day AI-generated tutorial/example images passed public-safety review; one canonical repository preview is committed and full-resolution sources remain in the user Library."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "prompt-to-filter-tool-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact generation model was not reliably verified, so tested_with is intentionally empty. Visual tutorial assets are confirmed; runtime behavior of a generated app was not independently verified, so method maturity remains experimental."

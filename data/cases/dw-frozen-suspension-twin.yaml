@@ -1,0 +1,61 @@
+schema_version: "1.0.0"
+id: "dw-frozen-suspension-twin"
+title_zh: "凝时悬浮双生"
+title_en: "Frozen Suspension Twin"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-04"
+  evidence_date: "2026-10-04"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "twin-poster"
+  - "photo-transformation"
+  - "temporal-visualization"
+status: "tested"
+summary: "锁定同一主体、身份、服装、动作、地点和镜头，只把正在运动的水、雨、花瓣、液体、发丝、衣摆等元素冻结成高速摄影般的悬浮瞬间。"
+tested_with: []
+core_prompt: |
+  基于用户上传的原始照片，制作一张独立的3:4竖版「凝时悬浮双生」海报，画面上下严格1:1硬分割。
+
+  上半：完整保留原始照片，只做轻微统一调色，不改变人物、产品、场景、机位或动作。
+
+  下半：严格保持同一主体、同一张脸、同一服装、同一动作、同一地点、同一机位和同一构图，只把画面中正在运动的元素冻结在最有张力的一瞬间。雨滴、水花、咖啡液、花瓣、粉末、冰块、发丝或衣摆可以悬停在空中，呈现真实高速摄影 / high-speed photography 的时间冻结效果。
+
+  所有悬浮元素必须有明确来源、运动轨迹、重力关系、透视、遮挡和景深，保持真实摄影质感。禁止换脸、换衣、换动作、换场景、复制人物、随机生成无来源粒子、运动模糊、夸张魔法特效和明显AI感。
+controls:
+  - "同一主体、身份、服装、动作、地点、机位和构图必须保持"
+  - "只冻结原场景中合理存在的动态元素，不凭空增加无来源粒子"
+  - "悬浮元素需要符合来源、轨迹、重力、透视、遮挡与景深"
+  - "使用高速摄影式时间冻结，不使用运动模糊或魔法化特效"
+  - "上下两部分保持严格硬分割，人物与物体不得跨越分割线"
+  - "优先保护脸型、产品结构和主体辨识度"
+extensions:
+  - "雨天街拍"
+  - "旅行照片"
+  - "咖啡与食物"
+  - "产品摄影"
+  - "运动瞬间"
+assets:
+  status: "public-preview-ready"
+  preview: "assets/daily-words/2026/10/frozen-suspension-twin.webp"
+  source_full_resolution: "user-library"
+  note: "Canonical preview uses a same-day AI-generated coffee and tiramisu time-freeze example without identifiable real people or third-party branding."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "twin-poster-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact generation model was not reliably verified, so tested_with is intentionally empty. No SKILL.md logic was changed."

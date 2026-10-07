@@ -1,0 +1,52 @@
+schema_version: "1.0.0"
+id: "dw-negative-space-imaging"
+title_zh: "空隙成像"
+title_en: "Negative-Space Imaging"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-02"
+  evidence_date: "2026-10-02"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "partial"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category:
+  - "negative-space"
+  - "graphic-design"
+  - "image-control"
+status: "tested"
+summary: "利用正形之间的背景空隙构成可识别负形，让未被直接绘制的区域成为画面主角。"
+tested_with: []
+core_prompt: |
+  先选简单剪影，再安排两侧形状；让中间空隙与背景同色，只保留隐藏形象最关键的轮廓。通过实体边缘共同定义负形，让主角从空隙里出现。
+controls:
+  - "先选轮廓简单、辨识度高的隐藏形象"
+  - "实体是正形，空隙是负形，负形必须能独立读出来"
+  - "空隙与背景保持同色，避免额外描边破坏负形"
+  - "两侧实体共同控制轮廓，只保留关键识别特征"
+  - "缩小画面检查隐藏形象是否仍然清楚"
+extensions:
+  - "叶片飞鸟"
+  - "波浪小鱼"
+  - "花瓣水滴"
+assets:
+  status: "public-safe-local-assets-ready"
+  preview: "assets/daily-words/2026/10/negative-space-imaging.webp"
+  source_full_resolution: "user-library"
+  note: "Same-day revised set contains six AI-generated tutorial/example images. All six passed public-safety review, and the canonical preview is published in the repository."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "negative-space-composition-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "The complete final social caption, exact full prompt, and generation model were not reliably recoverable from today's records. core_prompt preserves only control wording supported by the finalized tutorial visuals; tested_with is intentionally empty."

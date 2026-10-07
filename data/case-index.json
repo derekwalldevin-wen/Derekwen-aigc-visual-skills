@@ -65,6 +65,29 @@
     "github_published": false
   },
   {
+    "id": "dw-convex-fisheye-twin",
+    "title_zh": "凸镜鱼眼双生",
+    "title_en": "Convex Fisheye Twin Poster",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "photo-transformation",
+      "camera-perspective"
+    ],
+    "template": "twin-poster-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-27",
+    "evidence_date": "2026-09-27",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-cross-age-gaze",
     "title_zh": "跨龄对视",
     "title_en": "Cross-age Gaze",
@@ -175,6 +198,29 @@
     "github_published": true
   },
   {
+    "id": "dw-frozen-suspension-twin",
+    "title_zh": "凝时悬浮双生",
+    "title_en": "Frozen Suspension Twin",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "photo-transformation",
+      "temporal-visualization"
+    ],
+    "template": "twin-poster-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-04",
+    "evidence_date": "2026-10-04",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-geometric-flat-twin-poster",
     "title_zh": "几何平涂双生海报",
     "title_en": "Geometric Flat Twin Poster",
@@ -195,6 +241,28 @@
     "assets_status": "historical-assets-identified",
     "rights_status": "pending-review",
     "github_published": false
+  },
+  {
+    "id": "dw-giant-scale-twin",
+    "title_zh": "巨物尺度双生",
+    "title_en": "Giant-Scale Twin",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "photo-transformation"
+    ],
+    "template": "twin-poster-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-29",
+    "evidence_date": "2026-09-29",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
   },
   {
     "id": "dw-glass-layering",
@@ -354,6 +422,29 @@
     "github_published": false
   },
   {
+    "id": "dw-negative-space-imaging",
+    "title_zh": "空隙成像",
+    "title_en": "Negative-Space Imaging",
+    "status": "tested",
+    "category": [
+      "negative-space",
+      "graphic-design",
+      "image-control"
+    ],
+    "template": "negative-space-composition-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-02",
+    "evidence_date": "2026-10-02",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "medium",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-night-flash-motion-twin",
     "title_zh": "夜闪拖影双生",
     "title_en": "Night Flash Motion Twin",
@@ -370,6 +461,29 @@
     "source_type": "current-daily",
     "original_date": "2026-09-23",
     "evidence_date": "2026-09-23",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
+    "id": "dw-one-line-filter-builder",
+    "title_zh": "一句话造滤镜",
+    "title_en": "One-Line Filter Builder",
+    "status": "experimental",
+    "category": [
+      "visual-tool-generation",
+      "image-control",
+      "interface-design"
+    ],
+    "template": "prompt-to-filter-tool-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-03",
+    "evidence_date": "2026-10-03",
     "evidence_date_precision": "exact",
     "evidence_confidence": "high",
     "assets_status": "public-preview-ready",
@@ -486,6 +600,53 @@
     "assets_status": "historical-assets-identified",
     "rights_status": "pending-review",
     "github_published": false
+  },
+  {
+    "id": "dw-riso-misregister",
+    "title_zh": "孔版错印",
+    "title_en": "Risograph Misregistration",
+    "status": "tested",
+    "category": [
+      "photo-transformation",
+      "style-translation",
+      "editorial-poster",
+      "print-simulation"
+    ],
+    "template": "riso-misregister-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-03",
+    "evidence_date": "2026-10-03",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
+    "id": "dw-seamless-pattern-tiling",
+    "title_zh": "无缝接花",
+    "title_en": "Seamless Pattern Tiling",
+    "status": "experimental",
+    "category": [
+      "pattern-design",
+      "surface-pattern",
+      "image-control"
+    ],
+    "template": "seamless-pattern-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-01",
+    "evidence_date": "2026-10-01",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "medium",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
   },
   {
     "id": "dw-shadow-theater-twin-poster",
@@ -642,6 +803,29 @@
     "github_published": false
   },
   {
+    "id": "dw-underwater-refraction-twin",
+    "title_zh": "水下折光双生",
+    "title_en": "Underwater Refraction Twin",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "photo-transformation",
+      "optical-refraction"
+    ],
+    "template": "optical-refraction-photo-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-09-28",
+    "evidence_date": "2026-09-28",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-selected",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
+  },
+  {
     "id": "dw-visual-dna-reveal",
     "title_zh": "视觉 DNA 显影",
     "title_en": "Visual DNA Reveal",
@@ -662,5 +846,28 @@
     "assets_status": "historical-assets-to-recover",
     "rights_status": "pending-review",
     "github_published": false
+  },
+  {
+    "id": "dw-white-line-fairy",
+    "title_zh": "白线童话",
+    "title_en": "White-Line Fairy",
+    "status": "tested",
+    "category": [
+      "conceptual-photo",
+      "style-translation",
+      "photo-transformation"
+    ],
+    "template": "white-line-character-integration-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-04",
+    "evidence_date": "2026-10-04",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "public-preview-ready",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": true
   }
 ]

@@ -1,0 +1,42 @@
+schema_version: "1.0.0"
+id: "dw-seamless-pattern-tiling"
+title_zh: "无缝接花"
+title_en: "Seamless Pattern Tiling"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-01"
+  evidence_date: "2026-10-01"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "partial"
+  assets: "confirmed"
+published:
+  social: false
+  github: true
+category: ["pattern-design", "surface-pattern", "image-control"]
+status: "experimental"
+summary: "先固定一组元素，再检查边缘衔接、色差与重复密度。"
+tested_with: []
+core_prompt: "元素使用【主题元素】；大小错落、间距均匀；平面满版，不设置中心主角；上下对应、左右衔接；先生成单元，再检查拼接、断枝、色差和重复密度。"
+controls:
+  - "先定元素，再做连续纹样"
+  - "上下对应，左右衔接"
+  - "改尺寸后再检查一次"
+  - "当天接缝图为示意图，未做实测"
+extensions: ["柠檬白花", "海边贝壳", "咖啡叶枝"]
+assets:
+  status: "public-safe-local-assets-ready"
+  preview: "assets/daily-words/2026/10/seamless-pattern-tiling.webp"
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "seamless-pattern-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "当天6张图均为AI生成，无可识别真人或第三方品牌；生成模型未可靠确认。"
