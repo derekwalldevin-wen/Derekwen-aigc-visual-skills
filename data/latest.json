@@ -1,17 +1,27 @@
 {
   "schema_version": "1.0.0",
   "collection": "DerekWen AIGC Visual Library",
-  "latest_date": "2026-09-26",
-  "count": 1,
+  "latest_date": "2026-10-04",
+  "count": 2,
   "cases": [
     {
-      "id": "dw-graybox-previsualization",
-      "title_zh": "灰盒预演",
-      "title_en": "Graybox Previsualization",
-      "date": "2026-09-26",
+      "id": "dw-frozen-suspension-twin",
+      "title_zh": "凝时悬浮双生",
+      "title_en": "Frozen Suspension Twin",
+      "date": "2026-10-04",
       "status": "tested",
-      "article": "daily-words/2026/09/graybox-previsualization.md",
-      "preview": "assets/daily-words/2026/09/graybox-previsualization.webp",
+      "article": "daily-words/2026/10/frozen-suspension-twin.md",
+      "preview": "assets/daily-words/2026/10/frozen-suspension-twin.webp",
+      "rights_status": "public-safe-ai-generated"
+    },
+    {
+      "id": "dw-white-line-fairy",
+      "title_zh": "白线童话",
+      "title_en": "White-Line Fairy",
+      "date": "2026-10-04",
+      "status": "tested",
+      "article": "daily-words/2026/10/white-line-fairy.md",
+      "preview": "assets/daily-words/2026/10/white-line-fairy.webp",
       "rights_status": "public-safe-ai-generated"
     }
   ]
