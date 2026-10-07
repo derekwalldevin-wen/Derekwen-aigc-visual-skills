@@ -15,7 +15,7 @@ evidence:
   assets: "confirmed"
 published:
   social: false
-  github: false
+  github: true
 category:
   - "twin-poster"
   - "photo-transformation"
@@ -40,6 +40,7 @@ extensions:
   - "情侣照"
   - "产品照"
 assets:
+  preview: "assets/daily-words/2026/09/underwater-refraction-twin.webp"
   status: "public-preview-selected"
   source_full_resolution: "user-library"
   note: "已选定当天生成的无品牌产品版本作为公开预览候选。人物与旅行版本因来源人物/原始照片权属未充分确认，不进入公开仓库。"
@@ -52,4 +53,4 @@ template:
 skill:
   id: null
   candidate: null
-notes: "当天共检查 6 张生成图；测试模型未可靠记录，tested_with 保持为空。公开安全预览已经选定，但当前 GitHub 连接无法写入二进制图片，因此 published.github 暂保持 false，且不使用占位图。"
+notes: "当天共检查 6 张生成图；测试模型未可靠记录，tested_with 保持为空。公开安全预览已经选定，但公开安全预览已同步到仓库。"
