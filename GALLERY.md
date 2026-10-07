@@ -2,10 +2,10 @@
 
 **德里克文 AIGC 视觉案例库**
 
-当前公开可视化案例：**16 个**  
-其中包括 **10 个 production Skill 示例 + 6 个已发布「AI绘画每日一词」Case**。
+当前公开可视化案例：**25 个**  
+其中包括 **10 个 production Skill 示例 + 15 个已发布「AI绘画每日一词」Case**。
 
-> 视觉公开与 Case 数据状态分开管理。仓库目前有 30 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
+> 视觉公开与 Case 数据状态分开管理。仓库目前有 39 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
 
 ## Production Skills · 10
 
@@ -31,7 +31,7 @@
 </tr>
 </table>
 
-## Published Daily Words · 6
+## Published Daily Words · 15
 
 <table>
 <tr>
@@ -44,12 +44,27 @@
 <td align="center" width="33%"><a href="./daily-words/2026/09/four-reference-fusion.md"><img src="./assets/daily-words/2026/09/four-image-fusion.webp" alt="四图合一" width="100%"></a><br><b>四图合一</b><br><sub>2026-09-25</sub></td>
 <td align="center" width="33%"><a href="./daily-words/2026/09/graybox-previsualization.md"><img src="./assets/daily-words/2026/09/graybox-previsualization.webp" alt="灰盒预演" width="100%"></a><br><b>灰盒预演</b><br><sub>2026-09-26</sub></td>
 </tr>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/09/convex-fisheye-twin.md"><img src="./assets/daily-words/2026/09/convex-fisheye-twin.webp" alt="凸镜鱼眼双生" width="100%"></a><br><b>凸镜鱼眼双生</b><br><sub>2026-09-27</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/underwater-refraction-twin.md"><img src="./assets/daily-words/2026/09/underwater-refraction-twin.webp" alt="水下折光双生" width="100%"></a><br><b>水下折光双生</b><br><sub>2026-09-28</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/09/giant-scale-twin.md"><img src="./assets/daily-words/2026/09/giant-scale-twin.webp" alt="巨物尺度双生" width="100%"></a><br><b>巨物尺度双生</b><br><sub>2026-09-29</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/10/seamless-pattern-tiling.md"><img src="./assets/daily-words/2026/10/seamless-pattern-tiling.webp" alt="无缝接花" width="100%"></a><br><b>无缝接花</b><br><sub>2026-10-01</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/negative-space-imaging.md"><img src="./assets/daily-words/2026/10/negative-space-imaging.webp" alt="空隙成像" width="100%"></a><br><b>空隙成像</b><br><sub>2026-10-02</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/one-line-filter-builder.md"><img src="./assets/daily-words/2026/10/one-line-filter-builder.webp" alt="一句话造滤镜" width="100%"></a><br><b>一句话造滤镜</b><br><sub>2026-10-03</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./daily-words/2026/10/riso-misregister.md"><img src="./assets/daily-words/2026/10/riso-misregister.webp" alt="孔版错印" width="100%"></a><br><b>孔版错印</b><br><sub>2026-10-03</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/frozen-suspension-twin.md"><img src="./assets/daily-words/2026/10/frozen-suspension-twin.webp" alt="凝时悬浮双生" width="100%"></a><br><b>凝时悬浮双生</b><br><sub>2026-10-04</sub></td>
+<td align="center" width="33%"><a href="./daily-words/2026/10/white-line-fairy.md"><img src="./assets/daily-words/2026/10/white-line-fairy.webp" alt="白线童话" width="100%"></a><br><b>白线童话</b><br><sub>2026-10-04</sub></td>
+</tr>
 </table>
 
 ## Data
 
 - [Latest Daily Words](./data/latest.json)
-- [All 30 Case records](./data/case-index.json)
+- [All 39 Case records](./data/case-index.json)
 - [Case statistics](./data/stats.json)
 - [Daily Words](./daily-words/README.md)
 - [Asset licensing](./ASSET-LICENSE.md)
