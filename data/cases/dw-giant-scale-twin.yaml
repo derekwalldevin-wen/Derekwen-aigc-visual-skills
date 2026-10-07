@@ -1,0 +1,61 @@
+schema_version: "1.0.0"
+id: "dw-giant-scale-twin"
+title_zh: "巨物尺度双生"
+title_en: "Giant-Scale Twin"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-09-29"
+  evidence_date: "2026-09-29"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: false
+category:
+  - "twin-poster"
+  - "photo-transformation"
+status: "tested"
+summary: "保持人物、动作、服装与场景关系不变，只把一个日常物件放大到建筑级尺度，通过透视、接触阴影与遮挡建立可信的人物—巨物比例。"
+tested_with: []
+core_prompt: |
+  请基于我上传的照片，制作一张独立的 3:4 竖版「巨物尺度双生」海报，画面上下严格 1:1 分割。
+  上半：完整保留原始照片，仅轻微统一调色。
+  下半：严格保持同一人物、同一张脸、同一服装、同一动作、同一主体身份和核心构图，选择原图中的一个普通物件，将其放大为建筑级巨物。
+  巨物可以是：手机 / 相机 / 书 / 咖啡杯 / 鞋 / 香水瓶 / 包装盒 / 产品。
+  巨物比人物大数十倍；保留原物件真实材质和结构；人物与巨物产生真实尺度关系；保持正确透视、真实接触阴影和真实空间遮挡；画面像真实摄影，不像玩具模型。
+  最终效果像：同一个人突然进入了一个普通物件被放大100倍的现实世界。
+  禁止换脸、Q版人物、把人物缩成玩具、人物从物体里钻出来、破屏效果、普通拼贴、模型感过强和明显AI畸变。
+controls:
+  - "画面上下严格 1:1 分割，上半保留原图，仅轻微统一调色"
+  - "人物身份、脸、服装、动作、主体身份和核心构图保持一致"
+  - "一次只放大一个普通物件，避免多个巨物抢占视觉中心"
+  - "强调 gigantic scale / monumental object / architectural scale / human scale contrast"
+  - "物件只改变尺度，不改变原有材质、结构和产品形态"
+  - "用 realistic perspective / contact shadow / natural occlusion / believable scale 建立可信尺度关系"
+  - "避免玩具模型感、拼贴感、破屏效果和明显AI畸变"
+extensions:
+  - "人物照"
+  - "旅行照"
+  - "产品照"
+  - "汽车照片"
+  - "美食照片"
+assets:
+  status: "public-preview-ready"
+  preview: null
+  source_full_resolution: "user-library"
+  note: "Two same-day unbranded AI-generated standalone demos passed public-safety review. Binary asset upload was blocked by the current GitHub connector, so no placeholder or substitute asset was published."
+assets_status: "public-preview-ready"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "twin-poster-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "Exact image-generation model was not reliably verified, so tested_with is intentionally empty. Generated variants with visible Apple/iPhone branding, Xiaohongshu branding, or CHANEL branding were excluded from the public repository. A second unbranded AI-generated perfume demo passed safety review but was not selected as the canonical preview."
