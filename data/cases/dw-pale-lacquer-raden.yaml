@@ -1,0 +1,67 @@
+schema_version: "1.0.0"
+id: "dw-pale-lacquer-raden"
+title_zh: "浅漆螺钿"
+title_en: "Pale Lacquer & Raden"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-11"
+  evidence_date: "2026-10-11"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: false
+category:
+  - "style-translation"
+  - "material-transformation"
+  - "chinese-decorative-art"
+status: "tested"
+summary: "浅色漆面65%–80%，矿物色块点色，局部贝母虹彩3%–8%，保留平面装饰语言与主体辨识度。"
+tested_with: []
+core_prompt: |
+  将【主体】置于【场景】，重绘为当代新中式浅色漆画式二维装饰插画，保留主体的关键识别特征。
+
+  造型高度概括，轮廓完整流畅；人物比例简化纤细，五官简洁，面部不塑造真实体积。采用大面积平涂色块，弱明暗、弱透视，通过轮廓遮挡、平面叠压和形状穿插建立层次。
+
+  画面约65%–80%使用象牙白、米白、浅杏或浅玉色，搭配【配色：朱砂红与石青蓝／石绿与浅赭／灰蓝与暖杏】形成少量清晰的矿物色块。颜色明亮鲜润，保留浅色区域的通透感。
+
+  表面呈温润哑光的浅色漆面质感，带轻微矿物颜料颗粒。细碎贝母薄片只嵌入【服饰边缘／器物纹样／花叶装饰】，虹彩区域约占画面3%–8%，呈克制的青绿、粉紫和淡蓝色偏；保持皮肤、面部和主要色块纯净。
+
+  背景简洁疏朗，保留呼吸感。3:4竖版单张，无文字、无水印；避免黑漆底、全局虹彩、珠宝化、强金属反光、写实摄影光影及复杂纹样堆砌。
+controls:
+  - "浅色底约占画面65%–80%，矿物色仅作视觉落点"
+  - "平面造型与连续轮廓优先；弱透视、弱明暗，避免摄影写实"
+  - "贝母虹彩仅限服饰边缘、花叶及器物纹样，占比约3%–8%"
+  - "皮肤、面部和主要色块保持纯净哑光，不满屏反光"
+  - "3:4单张输出；教学卡与演示图片分别生成，不拼贴"
+extensions:
+  - "人物写真：锁定发型与姿态，衣缘和发饰局部螺钿"
+  - "花卉与宠物：花瓣和毛色概括为色块，贝母点缀叶缘或项圈"
+  - "茶具与静物：浅玉底配石绿、浅赭，器物局部镶嵌纹样"
+assets:
+  status: "source-confirmed-repository-upload-pending"
+  preview: null
+  source_full_resolution: "ChatGPT Library: six 1086x1448 generated PNGs dated 2026-10-11"
+  file_names:
+    - "image-gen-1(20261011-013935).png"
+    - "image-gen-2(20261011-013937).png"
+    - "image-gen-3(20261011-013938).png"
+    - "image-gen-4(20261011-013939).png"
+    - "image-gen-5(20261011-013941).png"
+    - "image-gen-6(20261011-013942).png"
+  note: "Six real generated images reviewed; no repository image path is invented. Upload remains pending."
+assets_status: "source-confirmed-upload-pending"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "pale-lacquer-raden-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: "pale-lacquer-raden"
+notes: "Same-day accepted image-generation prompt and six images. Exact model identifier not verified; tested_with deliberately empty. Draft only until actual image upload and validator pass."
