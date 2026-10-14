@@ -19,6 +19,10 @@ Daily Word → Case → Template → Skill
 
 [完整视觉 Gallery](../GALLERY.md) · [机器可读 Latest](../data/latest.json)
 
+## 今日已整理、等待图片同步（未发布）
+
+- **2026-10-14 · [瓷隙藏形](./2026/10/porcelain-negative-space.md)**：已定稿并核实六张 AI 生成图；当前仅整理 Case 与正文，原图尚未上传 GitHub，故不进入已发布 Latest／视觉 Gallery。
+
 ## Case 状态
 
 - **experimental**：概念或方法已经形成，但可靠实测证据仍不完整。

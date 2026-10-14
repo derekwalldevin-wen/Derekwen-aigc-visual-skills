@@ -1,0 +1,65 @@
+schema_version: 1.0.0
+id: dw-porcelain-negative-space
+title_zh: 瓷隙藏形
+title_en: Porcelain Negative Space
+series: AI绘画每日一词
+source:
+  type: current-daily
+  original_date: '2026-10-14'
+  evidence_date: '2026-10-14'
+  evidence_date_precision: exact
+evidence:
+  confidence: high
+  article: confirmed-final
+  prompt: confirmed-final
+  assets: confirmed
+published:
+  social: false
+  github: false
+category:
+  - negative-space
+  - material-transformation
+status: tested
+summary: 保留立体碎瓷器形，以断片之间的真实空洞形成另一种可辨形象，融合植物釉纹与艺术字体。
+tested_with: []
+core_prompt: |-
+  生成一张独立3:4竖版高级艺术展海报，主题“瓷隙藏形”。这是碎瓷悬形与负空间艺术的真正融合：主体必须仍是一件有厚度、釉面与断口的真实碎瓷雕塑，绝不能变成纯植物剪影海报。
+  主体是一件【瓷器】，由约15至25块大小不等的弧面瓷片悬空组成，整体瓷器外轮廓仍可辨识，占画面高度约65%。最重要的构图：在瓷器正面中央留一个大面积镂空区域，这个空缺由相邻碎片的不规则断缘共同围成【隐藏形状】。空缺内部完全透出【背景】，没有另外画上去的动物、黑贴纸、填色实体、描边或背后第二件物体。外轮廓读成瓷器，内部空隙读成另一种形象，两者同时成立。围绕隐藏形状安排主要瓷片，普通裂缝保持窄而有节奏；仅中央空缺较大，不能四散爆炸。
+  瓷片外表为【釉面与植物纹样】。植物画在弯曲瓷片表面，采用平涂色块、细叶脉与手绘线条，跨片图案在断口中断并稍错位。每片有可见薄壁厚度、粗糙无釉胎土断面和少量内壁，真实釉光克制。中央空缺边缘不磨成光滑模切，保留细微缺口和一两处未完全接拢的小断片，但隐藏形状必须清楚。主体左右可有少量平面植物纹样从瓷片图案向背景延伸，面积不超过画面一成，不围成满屏植物边框。
+  艺术指导：瓷片是立体摄影质感，背景与文字是平面独立编辑海报，背景带细微丝网印刷纸纹。左上柔侧光显出断面厚度，片间有接触阴影，主体下有悬浮柔影，不能给隐藏形状加独立投影。使用【配色】，大片安静背景至少占四分之一。唯一文字是“【标题】”，采用【字体与布局】。字形准确、有明显大小与疏密变化，文字不盖住中央空隙，不加英文、日期、说明、编号、边框或水印。输出完整单张海报，不做对照、拼贴或多格合集。不做金缮、金属支架、玻璃，不让植物取代瓷片。
+controls:
+  - 瓷器完整外轮廓与中央隐藏负形同时可辨，空洞完全透出背景
+  - 15至25块悬浮瓷片具有釉面、胎土断口和真实厚度
+  - 植物纹样依附瓷片表面，跨断口中断，不替代立体瓷器
+  - 只有核心中央负形面积较大，其他裂缝窄而有序
+  - 标题不遮挡负形，不出现额外编号和水印
+extensions:
+  - 瓷隙藏兔
+  - 一壶蝶梦
+  - 盘中游鱼
+  - 瓷里有猫
+  - 碎瓷逢鹿
+  - 花瓷飞燕
+assets:
+  status: source-confirmed-repository-upload-pending
+  preview: null
+  source_full_resolution: user-library
+  file_names:
+    - porcelain-negative-space-01.png
+    - porcelain-negative-space-02.png
+    - porcelain-negative-space-03.png
+    - porcelain-negative-space-04.png
+    - porcelain-negative-space-05.png
+    - porcelain-negative-space-06.png
+  note: 六张AI最终成图1086x1448 PNG，已完成内容公开安全检查；当前受上传通道限制，尚未进入GitHub仓库。不以替代图充数。
+assets_status: source-confirmed-upload-pending
+rights_status: public-safe-ai-generated
+references: []
+template:
+  id: porcelain-negative-space-base
+  status: proposed
+skill:
+  id: null
+  candidate: null
+notes: |-
+  今日定稿记录和六图来自2026-10-14手动同步包。初版白鹭负形失败，最终用兔形重试通过；纯植物负形版本明确排除。准确生图模型未证实，不推定型号。未修改任何现有SKILL.md。
