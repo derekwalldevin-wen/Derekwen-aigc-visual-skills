@@ -1,0 +1,58 @@
+schema_version: "1.0.0"
+id: "dw-bird-snatched-plush"
+title_zh: "飞鸟抢玩偶"
+title_en: "Bird-Snatched Plush"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-16"
+  evidence_date: "2026-10-16"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: false
+category:
+  - "photo-storytelling"
+  - "plush-character"
+  - "travel-photography"
+status: "tested"
+summary: "把旅行地标合影改造成鸟突然抢走角色毛绒玩偶的第一人称抓拍，利用鸟、玩偶、伸手三个空间锚点与局部动态模糊构建可信的可爱意外。"
+tested_with: []
+core_prompt: |
+  根据【人物照片／原创角色参考图】，将主体转化为一个可辨认的Q版毛绒玩偶，保留【标志性发型、配色、服装与配饰】，呈现柔软绒毛、布料拼接和缝线细节，五官采用刺绣或布艺表现。
+  生成一张第一人称视角的旅行抓拍照片，背景为【旅行地点／地标】。一只【鸟类】突然飞入近景，鸟爪抓住玩偶后领的布料，将它提离手边，定格在刚被抢走的瞬间。
+  玩偶位于画面中央偏上，身体随飞行方向倾斜，小手小脚张开，露出惊讶又委屈的表情。画面下方伸入拍摄者的一只手，手掌张开、指尖追向玩偶，与它保持一小段距离，形成“差一点就抓住”的动作关系。
+  采用略微倾斜的手持构图，鸟翼、前景手部与背景带有方向一致的局部运动模糊，玩偶的脸和身份特征仍然清楚。自然日光、真实旅行摄影质感，保留地标辨识度，整体慌乱、幽默、可爱。
+  3:4竖版单张，无文字、水印。鸟爪与玩偶布料接触清楚，玩偶已经离手，不要额外手臂、重复玩偶或受伤画面。
+controls:
+  - "鸟爪真实抓住玩偶后领布料，接触清楚，玩偶已离手"
+  - "三段空间关系：鸟在上、玩偶居中偏上、前景手从下方追赶且仍有距离"
+  - "玩偶身份来源于参考照片或原创角色的标志性发型、配色、服装和配饰"
+  - "鸟翼、前景手、环境局部方向一致地运动模糊；玩偶脸部保持清楚"
+  - "地标可辨、自然日光、手持倾斜构图；禁止重复玩偶、额外肢体及受伤画面"
+  - "单张3:4；根据教学/纯图用途分别生成有设计标题或无文字成图"
+extensions:
+  - "厦门鼓浪屿海鸥版"
+  - "北京故宫鸟类版"
+  - "昆明滇池群鸥版"
+  - "不同玩偶角色与旅行地标组合"
+assets:
+  status: "confirmed-originals-upload-pending"
+  preview: null
+  source_full_resolution: "user-library"
+  note: "2026-10-16已核对11张真实AI生成PNG：6张Social Visual System教学图、5张无字且构图各异的续作；均为1086x1448。仓库二进制素材尚未上传，不声明预览图已公开。"
+assets_status: "confirmed-originals-upload-pending"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "bird-snatched-travel-shot-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "文章和核心提示词来自当日生图对话，后续增加5张不带文字且不同构图的要求。图片已逐张目视检查，未见可辨识真人肖像、客户隐私或明显受限品牌；确切测试模型名无法核实，故tested_with留空。未修改任何现有SKILL.md；图片在GitHub上传前published.github保持false。"

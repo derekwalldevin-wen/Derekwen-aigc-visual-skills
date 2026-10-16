@@ -1,5 +1,28 @@
 [
   {
+    "id": "dw-bird-snatched-plush",
+    "title_zh": "飞鸟抢玩偶",
+    "title_en": "Bird-Snatched Plush",
+    "status": "tested",
+    "category": [
+      "photo-storytelling",
+      "plush-character",
+      "travel-photography"
+    ],
+    "template": "bird-snatched-travel-shot-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-16",
+    "evidence_date": "2026-10-16",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "confirmed-originals-upload-pending",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": false
+  },
+  {
     "id": "dw-character-camera-passport",
     "title_zh": "角色镜头护照",
     "title_en": "Character Camera Passport",
