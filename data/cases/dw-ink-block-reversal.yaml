@@ -1,0 +1,69 @@
+schema_version: "1.0.0"
+id: "dw-ink-block-reversal"
+title_zh: "墨块反转"
+title_en: "Ink Block Reversal"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-24"
+  evidence_date: "2026-10-24"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "style-translation"
+  - "editorial-poster"
+  - "printmaking"
+status: "tested"
+summary: "使用浓黑不规则墨块作为分界，让同一主体在墨块内呈白色刻线、墨块外呈黑色墨线，跨界但轮廓连续，形成高识别度的黑白反转版画。"
+tested_with: []
+core_prompt: |
+  以【人物／宠物／骑行者／建筑／花卉／原创角色】作为画面主体，生成一张独立的3:4竖版黑白刮版／木刻版画风格作品。
+  背景为自然米白纸张，保留真实纸纤维和轻微印刷颗粒。画面中加入一片浓黑、边缘不规则的墨块，墨块的位置和形状服务于【主体】的动作、构图与轮廓，不能只是简单贴在背后的矩形。
+  主体必须自然跨过黑色墨块的边界：在墨块内部以清晰的白色刻线、白色留白表现主体的明暗和细节；在墨块外部，以细致的黑色墨线描绘同一主体。交界处的身体、毛发、衣褶、建筑结构或植物纹理需要连续，不能断裂或变成两个对象。
+  使用真实版画的刀刻排线、擦痕、粗细线密度与纸墨质感，保持黑白两色为主；重点保证主体身份、动态姿势和视觉阅读顺序清楚。
+  不要彩色、灰色照片滤镜、拼贴边缘、双主体复制、数字故障、塑料发光、无关装饰、Logo或水印。
+controls:
+  - "深黑墨块内用白色刻线，米白纸底上用黑色墨线，两侧必须真正反转。"
+  - "主体跨越墨块边界，但轮廓、纹理、动作和透视保持连续。"
+  - "墨块必须与构图发生关系，边缘自然粗粝，不用矩形贴片。"
+  - "保留纸纤维、刀刻排线、墨色堆积的真实版画介质感。"
+  - "GUIZANG图文版本另加克制宋体大标题与一句说明，文字避开脸、手、动作关键区域。"
+extensions:
+  - "人物肖像"
+  - "奔跑宠物"
+  - "街头骑行"
+  - "建筑仰视"
+  - "黑白花卉"
+  - "Q版角色"
+assets:
+  status: "originals-recovered-upload-pending"
+  preview: null
+  source_full_resolution: "user-library"
+  final_count: 6
+  original_format: "PNG"
+  dimensions: "1086x1448"
+  final_filenames:
+    - "墨块反转细体海报.png"
+    - "毛发也能反转·清秀宋体.png"
+    - "墨块间的骑行者.png"
+    - "黑白墨刻中的建筑仰视.png"
+    - "一朵花，两种线色.png"
+    - "角色入墨教程.png"
+  note: "6幅同日AI生成的最终GUIZANG排版版画已恢复并复核；原始二进制文件尚未写入GitHub仓库，因此不设置不存在的预览链接，不标记为公开发布。"
+assets_status: "recovered-upload-pending"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "ink-boundary-reversal-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "核心提示词依据当日最终实测生图规则整理为可复用版本，未冒充逐字提取的原始全文。精确测试模型未核实，tested_with保持空列表。其他两幅旧排版及无文字中间稿不公开。"
