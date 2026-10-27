@@ -5,7 +5,7 @@
 当前公开可视化案例：**16 个**  
 其中包括 **10 个 production Skill 示例 + 6 个已发布「AI绘画每日一词」Case**。
 
-> 视觉公开与 Case 数据状态分开管理。仓库目前有 30 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
+> 视觉公开与 Case 数据状态分开管理。仓库目前有 31 条 Case 记录；只有已经具备公开安全资产的案例才进入 Gallery。权属未确认、历史素材未找回或尚未完成视觉资产的 Case 不使用占位图。
 
 ## Production Skills · 10
 
@@ -49,7 +49,7 @@
 ## Data
 
 - [Latest Daily Words](./data/latest.json)
-- [All 30 Case records](./data/case-index.json)
+- [All 31 Case records](./data/case-index.json)
 - [Case statistics](./data/stats.json)
 - [Daily Words](./daily-words/README.md)
 - [Asset licensing](./ASSET-LICENSE.md)

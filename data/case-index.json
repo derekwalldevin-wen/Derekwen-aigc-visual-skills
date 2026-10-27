@@ -130,6 +130,29 @@
     "github_published": false
   },
   {
+    "id": "dw-doodle-to-life",
+    "title_zh": "涂鸦成真",
+    "title_en": "Doodle to Life",
+    "status": "tested",
+    "category": [
+      "sketch-to-image",
+      "image-control",
+      "style-translation"
+    ],
+    "template": "doodle-shape-lock-base",
+    "template_status": "proposed",
+    "skill": null,
+    "skill_candidate": null,
+    "source_type": "current-daily",
+    "original_date": "2026-10-27",
+    "evidence_date": "2026-10-27",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "recovered-upload-pending",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": false
+  },
+  {
     "id": "dw-etched-concept-twin-poster",
     "title_zh": "蚀刻概念双生海报",
     "title_en": "Etched Concept Twin Poster",

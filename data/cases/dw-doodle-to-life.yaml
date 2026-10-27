@@ -1,0 +1,69 @@
+schema_version: "1.0.0"
+id: "dw-doodle-to-life"
+title_zh: "涂鸦成真"
+title_en: "Doodle to Life"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-10-27"
+  evidence_date: "2026-10-27"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "sketch-to-image"
+  - "image-control"
+  - "style-translation"
+status: "tested"
+summary: "把幼稚、歪斜、不对称的原始涂鸦立体化为真实材质的物体，同时保留原稿的轮廓、比例、部件数量与位置；AI只负责材质、体积和光影，不自行纠正造型。"
+tested_with: []
+core_prompt: |
+  以原涂鸦为唯一造型蓝图，
+  保留轮廓、比例、部件数量与位置。
+  歪斜和不对称也不修正。
+  只增加真实材质、体积与自然光影，
+  保持原来的观察方向。
+
+  我不想改的三个点：
+  【轮廓】/【比例】/【部件】
+controls:
+  - "以原涂鸦为唯一造型蓝图，不把写实变成重新设计造型。"
+  - "先锁定三个不许改变的点：轮廓、比例、部件。"
+  - "保留错误感与不对称：三条腿仍是三条腿，大小轮仍保留大小差异。"
+  - "观察方向与关键位置保持对应，只增加真实材质、空间体积和自然光影。"
+  - "教学图使用3:4单张竖版，原稿与立体结果可供对照；不要将六张图拼接成最终单图。"
+extensions:
+  - "三脚涂鸦鸭"
+  - "不等轮小汽车"
+  - "歪斜童话小房子"
+assets:
+  status: "originals-recovered-upload-pending"
+  preview: null
+  source_full_resolution: "user-library"
+  final_count: 6
+  original_format: "PNG"
+  dimensions: "1086x1448"
+  final_filenames:
+    - "2026-10-27_涂鸦成真_全图文_01_别替我画对.png"
+    - "2026-10-27_涂鸦成真_全图文_02_你来当裁判.png"
+    - "2026-10-27_涂鸦成真_全图文_03_先锁三个点.png"
+    - "2026-10-27_涂鸦成真_全图文_04_把这段交给AI.png"
+    - "2026-10-27_涂鸦成真_全图文_05_车也可以歪着来.png"
+    - "2026-10-27_涂鸦成真_全图文_06_轮到你出题.png"
+  note: "2026-10-27当天最终全图文系列六张独立成图已恢复并校验尺寸；GitHub二进制上传尚未成功，因此不提供不存在的preview或将Case标记为已发布。"
+assets_status: "recovered-upload-pending"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "doodle-shape-lock-base"
+  status: "proposed"
+skill:
+  id: null
+  candidate: null
+notes: "本文与核心提示词依据当天六张最终全图文教学图中的明确文字整理，第04张包含可直接复制的提示词，原图均标注为AI示范。完整后台生图命令未核实，因此不宣称逐字还原工具调用；确切模型未核实，tested_with留空。排除当天早先重做版和中间稿。没有新增或修改SKILL.md。"
