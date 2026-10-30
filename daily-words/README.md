@@ -44,3 +44,7 @@ Daily Word → Case → Template → Skill
 - [Skills](../skills/)
 
 Template 目录在正式 Template 发布后再作为公开入口；规划中的 Template 引用不会计入已发布 Template 数量。
+
+## 2026-10-30 · 已核实、待图像入库
+
+- [物上造城 · Tiny City on Objects](./2026/10/tiny-city-on-objects.md)：已定稿并生成6张教学图。原图已完成公开安全审查，GitHub 图片上传尚未完成；因此不进入已发布 Gallery/Latest。
