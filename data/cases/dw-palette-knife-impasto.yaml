@@ -78,6 +78,6 @@ template:
   id: "palette-knife-impasto-base"
   status: "proposed"
 skill:
-  id: null
-  candidate: null
+  id: "palette-knife-impasto"
+  candidate: false
 notes: "The core prompt is the final method prompt explicitly supplied in the user's 2026-11-02 article, not a claimed verbatim internal image-tool invocation. All nine examples were generated in today's conversation without real-person photo uploads. The upper 'original photo' halves of three twin posters are synthetic fictional East Asian adults, not authenticated photos. Exact model variant unverified; tested_with deliberately empty. Eighteen alternate composite tutorial sheets and intervening drafts were excluded."
