@@ -52,14 +52,14 @@ def validate(root=ROOT):
     if not isinstance(entries, list) or not all(isinstance(x, dict) and isinstance(x.get("id"), str) for x in entries):
         return ["skills.json: invalid skill entries"], warnings, validated
     ids = {entry["id"] for entry in entries}
-    if len(entries) != 10 or len(ids) != 10:
-        errors.append("expected exactly 10 unique manifest skills")
+    if not entries or len(ids) != len(entries):
+        errors.append("manifest skills must be nonempty with unique IDs")
     for directory in (skills, examples):
         disk = {p.name for p in directory.iterdir() if p.is_dir()} if directory.exists() else set()
         if disk != ids:
             errors.append(f"manifest/{directory.name} mismatch: manifest={sorted(ids)} disk={sorted(disk)}")
-    if manifest.get("version") != "1.1.0":
-        errors.append("collection version must be 1.1.0")
+    if manifest.get("version") != "1.2.0":
+        errors.append("collection version must be 1.2.0")
     if manifest.get("author") != "德里克文":
         errors.append("manifest author must be 德里克文")
     for entry in entries:
