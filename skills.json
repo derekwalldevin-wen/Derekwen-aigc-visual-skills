@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "palette-knife-impasto",
+      "name_zh": "刮刀堆色",
+      "name_en": "Palette Knife Impasto",
+      "description": "Rebuild recognizable photo subjects as palette-knife impasto paintings with directional paint ridges, grooves, and consistent raking light; optional before/after twin poster.",
+      "output": "image",
+      "entry": "skills/palette-knife-impasto/SKILL.md",
+      "example": "skills/palette-knife-impasto/README.md"
     }
   ]
 }
