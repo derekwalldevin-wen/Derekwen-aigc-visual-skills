@@ -1,6 +1,6 @@
 {
   "collection": "DerekWen AIGC Visual Skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "德里克文",
   "repository": "derekwalldevin-wen/Derekwen-aigc-visual-skills",
   "skills": [
@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "photo-to-qinglv",
+      "name_zh": "照片入青绿",
+      "name_en": "Photo to Qinglv",
+      "description": "Transform the same photo into a paired modern photography and traditional mineral blue-green painting poster with elegant negative-space calligraphy.",
+      "output": "image",
+      "entry": "skills/photo-to-qinglv/SKILL.md",
+      "example": "examples/photo-to-qinglv/README.md"
     }
   ]
 }
