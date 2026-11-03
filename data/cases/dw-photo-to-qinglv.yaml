@@ -1,0 +1,60 @@
+schema_version: "1.0.0"
+id: "dw-photo-to-qinglv"
+title_zh: "照片入青绿"
+title_en: "Photo to Qinglv"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-11-03"
+  evidence_date: "2026-11-03"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-draft"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: false
+  github: false
+category:
+  - "photo-transformation"
+  - "twin-poster"
+  - "traditional-chinese-painting"
+status: "tested"
+summary: "用同一输入照片制作3:4摄影与青绿设色上下双生海报，以石青石绿矿物色、细劲墨线、绢本留白和瘦金体笔意排版呈现现代日常。"
+tested_with: []
+core_prompt: |
+  将输入照片作为唯一场景依据，编辑成一张3:4竖版「照片入青绿」上下双生对比海报。上方约45%完整保留照片的摄影质感、主体和构图；下方约55%将同一照片转绘，横向位置、机位、透视、动作与主要物件一一对应。为适配两区仅允许等比例缩放和微调留白，不裁掉主体，不镜像，不改人物身份、衣着、人数、车辆结构、建筑数量与道路水岸关系，不把现代人古装化，不凭空增加山峰遮盖城市。
+  下区统一使用细劲墨线、石青石绿层叠罩染、赭石底色与温暖绢本肌理，保留原有光照方向，以笔触和设色转换画风；建筑仍是原建筑，树木仍在原位置，真实空间清楚可认。矿物色丰富但克制，朱砂只用于照片本有的暖色物件。
+  文字模式：【文字模式】。有字时仅出现中文标题「【中文标题】」、英文副题「【英文标题】」、上图标签「【上图标签】」、下图标签「青绿转绘」。中文标题用宋徽宗瘦金体笔意定制，瘦硬挺拔、转折锐利、长撇长捺舒展，禁止粗毛笔行草、普通印刷宋体或3D字。中文字号约英文4倍，英文细衬线小字。将标题置于两区交接处自然延续的暖绢白负空间内，与画面主要线势呼应，文字深墨青，横向错位排版且清晰可读，绝不覆盖人物或主要物件；标签小而清楚。上下通过连续留白协调，仍明确看出照片与转绘的对比，不加硬边框、箭头、印章、装饰伪文案或水印。纯视觉模式不生成任何文字，原文字空间保留为绢白。只输出这一张独立海报。
+controls:
+  - "唯一场景来源：保留人物身份、衣着、人数、姿态和现代物件结构。"
+  - "上半约45%摄影质感，下半约55%青绿转绘；不要以两张独立类似图冒充同图编辑。"
+  - "石青石绿层染、细劲墨线、赭石底色、绢本肌理；朱砂只匹配原图暖色。"
+  - "瘦金体笔意中文标题融入连续绢白留白，英文副题短而准确。"
+  - "有字模式已交付；纯视觉模式、真实用户照片与其他画幅仍未复测。"
+  - "上半如是AI合成输入，明确标注AI写实示例。"
+extensions:
+  - "雨站入青绿 / RAIN IN AZURITE"
+  - "一渡入青绿 / A FERRY IN AZURITE"
+  - "骑入青绿 / A RIDE IN AZURITE"
+assets:
+  status: "final-originals-recovered-pending-github-upload"
+  preview: null
+  original_resolution: "1086x1448"
+  original_count: 3
+  pending_repository_paths:
+    - "assets/daily-words/2026/11/photo-to-qinglv/01-rain-station.png"
+    - "assets/daily-words/2026/11/photo-to-qinglv/02-ferry.png"
+    - "assets/daily-words/2026/11/photo-to-qinglv/03-cycling.png"
+  evidence: "Original PNG hashes recorded in examples/photo-to-qinglv/generation.json; the original input images and call logs are not present."
+assets_status: "final-originals-recovered-pending-github-upload"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "photo-to-qinglv-base"
+  status: "proposed"
+skill:
+  id: "photo-to-qinglv"
+  candidate: false
+notes: "Based on three delivered 2026-11-03 AI-generated photorealistic input twin posters. Final mother template recovered from same-day package. Model variant unverified; tested_with intentionally empty. No claims about real user-photo editing, pure visual mode or original tool logs."
