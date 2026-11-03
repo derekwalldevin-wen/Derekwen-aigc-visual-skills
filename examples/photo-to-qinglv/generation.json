@@ -1,0 +1,66 @@
+{
+  "author": "德里克文",
+  "evidence_date": "2026-11-03",
+  "status": "tested",
+  "record_type": "recovered-deliverable-record-not-original-tool-log",
+  "input_type": "AI-generated photorealistic image",
+  "method": "reference-image edit, per prior delivery record",
+  "prompt": "../../skills/photo-to-qinglv/references/mother-template-v1.txt",
+  "original_inputs_in_package": false,
+  "original_tool_logs_in_package": false,
+  "tested_modes": [
+    "有字"
+  ],
+  "untested_modes": [
+    "纯视觉",
+    "真实用户照片",
+    "其他画幅"
+  ],
+  "examples": [
+    {
+      "output": "after.png",
+      "title": "雨站入青绿",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "07c960967ad447e4caad86dcd8afb10a8541bbb0e0e04f03fda4875f6ce692b8",
+      "variables": {
+        "文字模式": "有字",
+        "中文标题": "雨站入青绿",
+        "英文标题": "RAIN IN AZURITE",
+        "上图标签": "AI写实示例"
+      }
+    },
+    {
+      "output": "02-ferry.png",
+      "title": "一渡入青绿",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "cedbdea8e5ab07ecf67920c87695bd33256a1a6c22411407456cebe590e93208",
+      "variables": {
+        "文字模式": "有字",
+        "中文标题": "一渡入青绿",
+        "英文标题": "A FERRY IN AZURITE",
+        "上图标签": "AI写实示例"
+      }
+    },
+    {
+      "output": "03-cycling.png",
+      "title": "骑入青绿",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "58b84fbde49aa380cc2e88afa5148f58b8e1f882da4ddb38314966e91c79aa2f",
+      "variables": {
+        "文字模式": "有字",
+        "中文标题": "骑入青绿",
+        "英文标题": "A RIDE IN AZURITE",
+        "上图标签": "AI写实示例"
+      }
+    }
+  ]
+}
