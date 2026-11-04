@@ -14,7 +14,7 @@ evidence:
   prompt: "partial"
   assets: "confirmed"
 published:
-  social: true
+  social: null
   github: false
 category:
   - "object-transformation"
@@ -47,7 +47,8 @@ assets:
     - "assets/daily-words/2026/11/object-to-mech-beast/04-dryer-fish.png"
     - "assets/daily-words/2026/11/object-to-mech-beast/05-scissors-dragonfly.png"
     - "assets/daily-words/2026/11/object-to-mech-beast/06-telephone-octopus.png"
-  note: "Six genuine 1086x1448 PNG final images located in user library; not yet uploaded to repository. No placeholder preview."
+  manifest: "assets/daily-words/2026/11/object-to-mech-beast/manifest.json"
+  note: "Six genuine 1086x1448 PNG final images located in user library; exact byte lengths and SHA-256 listed in the manifest; not yet uploaded to repository. No placeholder preview."
 assets_status: "six-original-images-recovered-pending-github-upload"
 rights_status: "public-safe-ai-generated"
 references: []
