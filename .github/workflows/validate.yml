@@ -21,6 +21,8 @@ jobs:
       - name: Validate SKILL files
         run: python scripts/validate_skills.py
       - name: Validate regression checks
+        if: always()
         run: python -m unittest discover -s scripts -p 'test_*.py'
       - name: Validate Case data
+        if: always()
         run: python scripts/validate_cases.py
