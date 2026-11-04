@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-04",
+  "case_id": "dw-object-to-mech-beast",
+  "skill_id": "object-to-mech-beast",
+  "source": "verified same-day AI generated images recovered from user Library",
+  "format": "PNG",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "rights_review": "No identifiable persons, private client material or visible third-party brand marks in these six generated images",
+  "source_archive": "物件成兽_Object-to-Mech-Beast_SKILL_6张原图.zip",
+  "state": "pending-binary-upload",
+  "github_uploaded_count": 0,
+  "images": [
+    {
+      "path": "01-stapler-crocodile.png",
+      "original_filename": "exec-b817af79-726c-48ac-b2b8-7ea33fc14fc7.png",
+      "bytes": 2160260,
+      "sha256": "f68c9a89278c768c4633b101923759eeb138dee21877a7ccbd7549f8297c676b",
+      "github_uploaded": false
+    },
+    {
+      "path": "02-stapler-transformation.png",
+      "original_filename": "exec-d3505993-dd07-4a1a-a4ab-49d0edae9d4a.png",
+      "bytes": 2110792,
+      "sha256": "2f08092438d9e8be281fe4e59ea746eaf059216ad9944355e29e702a63bbc71e",
+      "github_uploaded": false
+    },
+    {
+      "path": "03-camera-beetle.png",
+      "original_filename": "exec-8e3728e2-6abf-41f9-ae53-a5bf3f9928e5.png",
+      "bytes": 2542625,
+      "sha256": "a4da3e500a36f509899513ca3718fdcc647ebbc22d1d8ee6822067cd2569d6a2",
+      "github_uploaded": false
+    },
+    {
+      "path": "04-dryer-fish.png",
+      "original_filename": "exec-d229a660-17bb-4e5c-a617-29b7af934a71.png",
+      "bytes": 1899563,
+      "sha256": "24bf8cb44ef3e2f056349db77f4500c43c732fd06913ea0e3f479efffcd0c07c",
+      "github_uploaded": false
+    },
+    {
+      "path": "05-scissors-dragonfly.png",
+      "original_filename": "exec-7de8c6b6-9de6-4bf1-a4ea-0ccd873aa530.png",
+      "bytes": 2321577,
+      "sha256": "efe4ec2c3a2dd0f3974b925092ccd75cf106aea9244af81e504e27162de44728",
+      "github_uploaded": false
+    },
+    {
+      "path": "06-telephone-octopus.png",
+      "original_filename": "exec-e0bbb69f-a2af-416b-8379-a4a5ed09e761.png",
+      "bytes": 2358627,
+      "sha256": "caddd7909aec6c6b98c9f209fcc6a32dd6b484dd740f1768aaf7e093fed404d8",
+      "github_uploaded": false
+    }
+  ]
+}

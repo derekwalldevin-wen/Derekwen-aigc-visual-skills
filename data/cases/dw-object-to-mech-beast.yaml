@@ -1,0 +1,61 @@
+schema_version: "1.0.0"
+id: "dw-object-to-mech-beast"
+title_zh: "物件成兽"
+title_en: "Object to Mech Beast"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-11-04"
+  evidence_date: "2026-11-04"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "partial"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "object-transformation"
+  - "mechanical-creature"
+  - "editorial-illustration"
+status: "tested"
+summary: "将日常物件现有功能零件原位转化为机械动物器官，保留物件身份、原材质与动物解剖识别；实际成图覆盖订书机鳄鱼、相机甲虫、吹风机深海鱼等。"
+tested_with: []
+core_prompt: |
+  Create a vertical 3:4 editorial concept illustration. Main subject is 【物件】; transform its existing functional parts into an anatomically legible 【动物】. Preserve recognizable silhouette, color, material, proportions and original functional identity. Map 【原结构A】 into 【器官A】, 【原结构B】 into 【器官B】 and 【原结构C】 into 【器官C】. Use mechanically plausible joints and continuous structure. The object must remain identifiable while reading as one coherent animal. Pose: 【姿态】; setting: 【场景】; lighting: 【光线】. Realistic industrial materials, cinematic detail, consistent contact shadows, single main subject, no disconnected pieces, no collage, no generic armor, no unwanted lettering or watermark.
+controls:
+  - "先锁原物件可识别的外形、颜色、材质、比例与标志性零件。"
+  - "至少三处原部件到动物器官的一一映射；优先使用原铰链、接缝、旋钮、镜头、风口、导线。"
+  - "新动物剪影与运动姿态清晰；关节、重心、阴影和接触关系可信。"
+  - "同一主体，不以通用机甲装饰替代原物件结构。"
+  - "无文字单主体与带中英标题海报、三阶段教学图分模式处理。"
+extensions:
+  - "订书机鳄鱼与三阶段机械变形"
+  - "相机甲虫"
+  - "吹风机深海鱼"
+  - "剪刀蜻蜓"
+  - "电话章鱼"
+assets:
+  status: "six-original-images-recovered-pending-github-upload"
+  preview: null
+  pending_repository_paths:
+    - "assets/daily-words/2026/11/object-to-mech-beast/01-stapler-crocodile.png"
+    - "assets/daily-words/2026/11/object-to-mech-beast/02-stapler-transformation.png"
+    - "assets/daily-words/2026/11/object-to-mech-beast/03-camera-beetle.png"
+    - "assets/daily-words/2026/11/object-to-mech-beast/04-dryer-fish.png"
+    - "assets/daily-words/2026/11/object-to-mech-beast/05-scissors-dragonfly.png"
+    - "assets/daily-words/2026/11/object-to-mech-beast/06-telephone-octopus.png"
+  manifest: "assets/daily-words/2026/11/object-to-mech-beast/manifest.json"
+  note: "Six genuine 1086x1448 PNG final images located in user library; exact byte lengths and SHA-256 listed in the manifest; not yet uploaded to repository. No placeholder preview."
+assets_status: "six-original-images-recovered-pending-github-upload"
+rights_status: "public-safe-ai-generated"
+references: []
+template:
+  id: "object-to-mech-beast-base"
+  status: "proposed"
+skill:
+  id: "object-to-mech-beast"
+  candidate: false
+notes: "User's final post provides the English prompt opening. The remaining core prompt is a documented normalized skill abstraction, not a claimed verbatim internal generation call. Precise model not verified; 6 images are genuine AI examples; no customers, identifiable people or visible third-party marks. Unrelated same-day AIGC Daily image excluded."
