@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "object-to-mech-beast",
+      "name_zh": "物件成兽",
+      "name_en": "Object to Mech Beast",
+      "description": "Transform the actual functional structures of ordinary objects into anatomically readable mechanical animals.",
+      "output": "image",
+      "entry": "skills/object-to-mech-beast/SKILL.md",
+      "example": "examples/object-to-mech-beast/README.md"
     }
   ]
 }
