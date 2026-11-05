@@ -3,31 +3,31 @@
   "collection": "DerekWen AIGC Visual Library",
   "source": "data/cases/*.yaml",
   "totals": {
-    "cases": 31,
+    "cases": 32,
     "status": {
       "verified": 10,
-      "tested": 13,
+      "tested": 14,
       "experimental": 8
     },
-    "linked_skills": 11,
+    "linked_skills": 12,
     "skill_candidates": 8,
     "templates": {
       "published": 0,
-      "proposed_refs": 28
+      "proposed_refs": 29
     },
     "source_types": {
-      "current-daily": 7,
+      "current-daily": 8,
       "recovered-history": 24
     },
     "evidence_confidence": {
-      "high": 24,
+      "high": 25,
       "medium": 7,
       "low": 0
     },
     "dates": {
-      "original_known": 7,
+      "original_known": 8,
       "evidence_precision": {
-        "exact": 22,
+        "exact": 23,
         "month": 2,
         "unknown": 7
       }
@@ -35,10 +35,11 @@
   },
   "categories": {
     "3d-visualization": 1,
+    "animated-sticker": 1,
     "animation": 1,
     "branding": 1,
     "camera-perspective": 1,
-    "character-consistency": 3,
+    "character-consistency": 4,
     "cinematic": 3,
     "city-culture": 1,
     "color-system": 1,
@@ -61,6 +62,7 @@
     "product-visualization": 4,
     "reference-analysis": 1,
     "sketch-to-image": 1,
+    "social-expression": 1,
     "spatial-storytelling": 1,
     "sports-visual": 1,
     "style-translation": 4,
@@ -74,7 +76,7 @@
     "pending": 8,
     "pending-review": 12,
     "public-safe-ai-generated": 7,
-    "public-safe-original-ip": 1,
+    "public-safe-original-ip": 2,
     "review-ai-generated-assets": 2
   },
   "asset_policy": {
