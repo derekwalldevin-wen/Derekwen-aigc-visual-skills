@@ -44,8 +44,8 @@ examples:
     - "Paris"
   note: "源图与最终案例原件已找回并验收；原图哈希记录在交付包。早期龙岩极简版及九城拼贴不作最终独立样例。"
 assets:
-  preview: null
-  status: "recovered-local-originals-pending-github-binary-upload"
+  preview: "assets/daily-words/2026/11/one-city-one-box/longyan.webp"
+  status: "seven-source-derived-low-res-previews-uploaded; full-size-final-images-pending"
   original_sources:
     - "六格空白伴手礼盒.png"
     - "福建龙岩客家文化礼盒.png"
@@ -54,7 +54,7 @@ assets:
     - "北京匠心文化礼盒展陈.png"
     - "成都文化珍藏礼盒.png"
     - "巴黎时光纪念礼盒.png"
-assets_status: "originals-recovered-not-yet-github-published"
+assets_status: "low-res-previews-uploaded-full-originals-pending"
 rights_status: "public-safe-ai-generated"
 template:
   id: "six-slot-city-souvenir-box"
