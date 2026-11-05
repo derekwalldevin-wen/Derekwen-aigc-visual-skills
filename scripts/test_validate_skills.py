@@ -56,7 +56,7 @@ class ValidateSkillsTests(unittest.TestCase):
         errors, warnings, skills = validate(self.root)
         self.assertEqual(errors, [])
         self.assertEqual(warnings, [])
-        self.assertEqual(len(skills), 10)
+        self.assertEqual(len(skills), len(self.manifest['skills']))
 
     def test_missing_output_fails_even_with_pending_note(self):
         (self.root / 'examples/materialized-explainer/after.png').unlink()
@@ -105,7 +105,7 @@ class ValidateSkillsTests(unittest.TestCase):
     def test_duplicate_manifest_id_fails(self):
         self.manifest['skills'].append(self.manifest['skills'][0])
         self.write('skills.json', json.dumps(self.manifest))
-        self.assert_error('exactly 10 unique')
+        self.assert_error('at least 10 unique')
 
     def test_video_label_and_disclaimer_are_checked(self):
         page = f'skills/{VIDEO_SKILL}/README.md'
