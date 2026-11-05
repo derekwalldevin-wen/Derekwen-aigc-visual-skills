@@ -34,8 +34,8 @@ controls:
   - "输出真实多帧GIF文件；九格草图、静态PNG不合格。"
   - "不公开第三方IP联动未核权图片，也不把用户明确拒绝的形象当最终成品。"
 assets:
-  preview: null
-  status: "original-square-gifs-recovered-pending-repository-upload"
+  preview: "assets/daily-words/2026/11/looping-reaction-gifs/fun-frame-preview.webp"
+  status: "real-static-frame-preview-uploaded-original-square-gifs-pending"
   final_originals:
     - name: "德小文_01_收到_方形高清.gif"
       width: 480
@@ -50,7 +50,7 @@ assets:
   excluded:
     - "深度学习互动：第三方DeepSeek联动版本用户反馈形象不符，仍待身份与权属核验。"
     - "我就看看探索GIF（315×311）与好玩探索GIF（323×318）：宽高不相等。"
-assets_status: "original-gifs-recovered-not-yet-github-uploaded"
+assets_status: "static-frame-preview-uploaded-original-gifs-pending"
 rights_status: "public-safe-original-ip"
 template:
   id: "looping-reaction-gifs-base"
