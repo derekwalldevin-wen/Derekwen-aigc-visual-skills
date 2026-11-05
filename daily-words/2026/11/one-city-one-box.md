@@ -1,0 +1,44 @@
+# 只能用6件东西，你能装下一座家乡吗？
+
+**AI绘画每日一词｜一城一盒**  
+**One City, One Box｜2026-11-05**
+
+假如要把自己最熟悉的一座城市装进盒子里，你会挑哪六件东西？
+
+一座建筑、一口家乡味、一个老手艺，也许还有某种只属于那个地方的日常物件。今天做的「一城一盒」，就把这些记忆做成一只小小的六格收藏礼盒：每个格子放一件物品，打开盒盖，仿佛能看到一座城市的性格。
+
+我觉得更方便的做法，是**先生成一张空的六格礼盒底板**。有了这个底板，换城市时只用上传同一张图片，再告诉 AI 要放进哪座城市的风物。盒子的结构、视角和光线都固定，变化的是内容。
+
+## 5分钟上手｜空盒底板 + 一句话
+
+先使用已生成的六格空盒模板：左侧一大格，右上两格，底部三格，每格衬一层薄纸。上传后复制下面这段当天已实际用过的提示词：
+
+> 保持图片中盒子、分格、视角和光线不变，在六个空格里各放一件能代表【城市名】的微缩物品，包含当地建筑、美食和生活物件。大小适合格口，材质写实，落在薄纸上，有自然接触阴影。不重复，不添加文字。
+
+把【城市名】替换成你想做的城市即可。比如福建龙岩：用永定土楼做主角，另外放古田会议会址、客家簸箕粄、龙岩花生、连城地瓜干和客家竹编。第一轮先看六件东西能不能自然地摆进同一只盒子。
+
+## 完整版｜给城市做一个专属收藏盒
+
+之后再让AI把礼盒设计得更有地域感：盒盖增加城市建筑或山水图案，包装纹样、桌面背景采用当地色彩，每个格子前都有一块**中文/当地语言主名 + 英文副名**的小字牌，底部放城市大字。最重要的是**每张只做一座城市的一只盒子**，不把九张成图挤成一张宫格海报。
+
+**完整版可复制提示词：**
+
+> 使用【上传的六格空盒底板】，为【城市】设计3:4竖版地域文化礼盒。保持盒子、六个分格、拍摄视角和统一光线不变。在六格内分别放入【建筑／遗产1】【地标2】【当地美食】【城市特产】【传统手艺】【生活文化物件】六件不重复的微缩物品。所有物品具有真实材质、正确尺度、薄纸衬垫、接触阴影。盒盖、边缘花纹和桌面环境融入【城市地域图案与主色】。在每格前添加对应的中文/当地语言名和英文小字标签；盒子底部写【城市主名】和【英文城市名】，醒目、清晰且不遮挡物品。写实且富有细节，色彩丰富，单个完整礼盒，3:4竖版，不做九宫格，不增加第七件物品，不要水印。
+
+此完整版是根据今天确认的后续修改要求整理的通用版；核心简化提示词则保留了当天实际生图记录的措辞。
+
+## 今天的完成图
+
+已经生成了龙岩、厦门、福州、北京、成都、巴黎等城市的单张礼盒视觉案例。它们都以六件文化风物为核心，但每只盒子的颜色、装饰和周边环境有所区别。
+
+**复刻作业：**选你最熟悉的城市，列出六件没有重复的代表物。你的家乡如果只能留六件东西，会是哪六件？
+
+## English version for X
+
+What would you put in a box if you could only bring **six pieces of your hometown** with you? One landmark, one local snack, an everyday object, a craft, a memory... I’ve been turning cities into tiny six-compartment souvenir boxes. The best part: start with the same empty-box photo, change the city, and let the details tell the story. Every city gets its own materials, colors, six cultural miniatures and local-language labels. Which city should I try next?
+
+**English Prompt (adapted for reuse):** Upload the empty six-compartment box reference. Create one vertical 3:4 miniature souvenir box for 【CITY】, preserving the box structure, compartments, perspective and lighting. Place one physically believable local miniature in each compartment: 【LANDMARK 1】, 【LANDMARK 2】, 【FOOD】, 【SPECIALTY】, 【CRAFT】 and 【EVERYDAY CULTURAL OBJECT】. No duplicates. Give each piece realistic size, texture, packing tissue and contact shadow. Adapt the box lid, packaging patterns and background to the city’s distinctive visual culture. Add six accurate labels in 【LOCAL LANGUAGE】 plus English, and one prominent bilingual city title below the box. Exactly one city and one box per image, not a nine-panel collage. No unrelated logos or watermarks.
+
+*This English prompt is a normalized, reusable translation of the user's latest instructions, not a claimed verbatim generation call.*
+
+注：示例中的建筑、食品和工艺标签为AI创作展示；涉及真实史实、地名、译名或博物馆展陈时应逐项校核。

@@ -93,6 +93,24 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "one-city-one-box",
+      "name_zh": "一城一盒",
+      "name_en": "One City, One Box",
+      "description": "Create a realistic six-compartment city souvenir box from a reusable empty-box photo, with six local miniatures and optional bilingual city labels.",
+      "output": "image",
+      "entry": "skills/one-city-one-box/SKILL.md",
+      "example": "examples/one-city-one-box/README.md"
+    },
+    {
+      "id": "looping-reaction-gifs",
+      "name_zh": "动态聊天表情包",
+      "name_en": "Looping Reaction GIFs",
+      "description": "Produce cohesive square animated reaction GIFs from an authorized original character, with expressive motion, stable text and smooth loops.",
+      "output": "image",
+      "entry": "skills/looping-reaction-gifs/SKILL.md",
+      "example": "examples/looping-reaction-gifs/README.md"
     }
   ]
 }
