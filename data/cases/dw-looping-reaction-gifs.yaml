@@ -1,0 +1,61 @@
+schema_version: "1.0.0"
+id: "dw-looping-reaction-gifs"
+title_zh: "动态聊天表情包"
+title_en: "Looping Reaction GIFs"
+series: "AI绘画每日一词"
+category:
+  - "animated-sticker"
+  - "character-consistency"
+  - "social-expression"
+status: "tested"
+source:
+  type: "current-daily"
+  original_date: "2026-11-05"
+  evidence_date: "2026-11-05"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-draft"
+  prompt: "partial"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+summary: "用户基于自己的原创角色探索方形循环聊天GIF。当天已找到480×480、16帧的“收到！”与“好玩！”成品，保持角色一致性、文字稳定、动作连贯与首尾循环是关键。"
+core_prompt: |
+  请基于【原创角色参考图】制作1:1循环GIF，内容【短语】。保持角色脸、头发、衣服和颜色一致，从【起始动作】到【夸张而自然的手势与表情】，最后恢复初态，首尾无缝循环。镜头、背景和字幕保持稳定，不闪屏；最终交付真实可播放GIF，不是静态图片或分镜拼贴。
+core_prompt_provenance: "依据2026-11-05对话中的实际指令与已生成文件整理的通用可替换版本，非逐字回收的完整生图调用。"
+tested_with: null
+controls:
+  - "原始角色源图和造型身份优先锁定，出现身份错误必须以最新用户参考重做。"
+  - "GIF最终像素比例必须严格1:1；不能只在文案里写方形。"
+  - "单句台词对应一个高识别度动作，停顿→表演→复位。"
+  - "镜头、字幕、背景稳定；避免过快闪屏、角色跳变和突兀循环。"
+  - "输出真实多帧GIF文件；九格草图、静态PNG不合格。"
+  - "不公开第三方IP联动未核权图片，也不把用户明确拒绝的形象当最终成品。"
+assets:
+  preview: null
+  status: "original-square-gifs-recovered-pending-repository-upload"
+  final_originals:
+    - name: "德小文_01_收到_方形高清.gif"
+      width: 480
+      height: 480
+      frames: 16
+      sha256: "8dc14bcf7c8d51b2542830dabdd8e0111908f794f4c1b169678a912a44b83022"
+    - name: "德小文_好玩_1比1_动态GIF.gif"
+      width: 480
+      height: 480
+      frames: 16
+      sha256: "46097d45bb19c81833c2e4fb4bf08af8b8b204116272ffc7f8ed98fbf5e3f43c"
+  excluded:
+    - "深度学习互动：第三方DeepSeek联动版本用户反馈形象不符，仍待身份与权属核验。"
+    - "我就看看探索GIF（315×311）与好玩探索GIF（323×318）：宽高不相等。"
+assets_status: "original-gifs-recovered-not-yet-github-uploaded"
+rights_status: "public-safe-original-ip"
+template:
+  id: "looping-reaction-gifs-base"
+  status: "proposed"
+skill:
+  id: "looping-reaction-gifs"
+  candidate: false
+notes: "用户明确提出2026-11-05以GIF表情为每日一词，实际GIF文件和尺寸已核实，精确底层生成模型与完整原始提示词不可核实；只统计两张可认定的用户原创角色方形GIF，其余探索版本排除。"
