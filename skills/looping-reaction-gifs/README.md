@@ -10,4 +10,6 @@
 
 用户图库中已找到可播放的480×480、16帧的“收到！”和“好玩！” GIF，已检验尺寸与帧数。第三方IP互动版及形象纠错前版本不作为公开合格示范。
 
-> 当前 GitHub 尚未收到GIF原件，已有一张从原始“好玩！”GIF第8帧提取并下采样的静态预览。该WebP**不是实际GIF**。原始动图待上传后核验SHA-256。\n\n![真实好玩GIF第8帧的静态预览，仅作缩略图](../../examples/looping-reaction-gifs/after.webp)
+> 当前 GitHub 尚未收到GIF原件，已有一张从原始“好玩！”GIF第8帧提取并下采样的静态预览。该WebP**不是实际GIF**。原始动图待上传后核验SHA-256。
+
+![真实好玩GIF第8帧的静态预览，仅作缩略图](../../examples/looping-reaction-gifs/after.webp)
