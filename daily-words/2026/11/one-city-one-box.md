@@ -33,4 +33,12 @@
 
 **复刻作业：**选你最熟悉的城市，列出六件没有重复的代表物。你的家乡如果只能留六件东西，会是哪六件？
 
+## English version for X
+
+What would you put in a box if you could only bring **six pieces of your hometown** with you? One landmark, one local snack, an everyday object, a craft, a memory... I’ve been turning cities into tiny six-compartment souvenir boxes. The best part: start with the same empty-box photo, change the city, and let the details tell the story. Every city gets its own materials, colors, six cultural miniatures and local-language labels. Which city should I try next?
+
+**English Prompt (adapted for reuse):** Upload the empty six-compartment box reference. Create one vertical 3:4 miniature souvenir box for 【CITY】, preserving the box structure, compartments, perspective and lighting. Place one physically believable local miniature in each compartment: 【LANDMARK 1】, 【LANDMARK 2】, 【FOOD】, 【SPECIALTY】, 【CRAFT】 and 【EVERYDAY CULTURAL OBJECT】. No duplicates. Give each piece realistic size, texture, packing tissue and contact shadow. Adapt the box lid, packaging patterns and background to the city’s distinctive visual culture. Add six accurate labels in 【LOCAL LANGUAGE】 plus English, and one prominent bilingual city title below the box. Exactly one city and one box per image, not a nine-panel collage. No unrelated logos or watermarks.
+
+*This English prompt is a normalized, reusable translation of the user's latest instructions, not a claimed verbatim generation call.*
+
 注：示例中的建筑、食品和工艺标签为AI创作展示；涉及真实史实、地名、译名或博物馆展陈时应逐项校核。
