@@ -39,11 +39,12 @@ DerekWen AIGC Visual Library is an open-source visual production library built f
 <tr><td align="center" width="33%"><a href="./skills/etched-concept-twin-poster/"><img src="./examples/etched-concept-twin-poster/after.png" alt="Etched Concept Twin Poster" width="100%"></a><br><b>蚀刻概念双生海报</b><br><sub>Etched Concept Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/then-now-film-twin-poster/"><img src="./examples/then-now-film-twin-poster/after.png" alt="Then / Now Film Twin Poster" width="100%"></a><br><b>今昔胶片双生海报</b><br><sub>Then / Now Film Twin Poster</sub></td><td align="center" width="33%"><a href="./skills/character-sheet-board/"><img src="./examples/character-sheet-board/after.png" alt="Character Sheet Board" width="100%"></a><br><b>角色设定板</b><br><sub>Character Sheet Board</sub></td></tr>
 <tr><td align="center" width="33%"><a href="./skills/materialized-explainer/"><img src="./examples/materialized-explainer/after.png" alt="Materialized Explainer" width="100%"></a><br><b>材质化解释图</b><br><sub>Materialized Explainer</sub></td><td align="center" width="33%"><a href="./skills/memory-tile-portrait-poster/"><img src="./examples/memory-tile-portrait-poster/after.png" alt="Memory Tile Portrait Poster" width="100%"></a><br><b>记忆切片肖像海报</b><br><sub>Memory Tile Portrait Poster</sub></td><td align="center" width="33%"><a href="./skills/shadow-theater-twin-poster/"><img src="./examples/shadow-theater-twin-poster/after.png" alt="Shadow Theater Twin Poster" width="100%"></a><br><b>影子剧场双生海报</b><br><sub>Shadow Theater Twin Poster</sub></td></tr>
 <tr><td align="center" width="33%"><a href="./skills/premium-product-launch-film/"><img src="./examples/premium-product-launch-film/preview-frame.png" alt="Premium Product Launch Film" width="100%"></a><br><b>旗舰发布广告片</b><br><sub>Premium Product Launch Film</sub></td><td></td><td></td></tr>
-<tr><td align="center" width="33%"><a href="./skills/one-city-one-box/"><img src="./examples/one-city-one-box/after.webp" alt="One City One Box — actual generated image, downscaled preview" width="100%"></a><br><b>一城一盒</b><br><sub>One City, One Box (low-res preview)</sub></td><td></td><td></td></tr>\n</table>
+<tr><td align="center" width="33%"><a href="./skills/one-city-one-box/"><img src="./examples/one-city-one-box/after.webp" alt="One City One Box — actual generated image, downscaled preview" width="100%"></a><br><b>一城一盒</b><br><sub>One City, One Box (low-res preview)</sub></td><td></td><td></td></tr>
+</table>
 
 ## Latest Daily Words · 2026-09-26
 
-The library now contains **30 Case records**. This is the latest finalized Daily Word with a public-safe generated visual example.
+The library now contains **32 Case records**. This is the latest finalized Daily Word with a public-safe generated visual example.
 
 <table>
 <tr>
