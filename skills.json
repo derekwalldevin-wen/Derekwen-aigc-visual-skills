@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "one-city-one-box",
+      "name_zh": "一城一盒",
+      "name_en": "One City, One Box",
+      "description": "Create a realistic six-compartment city souvenir box from a reusable empty-box photo, with six local miniatures and optional bilingual city labels.",
+      "output": "image",
+      "entry": "skills/one-city-one-box/SKILL.md",
+      "example": "examples/one-city-one-box/README.md"
     }
   ]
 }
