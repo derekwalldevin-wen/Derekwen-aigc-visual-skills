@@ -1,0 +1,65 @@
+schema_version: "1.0.0"
+id: "dw-one-city-one-box"
+title_zh: "一城一盒"
+title_en: "One City, One Box"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-11-05"
+  evidence_date: "2026-11-05"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "city-culture"
+  - "miniature-diorama"
+  - "product-visualization"
+status: "tested"
+summary: "从固定六格空盒模板出发，每格放一件城市风物，以地域化包装、真实材质和双语标签形成单城市3:4礼盒海报；当天实际生成多个城市的独立案例。"
+core_prompt: |
+  保持图片中盒子、分格、视角和光线不变，在六个空格里各放一件能代表【城市名】的微缩物品，包含当地建筑、美食和生活物件。大小适合格口，材质写实，落在薄纸上，有自然接触阴影。不重复，不添加文字。
+latest_revision: |
+  用户随后要求内容和背景更丰富；六格各有中文/当地语言主名和英文副名；盒盖、包装边缘与环境体现城市特色；底部加城市双语名称；每张=一座城市+六件风物+六个标签+地域场景，单张3:4，禁止九宫格拼贴。
+tested_with: null
+controls:
+  - "严格六个隔间：左侧大格、右上两格、底部三格；上传底板图时锁视角和照明。"
+  - "六件不同的城市代表物，覆盖建筑、饮食、工艺与生活。"
+  - "所有物品为物理可信的微缩实物，接触薄纸，比例、透视和阴影合理。"
+  - "完整版逐格增加正确的双语标签、城市底部大字与城市独有包装和环境。"
+  - "每座城市单独交付一张3:4，排除九宫格汇总和中间稿。"
+  - "用户本日真实生图结果可见，但模型精确版本未核实，不补造。"
+examples:
+  cities:
+    - "Longyan, Fujian"
+    - "Xiamen"
+    - "Fuzhou"
+    - "Beijing"
+    - "Chengdu"
+    - "Paris"
+  note: "源图与最终案例原件已找回并验收；原图哈希记录在交付包。早期龙岩极简版及九城拼贴不作最终独立样例。"
+assets:
+  preview: null
+  status: "recovered-local-originals-pending-github-binary-upload"
+  original_sources:
+    - "六格空白伴手礼盒.png"
+    - "福建龙岩客家文化礼盒.png"
+    - "厦门海韵城市礼盒 diorama.png"
+    - "福州文化珍藏礼盒全景.png"
+    - "北京匠心文化礼盒展陈.png"
+    - "成都文化珍藏礼盒.png"
+    - "巴黎时光纪念礼盒.png"
+assets_status: "originals-recovered-not-yet-github-published"
+rights_status: "public-safe-ai-generated"
+template:
+  id: "six-slot-city-souvenir-box"
+  status: "proposed"
+skill:
+  id: "one-city-one-box"
+  candidate: false
+notes: "Final theme and core simple prompt are supported by today's actual user generation record. The longer bilingual-label prompt is a normalized Skill rewrite of user's later revision, not claimed verbatim API prompt. No precise test model has been verified; no photos of identifiable private persons or client confidential assets in selected images. Exclude 3x3 collages and unrelated emoji/GIFs."
