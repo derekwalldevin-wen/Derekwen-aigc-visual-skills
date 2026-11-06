@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "clay-sculpt-graymodel",
+      "name_zh": "雕刻灰模",
+      "name_en": "Clay Sculpt Graymodel",
+      "description": "Render recognizable subjects as neutral-gray sculpted maquettes; optional 3:4 color-vs-clay twin posters.",
+      "output": "image",
+      "entry": "skills/clay-sculpt-graymodel/SKILL.md",
+      "example": "examples/clay-sculpt-graymodel/README.md"
     }
   ]
 }

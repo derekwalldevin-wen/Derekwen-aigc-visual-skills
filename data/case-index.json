@@ -43,6 +43,30 @@
     "github_published": false
   },
   {
+    "id": "dw-clay-sculpt-graymodel",
+    "title_zh": "雕刻灰模",
+    "title_en": "Clay Sculpt Graymodel",
+    "status": "tested",
+    "category": [
+      "material-transformation",
+      "sculptural-render",
+      "twin-poster",
+      "photo-transformation"
+    ],
+    "template": "clay-sculpt-graymodel-base",
+    "template_status": "proposed",
+    "skill": "clay-sculpt-graymodel",
+    "skill_candidate": false,
+    "source_type": "current-daily",
+    "original_date": "2026-11-06",
+    "evidence_date": "2026-11-06",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "medium",
+    "assets_status": "12-recovered-10-cleared-candidates-binary-upload-pending",
+    "rights_status": "public-safe-ai-generated-partial-exclusions",
+    "github_published": false
+  },
+  {
     "id": "dw-continuous-action-sprite-sheet",
     "title_zh": "连续动作精灵表",
     "title_en": "Continuous Action Sprite Sheet",

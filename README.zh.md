@@ -10,9 +10,9 @@
 
 **德里克文 AIGC 视觉技能库**
 
-![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
-![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-30-6f42c1?style=flat-square&labelColor=333)
+![Skills](https://img.shields.io/badge/SKILLS-11-2ea44f?style=flat-square&labelColor=333)
+![Examples](https://img.shields.io/badge/EXAMPLES-11-214f9b?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-31-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -29,8 +29,11 @@ DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持
 > ⭐ **如果这个资料库对你的 AI 视觉创作有帮助，可以点一个 Star，把它当成一个持续更新的视觉工作流收藏夹。**
 
 - **30 个真实 Case** —— 来自已经完成并实际生成结果的视觉方法，而不是只写了提示词的概念稿。
-- **10 个可复用 Skills** —— 包含任务路由、一致性控制、失败检查与实际交付逻辑。
+- **11 个可复用 Skills** —— 包含任务路由、一致性控制、失败检查与实际交付逻辑。
 - **持续日更** —— 新的“AI 绘画每日一词”在完成定稿、生图与公开安全检查后，会继续沉淀为结构化 Case。
+
+
+> **11月6日新增草稿：**[雕刻灰模（Clay Sculpt Graymodel）](./skills/clay-sculpt-graymodel/SKILL.md) 已同步 Case 与独立 Skill，原始图片尚未上传 GitHub，暂不计入正式 Gallery。
 
 ## 视觉案例墙 / Visual Case Wall
 

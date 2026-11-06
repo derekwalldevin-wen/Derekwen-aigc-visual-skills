@@ -1,0 +1,15 @@
+# Original image asset integrity manifest — 2026-11-06
+# SHA-256 of genuine 1086×1448 PNGs, verified locally. No image bytes uploaded in this commit.
+# Destination: assets/daily-words/2026/11/clay-sculpt-graymodel/
+01-tutorial-cover.png  79922ee159e19637512877e22724e9f15dc0d3928f6bba76ab15c0e575d4b832
+02-tutorial-character.png  702d23ff9fab7600e0a919e1e825b8f76b6c3db1f69d2dbede9ea3f03e36a78c
+03-tutorial-coffee.png  0c366773c3b8d42bfafd2949db4ebaee1069e8adb3c85b32ab47bd5736f00a3d
+04-tutorial-object.png  71edafccac23075eec117d3dc2fb83f2fbdd131ec38a500d8953efb3fbddffb0
+05-tutorial-teapot.png  539bd9569230d930440305736ab2f0061f22e9530ccf8262b84eed615c3582eb
+06-tutorial-challenge.png  d6ac763e87482dbe509934acf5a8778ceeaa8bf9080ac545d2f57d13d4aea4b4
+07-twin-pet.png  bbe93d8c5ed7bdf56d97ea465124267b169eb20105a5da5688c247a850b24120
+08-twin-character.png  8f4b85c066bc7830426c45ad48ea20b6c5c4e0a4f0a254ab70a7673f1cf94252
+09-twin-plant.png  175ed4b2ddf41d3d7f3def123c1566fe164c741734aa16c4317e6132cccd83c7
+10-twin-building.png  30c9c739e40683ded7e6c05c5f5c66f423350f9c7915898cf5f071ef7e341689
+# Exclusions: twin-01 unknown human face; twin-03 visible third-party sneaker trademark.
+# Image source: 2026-11-06 generated Library files; original exact prompts not recovered.

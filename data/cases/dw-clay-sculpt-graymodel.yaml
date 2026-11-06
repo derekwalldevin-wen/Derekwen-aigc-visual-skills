@@ -1,0 +1,62 @@
+schema_version: "1.0.0"
+id: "dw-clay-sculpt-graymodel"
+title_zh: "雕刻灰模"
+title_en: "Clay Sculpt Graymodel"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-11-06"
+  evidence_date: "2026-11-06"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "medium"
+  article: "partial"
+  prompt: "not-found"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "material-transformation"
+  - "sculptural-render"
+  - "twin-poster"
+  - "photo-transformation"
+status: "tested"
+summary: "把人物、宠物、器物、原创角色、绿植、建筑转换为哑光中性灰雕刻实体的视觉图，亦可制作上彩色下灰模的3:4双生海报。已找到当天两组各6张的真实AI生成PNG。"
+tested_with: null
+core_prompt: null
+reconstructed_prompt: |
+  参考【源图】中的【主体】，锁定其轮廓、姿态、比例、身份与关键细节；
+  全部重构为中性灰哑光雕刻灰模，呈现连续实体、浮雕细节、
+  柔和侧光与接触阴影，不是黑白滤镜。
+  【输出模式】可以是单张灰模，或者3:4上彩色下灰模的双生海报。
+  保持两半主体结构可对照，默认无多余文字。
+prompt_evidence_note: "上述reconstructed_prompt根据今日12张已生成图片逆向整理；原始逐字图像Prompt及最终修改记录未能直接读取。不得将该提示词标注为用户实测原文。"
+controls:
+  - "中性灰哑光材质必须具有真实浮雕体积，避免仅做照片去饱和。"
+  - "保留原主体的轮廓、比例、姿态及关键结构特征。"
+  - "双生模式3:4，上半彩色参考，下半单色灰模，结构对照清楚。"
+  - "主体与背景有可信柔和侧光、微阴影和接触关系。"
+  - "有原始照片时先审查公开权限；无源图时彩色上半仅为AI合成示意。"
+  - "不宣称能输出真正STL/OBJ等可用三维模型。"
+assets:
+  preview: null
+  source_files_found: 12
+  rights_reviewed_public_candidates: 10
+  uploaded_original_count: 0
+  excluded_from_publication:
+    - file: "雕刻灰模上下双生_1.png"
+      reason: "human face with no independently verified identity/source authorization"
+    - file: "雕刻灰模上下双生_3.png"
+      reason: "visible third-party sports shoe logo; rights not verified"
+  pending_repository_directory: "assets/daily-words/2026/11/clay-sculpt-graymodel/"
+  pending_example: "examples/clay-sculpt-graymodel/after.png"
+assets_status: "12-recovered-10-cleared-candidates-binary-upload-pending"
+rights_status: "public-safe-ai-generated-partial-exclusions"
+template:
+  id: "clay-sculpt-graymodel-base"
+  status: "proposed"
+skill:
+  id: "clay-sculpt-graymodel"
+  candidate: false
+notes: "Library marks all 12 files model_generated=true. Distinct from prior graybox previsualization. Exact source prompt, user revision conversation, tested model and social publication state not verifiable. No placeholder images or assumed license grants."
