@@ -52,8 +52,8 @@ def validate(root=ROOT):
     if not isinstance(entries, list) or not all(isinstance(x, dict) and isinstance(x.get("id"), str) for x in entries):
         return ["skills.json: invalid skill entries"], warnings, validated
     ids = {entry["id"] for entry in entries}
-    if len(entries) != 10 or len(ids) != 10:
-        errors.append("expected exactly 10 unique manifest skills")
+    if not entries or len(ids) != len(entries):
+        errors.append("skills manifest must contain at least one entry and no duplicate ids")
     for directory in (skills, examples):
         disk = {p.name for p in directory.iterdir() if p.is_dir()} if directory.exists() else set()
         if disk != ids:

@@ -1,0 +1,76 @@
+schema_version: "1.0.0"
+id: "dw-everyone-in-the-booth"
+title_zh: "全员进棚"
+title_en: "Everyone in the Booth"
+series: "AI绘画每日一词"
+source:
+  type: "current-daily"
+  original_date: "2026-11-08"
+  evidence_date: "2026-11-08"
+  evidence_date_precision: "exact"
+evidence:
+  confidence: "high"
+  article: "confirmed-final"
+  prompt: "confirmed-final"
+  assets: "confirmed"
+published:
+  social: null
+  github: false
+category:
+  - "twin-poster"
+  - "group-photo-transformation"
+  - "social-interaction"
+status: "tested"
+summary: "同一合照的上下双生：上半保留日常照片，下半同一群人进入1980年代复古录音棚；严格锁定人数、顺序、脸和主要服装，分配主唱、和声、歌词、打拍子等动作。"
+core_prompt: |
+  把上传的合照做成一张3:4竖版上下双生对比图。
+  
+  上半部分保留原照片，下半部分把同一群人变成复古录音棚里的合唱团。上下人物数量相同，左右顺序一致，每个人的脸、发型、主要服装都能一一对应。
+  
+  下半部分让大家戴上监听耳机，围着录音话筒演唱：有人投入领唱，有人看着歌词和声，有人笑着打拍子。每个人动作和表情不同，人物之间有自然互动。木质录音棚、暖色灯光、模拟录音设备、轻微胶片颗粒，写实摄影质感。
+  
+  只输出一张包含上下两部分的完整图片，不增加人物，不遮住脸，不加文字。
+full_prompt: |
+  使用上传合照作为所有人物的唯一身份参考，生成一张3:4竖版、上下双生的写实摄影对比图。两部分各占约一半高度，中间仅用一条细窄分隔线，不添加其他小图。
+  
+  【上半部分：原来的我们】
+  忠实保留原照片中的人物、表情、动作、服装、背景和色彩。完整呈现所有人的脸，不重新设计原照片，不把原照片也改成录音棚。若比例不匹配，使用窄幅中性留边，不拉伸人物。
+  
+  【下半部分：合唱团出道现场】
+  把原照片中完全相同的一群人放进复古录音棚。严格保持人物数量及从左到右的对应顺序，保留各自的脸部辨识特征、年龄感、肤色、发型、体型和主要服装。人物大小与上半部分接近，便于逐人比较。
+  
+  让第【几】个人担任主唱，身体略向话筒前倾，自然张口演唱；其他人根据人数分别安排看歌词和声、侧耳听同伴、抬手打拍子或相视而笑。不要所有人做相同动作，也不要所有人都直视镜头。
+  
+  人物戴有线监听耳机，耳罩贴合双耳，头梁与头发有正确遮挡。歌词纸拿在胸口以下，话筒与防喷罩略偏离面部，不遮住眼睛、鼻子和嘴。人物视线围绕歌词、话筒和同伴组织，形成正在一起唱歌的关系。
+  
+  场景使用木质吸音墙、模拟调音台、卷盘录音机与暖色工作灯，表现1980年代录音棚的视觉氛围。肤色自然，衣料和头发有真实细节，轻微胶片颗粒，不做浓重泛黄或塑料磨皮。
+  
+  上下两部分中的人物必须一一对应；改变场景、动作与表情，不交换身份，不增加或遗漏人物，不复制同一张脸。单张完整成品，无标题、字幕、标志或水印。
+tested_with: null
+controls:
+  - "人物数量及从左到右顺序严格匹配"
+  - "每张脸、发型、主要服装与上半一一对应"
+  - "主唱序号可设置，其他人物姿态与互动要差异化"
+  - "耳机、麦克风、歌词纸不得遮挡重要脸部特征"
+  - "3:4单张完整上下双生；上半原合照，下半复古木质录音棚"
+  - "默认无文字，避免过度泛黄及皮肤塑料感"
+assets:
+  status: "six-authentic-final-outputs-recovered-binary-upload-pending"
+  preview: null
+  original_files:
+    - "image-gen-1(20261108-035639).png"
+    - "image-gen-2(20261108-035640).png"
+    - "image-gen-3(20261108-035641).png"
+    - "image-gen-4(20261108-035643).png"
+    - "image-gen-5(20261108-035645).png"
+    - "image-gen-6(20261108-035646).png"
+  pending_target: "assets/daily-words/2026/11/everyone-in-the-booth/"
+assets_status: "six-final-images-recovered-not-on-github"
+rights_status: "reviewed-ai-generated-examples"
+template:
+  id: "group-photo-to-recording-booth-twin"
+  status: "proposed"
+skill:
+  id: "everyone-in-the-booth"
+  candidate: false
+notes: "Final tutorial text and prompt recovered from the same-day six-image generation record (2026-11-08 11:56 BJT). These are AI-generated tutorial/sample outputs with synthetic groups, not proof of tested real-photo identity retention. No explicit third-party source photo was supplied in that generation request. Actual model version and API call logs unavailable; don't invent. The day's earlier 全员换角 variants were not admitted without independent final acceptance evidence."

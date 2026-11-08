@@ -10,9 +10,9 @@
 
 **德里克文 AIGC 视觉技能库**
 
-![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
+![Skills](https://img.shields.io/badge/SKILLS-11-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-30-6f42c1?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-31-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -20,17 +20,19 @@
 
 </div>
 
-**30 real AIGC cases · 10 reusable Agent Skills · continuously updated**
+**31 real AIGC cases · 11 reusable Agent Skills · continuously updated**
 
 DerekWen AIGC Visual Library is an open-source visual production library built from real image and video experiments. **Not a prompt dump** — published cases preserve final prompts, visual evidence, key control points, model notes, and reusable workflow logic.
 
-[**Visual Gallery**](./GALLERY.md) · [**Daily Words**](./daily-words/README.md) · [**Browse 30 Cases**](./data/case-index.json) · [**Quick Start**](#quick-start)
+[**Visual Gallery**](./GALLERY.md) · [**Daily Words**](./daily-words/README.md) · [**Browse 31 Cases**](./data/case-index.json) · [**Quick Start**](#quick-start)
 
 > ⭐ **If this library helps your AI visual workflow, Star the repository to follow new cases and reusable skills as they are added.**
 
-- **30 real cases** — finalized visual methods backed by actual generated results.
-- **10 reusable Skills** — production-oriented workflows with routing, consistency rules, and failure checks.
+- **31 real cases** — finalized visual methods backed by actual generated results.
+- **11 reusable Skills** — production-oriented workflows with routing, consistency rules, and failure checks.
 - **Daily updates** — new “AI Visual Daily Word” experiments are continuously converted into structured Case data when finalized and publication-safe.
+
+**New draft Skill (2026-11-08):** [Everyone in the Booth / 全员进棚](./skills/everyone-in-the-booth/SKILL.md) · [Case](./data/cases/dw-everyone-in-the-booth.yaml). Authentic generated examples were reviewed; raster upload and publishing verification are pending. This draft is not yet on the Visual Case Wall.
 
 ## Visual Case Wall
 

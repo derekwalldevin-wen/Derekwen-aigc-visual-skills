@@ -152,6 +152,29 @@
     "github_published": false
   },
   {
+    "id": "dw-everyone-in-the-booth",
+    "title_zh": "全员进棚",
+    "title_en": "Everyone in the Booth",
+    "status": "tested",
+    "category": [
+      "twin-poster",
+      "group-photo-transformation",
+      "social-interaction"
+    ],
+    "template": "group-photo-to-recording-booth-twin",
+    "template_status": "proposed",
+    "skill": "everyone-in-the-booth",
+    "skill_candidate": false,
+    "source_type": "current-daily",
+    "original_date": "2026-11-08",
+    "evidence_date": "2026-11-08",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "six-final-images-recovered-not-on-github",
+    "rights_status": "reviewed-ai-generated-examples",
+    "github_published": false
+  },
+  {
     "id": "dw-four-reference-fusion",
     "title_zh": "四图合一",
     "title_en": "Four-Reference Fusion",
