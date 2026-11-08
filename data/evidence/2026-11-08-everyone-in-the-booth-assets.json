@@ -1,0 +1,66 @@
+{
+  "case_id": "dw-everyone-in-the-booth",
+  "skill_id": "everyone-in-the-booth",
+  "date_bjt": "2026-11-08",
+  "source": "当日'制作小红书图片'中生成的6张真实PNG；纯文字教程图像，不是上传真人合照的身份盲测",
+  "github_binary_upload_status": "pending",
+  "note": "These are original bytes (full-resolution PNG); records below document intended target paths. No placeholder assets exist. Upload only the genuine images and verify SHA-256 prior to marking GitHub-published.",
+  "files": [
+    {
+      "source_filename": "image-gen-1(20261108-035639).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/01-teaching-cover.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2607283,
+      "sha256": "ad7e3c98e37fefe4d19edb6cbef85462d8f6d1ec04ab703646aa880538e8801d"
+    },
+    {
+      "source_filename": "image-gen-2(20261108-035640).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/02-five-minute-guide.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2293950,
+      "sha256": "e8de4e0e45d5a434ff1e90e44b72678baeccb3e42dc056b941ba3511ea3aa0fe"
+    },
+    {
+      "source_filename": "image-gen-3(20261108-035641).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/03-identity-controls.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2261884,
+      "sha256": "a84bfbb7016eea9d8e430a5f78054f767a5ea5d01573d87af4946b4ef974057b"
+    },
+    {
+      "source_filename": "image-gen-4(20261108-035643).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/04-friends-twin-no-text.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2668084,
+      "sha256": "08ed98390cba2ae8fe5a72155e22e8167cd046d6772051fdb2852d2f3f46cc55"
+    },
+    {
+      "source_filename": "image-gen-5(20261108-035645).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/05-family-twin-no-text.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2764579,
+      "sha256": "bd0bd7514c77aa7539d41c7321b1dfaf51dd7106a2d64266d633b18a1c9ec838"
+    },
+    {
+      "source_filename": "image-gen-6(20261108-035646).png",
+      "repository_target": "assets/daily-words/2026/11/everyone-in-the-booth/06-colleagues-twin-no-text.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "size_bytes": 2504101,
+      "sha256": "f6b958ca2faef03c78ef46ebd9fa2feec6bebee4172eab6e3329c7bd709a0ab4"
+    }
+  ],
+  "example_after_source": "04-friends-twin-no-text.png",
+  "example_after_target": "examples/everyone-in-the-booth/after.png"
+}
