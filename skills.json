@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "everyone-in-the-booth",
+      "name_zh": "全员进棚",
+      "name_en": "Everyone in the Booth",
+      "description": "Keep the same people, count, order, faces and clothes in a two-panel group-photo-to-analog-studio singing transformation.",
+      "output": "image",
+      "entry": "skills/everyone-in-the-booth/SKILL.md",
+      "example": "examples/everyone-in-the-booth/README.md"
     }
   ]
 }
