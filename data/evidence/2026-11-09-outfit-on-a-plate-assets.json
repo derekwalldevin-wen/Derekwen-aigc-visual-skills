@@ -1,0 +1,84 @@
+{
+  "case_id": "dw-outfit-on-a-plate",
+  "date_zh": "2026-11-09",
+  "source_bundle": "每日一词_2026-11-09_穿搭上盘_东亚六风格_完整包.zip",
+  "source_doc": "每日一词_2026-11-09_穿搭上盘_东亚六风格_母模板与检查记录.md",
+  "source_template_sha256": "8eb1ce95400e64bf9dd670aba6d0218341cfcfbb78ef4318e1cdf5cf302aceda",
+  "model_name": null,
+  "image_source": "synthetic fictional adult East Asian models, generated as separate reference photos",
+  "public_asset_review": "reviewed-no-obvious-third-party-brand-or-real-person",
+  "rights_note": "Independent public asset review on actual images; do not infer rights for new user-supplied photos.",
+  "github_binary_uploaded": false,
+  "source_image_dimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "images": [
+    {
+      "id": "01",
+      "name": "先锋时尚_效果封面",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_01_先锋时尚_效果封面.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/01-avant-garde.png",
+      "sha256": "ad531b77a16e3ff6cd5c79e9e3eebff13c361de9940888d2ef84d7d9ff5e6867",
+      "bytes": 2702757,
+      "prompt_sha256": "336bb318ac782e331cbe850d8f85bc643ea9fbc59a2d785fb7bea858a0cb7b03",
+      "status": "recovered-not-uploaded"
+    },
+    {
+      "id": "02",
+      "name": "周末日常_可复制用法",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_02_周末日常_可复制用法.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/02-casual.png",
+      "sha256": "fbde2cf3418b3901e3af68bfaf8fbaa06167e9ba9ba85258c4af880c7f763ee1",
+      "bytes": 2588067,
+      "prompt_sha256": "b6a733ce75bcbad4fe13d21e631642fd8fbbc3db342b687df71ef40f87d3c107",
+      "status": "recovered-not-uploaded"
+    },
+    {
+      "id": "03",
+      "name": "利落职场_无字案例",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_03_利落职场_无字案例.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/03-work.png",
+      "sha256": "78c159a23fa2a53ded73224d87bd5d547cef255602d1ee622bae43599c0202ce",
+      "bytes": 2730961,
+      "prompt_sha256": "0df0b52439d97c11bff67b95e97d4422afd222138209839713f753feb93fe331",
+      "status": "recovered-not-uploaded"
+    },
+    {
+      "id": "04",
+      "name": "优雅晚宴_对应关系",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_04_优雅晚宴_对应关系.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/04-evening.png",
+      "sha256": "c256639db2bedddbe72d2586d6368c061a3d495281572d8cb49e8b5d426af3d9",
+      "bytes": 2808279,
+      "prompt_sha256": "eab6af893cbae76ac23331e57e5c100f0367ad9045c7bf3d5d165d393dd254d6",
+      "status": "recovered-not-uploaded"
+    },
+    {
+      "id": "05",
+      "name": "城市运动_细节控制",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_05_城市运动_细节控制.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/05-sport.png",
+      "sha256": "11db6e585ed80c9a02c6e742486da34a8c8408f90c1ce968ba4bdb6155ab0ac7",
+      "bytes": 3066936,
+      "prompt_sha256": "3f7f2e86e5f0c9f703944374cc9281e070da8fbb5764a9d83d52a0c0e7d363dc",
+      "status": "recovered-not-uploaded"
+    },
+    {
+      "id": "06",
+      "name": "海边度假_关键单品",
+      "source_path": "finals/每日一词_2026-11-09_穿搭上盘_东亚六风格_06_海边度假_关键单品.png",
+      "expected_repo_path": "assets/daily-words/2026/11/outfit-on-a-plate/06-beach.png",
+      "sha256": "5367656904af50a32f12d79b03e0b87205f8f1bf1fe94374ce32fdbdc56790b8",
+      "bytes": 2961978,
+      "prompt_sha256": "cf513dfe9692a02461b158b4eeeb8e911a2f44b5f5d49d70abe7aa28725212db",
+      "status": "recovered-not-uploaded"
+    }
+  ],
+  "skipped": [
+    "2026-11-09 earlier three-look variant and outdated corrected interaction image",
+    "AI daily brief images",
+    "TOY upload manual screenshot"
+  ],
+  "validator_status": "pending-binary-images"
+}

@@ -377,6 +377,29 @@
     "github_published": true
   },
   {
+    "id": "dw-outfit-on-a-plate",
+    "title_zh": "穿搭上盘",
+    "title_en": "Outfit on a Plate",
+    "status": "tested",
+    "category": [
+      "fashion-photography",
+      "object-transformation",
+      "editorial-poster"
+    ],
+    "template": "outfit-on-a-plate-base",
+    "template_status": "proposed",
+    "skill": "outfit-on-a-plate",
+    "skill_candidate": false,
+    "source_type": "current-daily",
+    "original_date": "2026-11-09",
+    "evidence_date": "2026-11-09",
+    "evidence_date_precision": "exact",
+    "evidence_confidence": "high",
+    "assets_status": "six-verified-finals-awaiting-github-binary-upload",
+    "rights_status": "public-safe-ai-generated",
+    "github_published": false
+  },
+  {
     "id": "dw-path-narrative-3d-scene",
     "title_zh": "路径叙事式3D场景",
     "title_en": "Path-Narrative 3D Scene",

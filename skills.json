@@ -93,6 +93,15 @@
       "output": "video",
       "entry": "skills/premium-product-launch-film/SKILL.md",
       "example": "examples/premium-product-launch-film/README.md"
+    },
+    {
+      "id": "outfit-on-a-plate",
+      "name_zh": "穿搭上盘",
+      "name_en": "Outfit on a Plate",
+      "description": "Transform a visible outfit into one-to-one die-cut garment stickers on a tactile plate, preserving the source full-body photo and precise bilingual/no-text modes.",
+      "output": "image",
+      "entry": "skills/outfit-on-a-plate/SKILL.md",
+      "example": "examples/outfit-on-a-plate/README.md"
     }
   ]
 }

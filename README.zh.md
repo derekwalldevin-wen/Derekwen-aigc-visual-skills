@@ -10,9 +10,9 @@
 
 **德里克文 AIGC 视觉技能库**
 
-![Skills](https://img.shields.io/badge/SKILLS-10-2ea44f?style=flat-square&labelColor=333)
+![Skills](https://img.shields.io/badge/SKILLS-11-2ea44f?style=flat-square&labelColor=333)
 ![Examples](https://img.shields.io/badge/EXAMPLES-10-214f9b?style=flat-square&labelColor=333)
-![Cases](https://img.shields.io/badge/CASES-30-6f42c1?style=flat-square&labelColor=333)
+![Cases](https://img.shields.io/badge/CASES-31-6f42c1?style=flat-square&labelColor=333)
 ![Version](https://img.shields.io/badge/COLLECTION-1.1.0-e37f2c?style=flat-square&labelColor=333)
 ![License](https://img.shields.io/badge/LICENSE-MIT-7d4cdb?style=flat-square&labelColor=333)
 ![Stars](https://img.shields.io/github/stars/derekwalldevin-wen/Derekwen-aigc-visual-skills?style=flat-square&label=STARS)
@@ -20,17 +20,20 @@
 
 </div>
 
-**30 个真实 AIGC 案例 · 10 个可复用 Agent Skills · 持续更新**
+**31 个真实 AIGC 案例 · 11 个可复用 Agent Skills · 持续更新**
 
 DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持续生长的开源视觉生产资料库。**它不是提示词仓库**：每个正式案例尽量保留最终提示词、实际生成结果、关键控制点、模型记录与可复用工作流逻辑。
 
-[**完整视觉 Gallery**](./GALLERY.md) · [**AI 绘画每日一词**](./daily-words/README.md) · [**浏览 30 条 Case**](./data/case-index.json) · [**快速开始**](#快速开始--quick-start)
+[**完整视觉 Gallery**](./GALLERY.md) · [**AI 绘画每日一词**](./daily-words/README.md) · [**浏览 31 条 Case**](./data/case-index.json) · [**快速开始**](#快速开始--quick-start)
 
 > ⭐ **如果这个资料库对你的 AI 视觉创作有帮助，可以点一个 Star，把它当成一个持续更新的视觉工作流收藏夹。**
 
-- **30 个真实 Case** —— 来自已经完成并实际生成结果的视觉方法，而不是只写了提示词的概念稿。
-- **10 个可复用 Skills** —— 包含任务路由、一致性控制、失败检查与实际交付逻辑。
+- **31 个真实 Case** —— 来自已经完成并实际生成结果的视觉方法，而不是只写了提示词的概念稿。
+- **11 个可复用 Skills** —— 包含任务路由、一致性控制、失败检查与实际交付逻辑。
 - **持续日更** —— 新的“AI 绘画每日一词”在完成定稿、生图与公开安全检查后，会继续沉淀为结构化 Case。
+
+
+> **素材状态：** 新增《穿搭上盘》已找回六张真实成图及实际提示词，但 GitHub 内的栅格案例图尚待上传。现有10张生产级Skill示例保持不变；新增Case尚未标记为GitHub正式发布。
 
 ## 视觉案例墙 / Visual Case Wall
 
@@ -103,6 +106,7 @@ DerekWen AIGC Visual Library 是一个从真实图像与视频创作实验中持
 | [记忆切片肖像海报](./skills/memory-tile-portrait-poster/) | 把连续肖像与少量记忆切片组合成克制而有情绪的网格肖像。 | 图片 |
 | [影子剧场双生海报](./skills/shadow-theater-twin-poster/) | 主体不变，只把符合光源与地面的真实投影变成另一种身份。 | 图片 |
 | [旗舰发布广告片](./skills/premium-product-launch-film/) | 根据产品类型组织高级发布片镜头，最终目标是实际视频而不是提示词。 | 视频 |
+| [穿搭上盘 · Outfit on a Plate](./skills/outfit-on-a-plate/) | 把一张全身穿搭逐件拆成餐盘纸质贴纸，保留人物出处相纸；支持双语或无字，真实预览图待入库。 | 图片 |
 
 ## 快速开始 / Quick Start
 
